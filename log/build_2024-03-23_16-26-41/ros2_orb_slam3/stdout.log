@@ -1,0 +1,35 @@
+[  0%] Built target ament_cmake_python_copy_ros2_orb_slam3
+[35m[1mConsolidate compiler generated dependencies of target orb_slam3_lib[0m
+[ 90%] Built target orb_slam3_lib
+[35m[1mConsolidate compiler generated dependencies of target mono_node_cpp[0m
+[ 93%] [32mBuilding CXX object CMakeFiles/mono_node_cpp.dir/src/mono_example.cpp.o[0m
+[ 96%] [32mBuilding CXX object CMakeFiles/mono_node_cpp.dir/src/common.cpp.o[0m
+running egg_info
+writing ros2_orb_slam3.egg-info/PKG-INFO
+writing dependency_links to ros2_orb_slam3.egg-info/dependency_links.txt
+writing top-level names to ros2_orb_slam3.egg-info/top_level.txt
+reading manifest file 'ros2_orb_slam3.egg-info/SOURCES.txt'
+writing manifest file 'ros2_orb_slam3.egg-info/SOURCES.txt'
+[ 96%] Built target ament_cmake_python_build_ros2_orb_slam3_egg
+[100%] [32m[1mLinking CXX executable mono_node_cpp[0m
+[100%] Built target mono_node_cpp
+-- Install configuration: ""
+-- Up-to-date: /home/ken/tello_ros_ws/install/ros2_orb_slam3/lib/libDBoW2.so
+-- Up-to-date: /home/ken/tello_ros_ws/install/ros2_orb_slam3/lib/libg2o.so
+-- Up-to-date: /home/ken/tello_ros_ws/install/ros2_orb_slam3/include
+-- Up-to-date: /home/ken/tello_ros_ws/install/ros2_orb_slam3/include/ros2_orb_slam3
+-- Installing: /home/ken/tello_ros_ws/install/ros2_orb_slam3/include/ros2_orb_slam3/common.hpp
+-- Installing: /home/ken/tello_ros_ws/install/ros2_orb_slam3/lib/ros2_orb_slam3/mono_node_cpp
+-- Set runtime path of "/home/ken/tello_ros_ws/install/ros2_orb_slam3/lib/ros2_orb_slam3/mono_node_cpp" to ""
+-- Up-to-date: /home/ken/tello_ros_ws/install/ros2_orb_slam3/lib/liborb_slam3_lib.so.
+-- Up-to-date: /home/ken/tello_ros_ws/install/ros2_orb_slam3/lib/liborb_slam3_lib.so
+-- Up-to-date: /home/ken/tello_ros_ws/install/ros2_orb_slam3/share/ros2_orb_slam3/environment/pythonpath.sh
+-- Up-to-date: /home/ken/tello_ros_ws/install/ros2_orb_slam3/share/ros2_orb_slam3/environment/pythonpath.dsv
+-- Up-to-date: /home/ken/tello_ros_ws/install/ros2_orb_slam3/local/lib/python3.10/dist-packages/ros2_orb_slam3-1.0.0-py3.10.egg-info
+-- Installing: /home/ken/tello_ros_ws/install/ros2_orb_slam3/local/lib/python3.10/dist-packages/ros2_orb_slam3-1.0.0-py3.10.egg-info/PKG-INFO
+-- Installing: /home/ken/tello_ros_ws/install/ros2_orb_slam3/local/lib/python3.10/dist-packages/ros2_orb_slam3-1.0.0-py3.10.egg-info/SOURCES.txt
+-- Installing: /home/ken/tello_ros_ws/install/ros2_orb_slam3/local/lib/python3.10/dist-packages/ros2_orb_slam3-1.0.0-py3.10.egg-info/dependency_links.txt
+-- Installing: /home/ken/tello_ros_ws/install/ros2_orb_slam3/local/lib/python3.10/dist-packages/ros2_orb_slam3-1.0.0-py3.10.egg-info/top_level.txt
+-- Up-to-date: /home/ken/tello_ros_ws/install/ros2_orb_slam3/local/lib/python3.10/dist-packages/ros2_orb_slam3
+-- Up-to-date: /home/ken/tello_ros_ws/install/ros2_orb_slam3/local/lib/python3.10/dist-packages/ros2_orb_slam3/__init__.py
+Listing '/home/ken/tello_ros_ws/install/ros2_orb_slam3/local/lib/python3.10/dist-packages/ros2_orb_slam3'...

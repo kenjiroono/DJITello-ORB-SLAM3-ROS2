@@ -1,0 +1,6 @@
+Invoking command in '/home/ken/tello_ros_ws/build/ros2_orb_slam3': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/ken/tello_ros_ws/src/ros2_orb_slam3 -DCMAKE_INSTALL_PREFIX=/home/ken/tello_ros_ws/install/ros2_orb_slam3
+Invoked command in '/home/ken/tello_ros_ws/build/ros2_orb_slam3' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/ken/tello_ros_ws/src/ros2_orb_slam3 -DCMAKE_INSTALL_PREFIX=/home/ken/tello_ros_ws/install/ros2_orb_slam3
+Invoking command in '/home/ken/tello_ros_ws/build/ros2_orb_slam3': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ken/tello_ros_ws/build/ros2_orb_slam3 -- -j4 -l4
+Invoked command in '/home/ken/tello_ros_ws/build/ros2_orb_slam3' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ken/tello_ros_ws/build/ros2_orb_slam3 -- -j4 -l4
+Invoking command in '/home/ken/tello_ros_ws/build/ros2_orb_slam3': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ken/tello_ros_ws/build/ros2_orb_slam3
+Invoked command in '/home/ken/tello_ros_ws/build/ros2_orb_slam3' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ken/tello_ros_ws/build/ros2_orb_slam3

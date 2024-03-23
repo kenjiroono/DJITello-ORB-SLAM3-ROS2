@@ -1,0 +1,2 @@
+Invoking command in '/home/ken/tello_ros_ws/build/tello_control': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ken/tello_ros_ws/src/tello_control -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ken/tello_ros_ws/install/tello_control
+Invoked command in '/home/ken/tello_ros_ws/build/tello_control' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ken/tello_ros_ws/src/tello_control -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ken/tello_ros_ws/install/tello_control

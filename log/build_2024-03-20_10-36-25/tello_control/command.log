@@ -1,0 +1,4 @@
+Invoking command in '/home/ken/tello_ros_ws/build/tello_control': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ken/tello_ros_ws/src/tello_control -DCMAKE_INSTALL_PREFIX=/home/ken/tello_ros_ws/install/tello_control
+Invoked command in '/home/ken/tello_ros_ws/build/tello_control' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ken/tello_ros_ws/src/tello_control -DCMAKE_INSTALL_PREFIX=/home/ken/tello_ros_ws/install/tello_control
+Invoking command in '/home/ken/tello_ros_ws/build/tello_control': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ken/tello_ros_ws/build/tello_control -- -j4 -l4
+Invoked command in '/home/ken/tello_ros_ws/build/tello_control' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ken/tello_ros_ws/build/tello_control -- -j4 -l4

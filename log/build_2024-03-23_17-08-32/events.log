@@ -1,0 +1,1115 @@
+[0.000000] (-) TimerEvent: {}
+[0.000912] (ros2_orb_slam3) JobQueued: {'identifier': 'ros2_orb_slam3', 'dependencies': OrderedDict()}
+[0.001241] (tello_control) JobQueued: {'identifier': 'tello_control', 'dependencies': OrderedDict()}
+[0.001286] (tello_control_gamepad) JobQueued: {'identifier': 'tello_control_gamepad', 'dependencies': OrderedDict()}
+[0.001324] (tello_msg) JobQueued: {'identifier': 'tello_msg', 'dependencies': OrderedDict()}
+[0.001362] (tello) JobQueued: {'identifier': 'tello', 'dependencies': OrderedDict([('tello_msg', '/home/ken/tello_ros_ws/install/tello_msg')])}
+[0.001404] (tello_msg) JobStarted: {'identifier': 'tello_msg'}
+[0.008754] (ros2_orb_slam3) JobStarted: {'identifier': 'ros2_orb_slam3'}
+[0.016598] (tello_control) JobStarted: {'identifier': 'tello_control'}
+[0.025401] (tello_control_gamepad) JobStarted: {'identifier': 'tello_control_gamepad'}
+[0.037180] (tello_msg) JobProgress: {'identifier': 'tello_msg', 'progress': 'cmake'}
+[0.038151] (tello_msg) JobProgress: {'identifier': 'tello_msg', 'progress': 'build'}
+[0.039065] (tello_msg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ken/tello_ros_ws/build/tello_msg', '--', '-j4', '-l4'], 'cwd': '/home/ken/tello_ros_ws/build/tello_msg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ken'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ken/tello_ros_ws/install/tello_msg/lib:/home/ken/tello_ros_ws/install/ros2_orb_slam3/lib:/home/ken/ros2_test/install/ros2_orb_slam3/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ken'), ('OLDPWD', '/home/ken/tello_ros_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_US.UTF-8'), ('MANAGERPID', '903'), ('SYSTEMD_EXEC_PID', '2205'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2908'), ('COLCON_PREFIX_PATH', '/home/ken/tello_ros_ws/install:/home/ken/ros2_test/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'ken'), ('JOURNAL_STREAM', '8:11114'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ken'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/ken/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/kenPro4:@/tmp/.ICE-unix/1231,unix/kenPro4:/tmp/.ICE-unix/1231'), ('INVOCATION_ID', 'f6bfe616966f4248b8f794992b0c2b8a'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ken/tello_ros_ws/install/tello:/home/ken/tello_ros_ws/install/tello_msg:/home/ken/tello_ros_ws/install/tello_control_gamepad:/home/ken/tello_ros_ws/install/tello_control:/home/ken/tello_ros_ws/install/ros2_orb_slam3:/home/ken/ros2_test/install/ros2_orb_slam3:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:9a615839-7b9f-4a20-9ca4-8d487a452852'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ken/tello_ros_ws/build/tello_msg'), ('QT_QPA_PLATFORM', 'xcb'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ken/tello_ros_ws/install/tello/lib/python3.10/site-packages:/home/ken/tello_ros_ws/install/tello_msg/local/lib/python3.10/dist-packages:/home/ken/tello_ros_ws/install/tello_control_gamepad/lib/python3.10/site-packages:/home/ken/tello_ros_ws/install/ros2_orb_slam3/local/lib/python3.10/dist-packages:/home/ken/ros2_test/install/ros2_orb_slam3/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ken/tello_ros_ws/install/tello_msg:/home/ken/tello_ros_ws/install/tello_control:/home/ken/tello_ros_ws/install/ros2_orb_slam3:/home/ken/ros2_test/install/ros2_orb_slam3:/home/ken/tello_ros_ws/install/tello:/home/ken/tello_ros_ws/install/tello_control_gamepad:/opt/ros/humble')]), 'shell': False}
+[0.042404] (ros2_orb_slam3) JobProgress: {'identifier': 'ros2_orb_slam3', 'progress': 'cmake'}
+[0.043145] (ros2_orb_slam3) JobProgress: {'identifier': 'ros2_orb_slam3', 'progress': 'build'}
+[0.043533] (ros2_orb_slam3) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ken/tello_ros_ws/build/ros2_orb_slam3', '--', '-j4', '-l4'], 'cwd': '/home/ken/tello_ros_ws/build/ros2_orb_slam3', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ken'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ken/tello_ros_ws/install/tello_msg/lib:/home/ken/tello_ros_ws/install/ros2_orb_slam3/lib:/home/ken/ros2_test/install/ros2_orb_slam3/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ken'), ('OLDPWD', '/home/ken/tello_ros_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_US.UTF-8'), ('MANAGERPID', '903'), ('SYSTEMD_EXEC_PID', '2205'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2908'), ('COLCON_PREFIX_PATH', '/home/ken/tello_ros_ws/install:/home/ken/ros2_test/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'ken'), ('JOURNAL_STREAM', '8:11114'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ken'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/ken/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/kenPro4:@/tmp/.ICE-unix/1231,unix/kenPro4:/tmp/.ICE-unix/1231'), ('INVOCATION_ID', 'f6bfe616966f4248b8f794992b0c2b8a'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ken/tello_ros_ws/install/tello:/home/ken/tello_ros_ws/install/tello_msg:/home/ken/tello_ros_ws/install/tello_control_gamepad:/home/ken/tello_ros_ws/install/tello_control:/home/ken/tello_ros_ws/install/ros2_orb_slam3:/home/ken/ros2_test/install/ros2_orb_slam3:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:9a615839-7b9f-4a20-9ca4-8d487a452852'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ken/tello_ros_ws/build/ros2_orb_slam3'), ('QT_QPA_PLATFORM', 'xcb'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ken/tello_ros_ws/install/tello/lib/python3.10/site-packages:/home/ken/tello_ros_ws/install/tello_msg/local/lib/python3.10/dist-packages:/home/ken/tello_ros_ws/install/tello_control_gamepad/lib/python3.10/site-packages:/home/ken/tello_ros_ws/install/ros2_orb_slam3/local/lib/python3.10/dist-packages:/home/ken/ros2_test/install/ros2_orb_slam3/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ken/tello_ros_ws/install/tello_msg:/home/ken/tello_ros_ws/install/tello_control:/home/ken/tello_ros_ws/install/ros2_orb_slam3:/home/ken/ros2_test/install/ros2_orb_slam3:/home/ken/tello_ros_ws/install/tello:/home/ken/tello_ros_ws/install/tello_control_gamepad:/opt/ros/humble')]), 'shell': False}
+[0.058615] (tello_control) JobProgress: {'identifier': 'tello_control', 'progress': 'cmake'}
+[0.058705] (tello_control) JobProgress: {'identifier': 'tello_control', 'progress': 'build'}
+[0.058762] (tello_control) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ken/tello_ros_ws/build/tello_control', '--', '-j4', '-l4'], 'cwd': '/home/ken/tello_ros_ws/build/tello_control', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ken'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ken/tello_ros_ws/install/tello_msg/lib:/home/ken/tello_ros_ws/install/ros2_orb_slam3/lib:/home/ken/ros2_test/install/ros2_orb_slam3/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ken'), ('OLDPWD', '/home/ken/tello_ros_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_US.UTF-8'), ('MANAGERPID', '903'), ('SYSTEMD_EXEC_PID', '2205'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2908'), ('COLCON_PREFIX_PATH', '/home/ken/tello_ros_ws/install:/home/ken/ros2_test/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'ken'), ('JOURNAL_STREAM', '8:11114'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ken'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/ken/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/kenPro4:@/tmp/.ICE-unix/1231,unix/kenPro4:/tmp/.ICE-unix/1231'), ('INVOCATION_ID', 'f6bfe616966f4248b8f794992b0c2b8a'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ken/tello_ros_ws/install/tello:/home/ken/tello_ros_ws/install/tello_msg:/home/ken/tello_ros_ws/install/tello_control_gamepad:/home/ken/tello_ros_ws/install/tello_control:/home/ken/tello_ros_ws/install/ros2_orb_slam3:/home/ken/ros2_test/install/ros2_orb_slam3:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:9a615839-7b9f-4a20-9ca4-8d487a452852'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ken/tello_ros_ws/build/tello_control'), ('QT_QPA_PLATFORM', 'xcb'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ken/tello_ros_ws/install/tello/lib/python3.10/site-packages:/home/ken/tello_ros_ws/install/tello_msg/local/lib/python3.10/dist-packages:/home/ken/tello_ros_ws/install/tello_control_gamepad/lib/python3.10/site-packages:/home/ken/tello_ros_ws/install/ros2_orb_slam3/local/lib/python3.10/dist-packages:/home/ken/ros2_test/install/ros2_orb_slam3/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ken/tello_ros_ws/install/tello_msg:/home/ken/tello_ros_ws/install/tello_control:/home/ken/tello_ros_ws/install/ros2_orb_slam3:/home/ken/ros2_test/install/ros2_orb_slam3:/home/ken/tello_ros_ws/install/tello:/home/ken/tello_ros_ws/install/tello_control_gamepad:/opt/ros/humble')]), 'shell': False}
+[0.099654] (-) TimerEvent: {}
+[0.185765] (tello_msg) StdoutLine: {'line': b'[ 12%] Built target tello_msg__rosidl_generator_c\n'}
+[0.186055] (tello_msg) StdoutLine: {'line': b'[ 12%] Built target tello_msg__cpp\n'}
+[0.199754] (-) TimerEvent: {}
+[0.207175] (tello_msg) StdoutLine: {'line': b'[ 12%] Built target ament_cmake_python_symlink_tello_msg\n'}
+[0.228625] (tello_control) StdoutLine: {'line': b'[100%] Built target tello_control\n'}
+[0.246315] (ros2_orb_slam3) StdoutLine: {'line': b'[  0%] Built target ament_cmake_python_copy_ros2_orb_slam3\n'}
+[0.280336] (tello_msg) StdoutLine: {'line': b'[ 23%] Built target tello_msg__rosidl_typesupport_introspection_c\n'}
+[0.290388] (tello_msg) StdoutLine: {'line': b'[ 34%] Built target tello_msg__rosidl_typesupport_c\n'}
+[0.297188] (tello_msg) StdoutLine: {'line': b'[ 44%] Built target tello_msg__rosidl_typesupport_fastrtps_c\n'}
+[0.300487] (-) TimerEvent: {}
+[0.306178] (tello_msg) StdoutLine: {'line': b'[ 55%] Built target tello_msg__rosidl_typesupport_cpp\n'}
+[0.365063] (tello_msg) StdoutLine: {'line': b'[ 65%] Built target tello_msg__rosidl_typesupport_introspection_cpp\n'}
+[0.400586] (-) TimerEvent: {}
+[0.402566] (tello_msg) StdoutLine: {'line': b'[ 76%] Built target tello_msg__rosidl_typesupport_fastrtps_cpp\n'}
+[0.449427] (ros2_orb_slam3) StdoutLine: {'line': b'[ 90%] Built target orb_slam3_lib\n'}
+[0.480996] (tello_msg) StdoutLine: {'line': b'[ 76%] Built target tello_msg\n'}
+[0.500689] (-) TimerEvent: {}
+[0.558947] (tello_msg) StdoutLine: {'line': b'[ 78%] Built target tello_msg__py\n'}
+[0.579594] (ros2_orb_slam3) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding CXX object CMakeFiles/mono_node_cpp.dir/src/common.cpp.o\x1b[0m\n'}
+[0.601346] (-) TimerEvent: {}
+[0.619160] (tello_msg) StdoutLine: {'line': b'[ 87%] Built target tello_msg__rosidl_generator_py\n'}
+[0.701452] (-) TimerEvent: {}
+[0.704261] (tello_msg) StdoutLine: {'line': b'[ 91%] Built target tello_msg__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.712747] (tello_msg) StdoutLine: {'line': b'[ 95%] Built target tello_msg__rosidl_typesupport_introspection_c__pyext\n'}
+[0.713316] (tello_msg) StdoutLine: {'line': b'[100%] Built target tello_msg__rosidl_typesupport_c__pyext\n'}
+[0.760589] (tello_control) CommandEnded: {'returncode': 0}
+[0.801553] (-) TimerEvent: {}
+[0.841536] (tello_control) JobProgress: {'identifier': 'tello_control', 'progress': 'install'}
+[0.858978] (tello_control) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ken/tello_ros_ws/build/tello_control'], 'cwd': '/home/ken/tello_ros_ws/build/tello_control', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ken'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ken/tello_ros_ws/install/tello_msg/lib:/home/ken/tello_ros_ws/install/ros2_orb_slam3/lib:/home/ken/ros2_test/install/ros2_orb_slam3/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ken'), ('OLDPWD', '/home/ken/tello_ros_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_US.UTF-8'), ('MANAGERPID', '903'), ('SYSTEMD_EXEC_PID', '2205'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2908'), ('COLCON_PREFIX_PATH', '/home/ken/tello_ros_ws/install:/home/ken/ros2_test/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'ken'), ('JOURNAL_STREAM', '8:11114'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ken'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/ken/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/kenPro4:@/tmp/.ICE-unix/1231,unix/kenPro4:/tmp/.ICE-unix/1231'), ('INVOCATION_ID', 'f6bfe616966f4248b8f794992b0c2b8a'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ken/tello_ros_ws/install/tello:/home/ken/tello_ros_ws/install/tello_msg:/home/ken/tello_ros_ws/install/tello_control_gamepad:/home/ken/tello_ros_ws/install/tello_control:/home/ken/tello_ros_ws/install/ros2_orb_slam3:/home/ken/ros2_test/install/ros2_orb_slam3:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:9a615839-7b9f-4a20-9ca4-8d487a452852'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ken/tello_ros_ws/build/tello_control'), ('QT_QPA_PLATFORM', 'xcb'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ken/tello_ros_ws/install/tello/lib/python3.10/site-packages:/home/ken/tello_ros_ws/install/tello_msg/local/lib/python3.10/dist-packages:/home/ken/tello_ros_ws/install/tello_control_gamepad/lib/python3.10/site-packages:/home/ken/tello_ros_ws/install/ros2_orb_slam3/local/lib/python3.10/dist-packages:/home/ken/ros2_test/install/ros2_orb_slam3/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ken/tello_ros_ws/install/tello_msg:/home/ken/tello_ros_ws/install/tello_control:/home/ken/tello_ros_ws/install/ros2_orb_slam3:/home/ken/ros2_test/install/ros2_orb_slam3:/home/ken/tello_ros_ws/install/tello:/home/ken/tello_ros_ws/install/tello_control_gamepad:/opt/ros/humble')]), 'shell': False}
+[0.877153] (tello_control) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.881343] (tello_control) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[0.881664] (tello_control) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ken/tello_ros_ws/install/tello_control/lib/tello_control/tello_control\n'}
+[0.881834] (tello_control) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ken/tello_ros_ws/install/tello_control/share/ament_index/resource_index/package_run_dependencies/tello_control\n'}
+[0.881977] (tello_control) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ken/tello_ros_ws/install/tello_control/share/ament_index/resource_index/parent_prefix_path/tello_control\n'}
+[0.882105] (tello_control) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ken/tello_ros_ws/install/tello_control/share/tello_control/environment/ament_prefix_path.sh\n'}
+[0.882240] (tello_control) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ken/tello_ros_ws/install/tello_control/share/tello_control/environment/ament_prefix_path.dsv\n'}
+[0.882357] (tello_control) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ken/tello_ros_ws/install/tello_control/share/tello_control/environment/path.sh\n'}
+[0.882478] (tello_control) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ken/tello_ros_ws/install/tello_control/share/tello_control/environment/path.dsv\n'}
+[0.883137] (tello_control) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ken/tello_ros_ws/install/tello_control/share/tello_control/local_setup.bash\n'}
+[0.883810] (tello_control) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ken/tello_ros_ws/install/tello_control/share/tello_control/local_setup.sh\n'}
+[0.884556] (tello_control) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ken/tello_ros_ws/install/tello_control/share/tello_control/local_setup.zsh\n'}
+[0.885336] (tello_control) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ken/tello_ros_ws/install/tello_control/share/tello_control/local_setup.dsv\n'}
+[0.885934] (tello_control) StdoutLine: {'line': b'-- Symlinking: /home/ken/tello_ros_ws/install/tello_control/share/tello_control/package.dsv\n'}
+[0.903426] (-) TimerEvent: {}
+[0.905103] (tello_control) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ken/tello_ros_ws/install/tello_control/share/ament_index/resource_index/packages/tello_control\n'}
+[0.905440] (tello_control) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ken/tello_ros_ws/install/tello_control/share/tello_control/cmake/tello_controlConfig.cmake\n'}
+[0.906367] (tello_control) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ken/tello_ros_ws/install/tello_control/share/tello_control/cmake/tello_controlConfig-version.cmake\n'}
+[0.906640] (tello_control) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ken/tello_ros_ws/install/tello_control/share/tello_control/package.xml\n'}
+[0.912542] (tello_control) CommandEnded: {'returncode': 0}
+[0.963697] (ros2_orb_slam3) StdoutLine: {'line': b'running egg_info\n'}
+[0.969671] (ros2_orb_slam3) StdoutLine: {'line': b'writing ros2_orb_slam3.egg-info/PKG-INFO\n'}
+[0.971907] (ros2_orb_slam3) StdoutLine: {'line': b'writing dependency_links to ros2_orb_slam3.egg-info/dependency_links.txt\n'}
+[0.972101] (ros2_orb_slam3) StdoutLine: {'line': b'writing top-level names to ros2_orb_slam3.egg-info/top_level.txt\n'}
+[0.972240] (ros2_orb_slam3) StdoutLine: {'line': b"reading manifest file 'ros2_orb_slam3.egg-info/SOURCES.txt'\n"}
+[0.972379] (ros2_orb_slam3) StdoutLine: {'line': b"writing manifest file 'ros2_orb_slam3.egg-info/SOURCES.txt'\n"}
+[1.001564] (tello_control) JobEnded: {'identifier': 'tello_control', 'rc': 0}
+[1.003522] (-) TimerEvent: {}
+[1.034069] (ros2_orb_slam3) StdoutLine: {'line': b'[ 93%] Built target ament_cmake_python_build_ros2_orb_slam3_egg\n'}
+[1.036035] (tello_msg) StdoutLine: {'line': b'running egg_info\n'}
+[1.038003] (tello_msg) StdoutLine: {'line': b'writing tello_msg.egg-info/PKG-INFO\n'}
+[1.038368] (tello_msg) StdoutLine: {'line': b'writing dependency_links to tello_msg.egg-info/dependency_links.txt\n'}
+[1.038692] (tello_msg) StdoutLine: {'line': b'writing top-level names to tello_msg.egg-info/top_level.txt\n'}
+[1.044653] (tello_msg) StdoutLine: {'line': b"reading manifest file 'tello_msg.egg-info/SOURCES.txt'\n"}
+[1.046356] (tello_msg) StdoutLine: {'line': b"writing manifest file 'tello_msg.egg-info/SOURCES.txt'\n"}
+[1.086064] (tello_msg) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_tello_msg_egg\n'}
+[1.101308] (tello_msg) CommandEnded: {'returncode': 0}
+[1.103762] (-) TimerEvent: {}
+[1.204115] (-) TimerEvent: {}
+[1.291553] (tello_msg) JobProgress: {'identifier': 'tello_msg', 'progress': 'install'}
+[1.292084] (tello_msg) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ken/tello_ros_ws/build/tello_msg'], 'cwd': '/home/ken/tello_ros_ws/build/tello_msg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ken'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ken/tello_ros_ws/install/tello_msg/lib:/home/ken/tello_ros_ws/install/ros2_orb_slam3/lib:/home/ken/ros2_test/install/ros2_orb_slam3/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ken'), ('OLDPWD', '/home/ken/tello_ros_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_US.UTF-8'), ('MANAGERPID', '903'), ('SYSTEMD_EXEC_PID', '2205'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2908'), ('COLCON_PREFIX_PATH', '/home/ken/tello_ros_ws/install:/home/ken/ros2_test/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'ken'), ('JOURNAL_STREAM', '8:11114'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ken'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/ken/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/kenPro4:@/tmp/.ICE-unix/1231,unix/kenPro4:/tmp/.ICE-unix/1231'), ('INVOCATION_ID', 'f6bfe616966f4248b8f794992b0c2b8a'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ken/tello_ros_ws/install/tello:/home/ken/tello_ros_ws/install/tello_msg:/home/ken/tello_ros_ws/install/tello_control_gamepad:/home/ken/tello_ros_ws/install/tello_control:/home/ken/tello_ros_ws/install/ros2_orb_slam3:/home/ken/ros2_test/install/ros2_orb_slam3:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:9a615839-7b9f-4a20-9ca4-8d487a452852'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ken/tello_ros_ws/build/tello_msg'), ('QT_QPA_PLATFORM', 'xcb'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ken/tello_ros_ws/install/tello/lib/python3.10/site-packages:/home/ken/tello_ros_ws/install/tello_msg/local/lib/python3.10/dist-packages:/home/ken/tello_ros_ws/install/tello_control_gamepad/lib/python3.10/site-packages:/home/ken/tello_ros_ws/install/ros2_orb_slam3/local/lib/python3.10/dist-packages:/home/ken/ros2_test/install/ros2_orb_slam3/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ken/tello_ros_ws/install/tello_msg:/home/ken/tello_ros_ws/install/tello_control:/home/ken/tello_ros_ws/install/ros2_orb_slam3:/home/ken/ros2_test/install/ros2_orb_slam3:/home/ken/tello_ros_ws/install/tello:/home/ken/tello_ros_ws/install/tello_control_gamepad:/opt/ros/humble')]), 'shell': False}
+[1.304226] (-) TimerEvent: {}
+[1.308176] (tello_msg) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.310372] (tello_msg) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[1.310880] (tello_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ken/tello_ros_ws/install/tello_msg/share/ament_index/resource_index/rosidl_interfaces/tello_msg\n'}
+[1.311517] (tello_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ken/tello_ros_ws/install/tello_msg/include/tello_msg/tello_msg/msg/detail/tello_id__functions.h\n'}
+[1.311721] (tello_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ken/tello_ros_ws/install/tello_msg/include/tello_msg/tello_msg/msg/detail/tello_id__struct.h\n'}
+[1.311976] (tello_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ken/tello_ros_ws/install/tello_msg/include/tello_msg/tello_msg/msg/detail/tello_id__type_support.h\n'}
+[1.312578] (tello_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ken/tello_ros_ws/install/tello_msg/include/tello_msg/tello_msg/msg/detail/tello_status__functions.h\n'}
+[1.312760] (tello_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ken/tello_ros_ws/install/tello_msg/include/tello_msg/tello_msg/msg/detail/tello_status__struct.h\n'}
+[1.312943] (tello_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ken/tello_ros_ws/install/tello_msg/include/tello_msg/tello_msg/msg/detail/tello_status__type_support.h\n'}
+[1.313185] (tello_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ken/tello_ros_ws/install/tello_msg/include/tello_msg/tello_msg/msg/detail/tello_wifi_config__functions.h\n'}
+[1.313443] (tello_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ken/tello_ros_ws/install/tello_msg/include/tello_msg/tello_msg/msg/detail/tello_wifi_config__struct.h\n'}
+[1.313586] (tello_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ken/tello_ros_ws/install/tello_msg/include/tello_msg/tello_msg/msg/detail/tello_wifi_config__type_support.h\n'}
+[1.313852] (tello_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ken/tello_ros_ws/install/tello_msg/include/tello_msg/tello_msg/msg/rosidl_generator_c__visibility_control.h\n'}
+[1.314017] (tello_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ken/tello_ros_ws/install/tello_msg/include/tello_msg/tello_msg/msg/tello_id.h\n'}
+[1.314609] (tello_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ken/tello_ros_ws/install/tello_msg/include/tello_msg/tello_msg/msg/tello_status.h\n'}
+[1.314773] (tello_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ken/tello_ros_ws/install/tello_msg/include/tello_msg/tello_msg/msg/tello_wifi_config.h\n'}
+[1.315011] (tello_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ken/tello_ros_ws/install/tello_msg/share/tello_msg/environment/library_path.sh\n'}
+[1.315160] (tello_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ken/tello_ros_ws/install/tello_msg/share/tello_msg/environment/library_path.dsv\n'}
+[1.315952] (tello_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ken/tello_ros_ws/install/tello_msg/include/tello_msg/tello_msg/msg/detail/tello_id__rosidl_typesupport_fastrtps_c.h\n'}
+[1.316583] (tello_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ken/tello_ros_ws/install/tello_msg/include/tello_msg/tello_msg/msg/detail/tello_status__rosidl_typesupport_fastrtps_c.h\n'}
+[1.316891] (tello_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ken/tello_ros_ws/install/tello_msg/include/tello_msg/tello_msg/msg/detail/tello_wifi_config__rosidl_typesupport_fastrtps_c.h\n'}
+[1.317043] (tello_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ken/tello_ros_ws/install/tello_msg/include/tello_msg/tello_msg/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[1.317583] (tello_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ken/tello_ros_ws/install/tello_msg/include/tello_msg/tello_msg/msg/detail/tello_id__rosidl_typesupport_introspection_c.h\n'}
+[1.317840] (tello_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ken/tello_ros_ws/install/tello_msg/include/tello_msg/tello_msg/msg/detail/tello_status__rosidl_typesupport_introspection_c.h\n'}
+[1.318121] (tello_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ken/tello_ros_ws/install/tello_msg/include/tello_msg/tello_msg/msg/detail/tello_wifi_config__rosidl_typesupport_introspection_c.h\n'}
+[1.318372] (tello_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ken/tello_ros_ws/install/tello_msg/include/tello_msg/tello_msg/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[1.319183] (tello_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ken/tello_ros_ws/install/tello_msg/include/tello_msg/tello_msg/msg/detail/tello_id__builder.hpp\n'}
+[1.319455] (tello_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ken/tello_ros_ws/install/tello_msg/include/tello_msg/tello_msg/msg/detail/tello_id__struct.hpp\n'}
+[1.319686] (tello_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ken/tello_ros_ws/install/tello_msg/include/tello_msg/tello_msg/msg/detail/tello_id__traits.hpp\n'}
+[1.319945] (tello_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ken/tello_ros_ws/install/tello_msg/include/tello_msg/tello_msg/msg/detail/tello_status__builder.hpp\n'}
+[1.320197] (tello_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ken/tello_ros_ws/install/tello_msg/include/tello_msg/tello_msg/msg/detail/tello_status__struct.hpp\n'}
+[1.320829] (tello_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ken/tello_ros_ws/install/tello_msg/include/tello_msg/tello_msg/msg/detail/tello_status__traits.hpp\n'}
+[1.321112] (tello_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ken/tello_ros_ws/install/tello_msg/include/tello_msg/tello_msg/msg/detail/tello_wifi_config__builder.hpp\n'}
+[1.321285] (tello_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ken/tello_ros_ws/install/tello_msg/include/tello_msg/tello_msg/msg/detail/tello_wifi_config__struct.hpp\n'}
+[1.321489] (tello_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ken/tello_ros_ws/install/tello_msg/include/tello_msg/tello_msg/msg/detail/tello_wifi_config__traits.hpp\n'}
+[1.321713] (tello_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ken/tello_ros_ws/install/tello_msg/include/tello_msg/tello_msg/msg/tello_id.hpp\n'}
+[1.321975] (tello_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ken/tello_ros_ws/install/tello_msg/include/tello_msg/tello_msg/msg/tello_status.hpp\n'}
+[1.322201] (tello_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ken/tello_ros_ws/install/tello_msg/include/tello_msg/tello_msg/msg/tello_wifi_config.hpp\n'}
+[1.323157] (tello_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ken/tello_ros_ws/install/tello_msg/include/tello_msg/tello_msg/msg/detail/tello_id__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.323516] (tello_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ken/tello_ros_ws/install/tello_msg/include/tello_msg/tello_msg/msg/detail/tello_status__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.323749] (tello_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ken/tello_ros_ws/install/tello_msg/include/tello_msg/tello_msg/msg/detail/tello_wifi_config__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.323969] (tello_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ken/tello_ros_ws/install/tello_msg/include/tello_msg/tello_msg/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[1.324632] (tello_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ken/tello_ros_ws/install/tello_msg/include/tello_msg/tello_msg/msg/detail/tello_id__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.324899] (tello_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ken/tello_ros_ws/install/tello_msg/include/tello_msg/tello_msg/msg/detail/tello_status__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.325130] (tello_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ken/tello_ros_ws/install/tello_msg/include/tello_msg/tello_msg/msg/detail/tello_wifi_config__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.325450] (tello_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ken/tello_ros_ws/install/tello_msg/share/tello_msg/environment/pythonpath.sh\n'}
+[1.325748] (tello_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ken/tello_ros_ws/install/tello_msg/share/tello_msg/environment/pythonpath.dsv\n'}
+[1.326347] (tello_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ken/tello_ros_ws/install/tello_msg/local/lib/python3.10/dist-packages/tello_msg-0.0.1-py3.10.egg-info/PKG-INFO\n'}
+[1.326593] (tello_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ken/tello_ros_ws/install/tello_msg/local/lib/python3.10/dist-packages/tello_msg-0.0.1-py3.10.egg-info/SOURCES.txt\n'}
+[1.326853] (tello_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ken/tello_ros_ws/install/tello_msg/local/lib/python3.10/dist-packages/tello_msg-0.0.1-py3.10.egg-info/dependency_links.txt\n'}
+[1.327100] (tello_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ken/tello_ros_ws/install/tello_msg/local/lib/python3.10/dist-packages/tello_msg-0.0.1-py3.10.egg-info/top_level.txt\n'}
+[1.328237] (tello_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ken/tello_ros_ws/install/tello_msg/local/lib/python3.10/dist-packages/tello_msg/__init__.py\n'}
+[1.329095] (tello_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ken/tello_ros_ws/install/tello_msg/local/lib/python3.10/dist-packages/tello_msg/_tello_msg_s.ep.rosidl_typesupport_c.c\n'}
+[1.329310] (tello_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ken/tello_ros_ws/install/tello_msg/local/lib/python3.10/dist-packages/tello_msg/_tello_msg_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[1.329556] (tello_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ken/tello_ros_ws/install/tello_msg/local/lib/python3.10/dist-packages/tello_msg/_tello_msg_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[1.329769] (tello_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ken/tello_ros_ws/install/tello_msg/local/lib/python3.10/dist-packages/tello_msg/libtello_msg__rosidl_generator_py.so\n'}
+[1.329953] (tello_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ken/tello_ros_ws/install/tello_msg/local/lib/python3.10/dist-packages/tello_msg/msg/__init__.py\n'}
+[1.330108] (tello_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ken/tello_ros_ws/install/tello_msg/local/lib/python3.10/dist-packages/tello_msg/msg/_tello_id.py\n'}
+[1.330337] (tello_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ken/tello_ros_ws/install/tello_msg/local/lib/python3.10/dist-packages/tello_msg/msg/_tello_id_s.c\n'}
+[1.330497] (tello_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ken/tello_ros_ws/install/tello_msg/local/lib/python3.10/dist-packages/tello_msg/msg/_tello_status.py\n'}
+[1.330699] (tello_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ken/tello_ros_ws/install/tello_msg/local/lib/python3.10/dist-packages/tello_msg/msg/_tello_status_s.c\n'}
+[1.330922] (tello_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ken/tello_ros_ws/install/tello_msg/local/lib/python3.10/dist-packages/tello_msg/msg/_tello_wifi_config.py\n'}
+[1.331238] (tello_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ken/tello_ros_ws/install/tello_msg/local/lib/python3.10/dist-packages/tello_msg/msg/_tello_wifi_config_s.c\n'}
+[1.331525] (tello_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ken/tello_ros_ws/install/tello_msg/local/lib/python3.10/dist-packages/tello_msg/tello_msg_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.331780] (tello_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ken/tello_ros_ws/install/tello_msg/local/lib/python3.10/dist-packages/tello_msg/tello_msg_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.332025] (tello_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ken/tello_ros_ws/install/tello_msg/local/lib/python3.10/dist-packages/tello_msg/tello_msg_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.333897] (tello_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ken/tello_ros_ws/install/tello_msg/local/lib/python3.10/dist-packages/tello_msg/tello_msg_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.334171] (tello_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ken/tello_ros_ws/install/tello_msg/local/lib/python3.10/dist-packages/tello_msg/tello_msg_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.334347] (tello_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ken/tello_ros_ws/install/tello_msg/local/lib/python3.10/dist-packages/tello_msg/tello_msg_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.334627] (tello_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ken/tello_ros_ws/install/tello_msg/share/tello_msg/msg/TelloStatus.idl\n'}
+[1.334854] (tello_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ken/tello_ros_ws/install/tello_msg/share/tello_msg/msg/TelloID.idl\n'}
+[1.335122] (tello_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ken/tello_ros_ws/install/tello_msg/share/tello_msg/msg/TelloWifiConfig.idl\n'}
+[1.335559] (tello_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ken/tello_ros_ws/install/tello_msg/share/tello_msg/msg/TelloStatus.msg\n'}
+[1.335886] (tello_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ken/tello_ros_ws/install/tello_msg/share/tello_msg/msg/TelloID.msg\n'}
+[1.336520] (tello_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ken/tello_ros_ws/install/tello_msg/share/tello_msg/msg/TelloWifiConfig.msg\n'}
+[1.336853] (tello_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ken/tello_ros_ws/install/tello_msg/share/ament_index/resource_index/package_run_dependencies/tello_msg\n'}
+[1.337170] (tello_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ken/tello_ros_ws/install/tello_msg/share/ament_index/resource_index/parent_prefix_path/tello_msg\n'}
+[1.337395] (tello_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ken/tello_ros_ws/install/tello_msg/share/tello_msg/environment/ament_prefix_path.sh\n'}
+[1.337657] (tello_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ken/tello_ros_ws/install/tello_msg/share/tello_msg/environment/ament_prefix_path.dsv\n'}
+[1.337995] (tello_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ken/tello_ros_ws/install/tello_msg/share/tello_msg/environment/path.sh\n'}
+[1.338311] (tello_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ken/tello_ros_ws/install/tello_msg/share/tello_msg/environment/path.dsv\n'}
+[1.338630] (tello_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ken/tello_ros_ws/install/tello_msg/share/tello_msg/local_setup.bash\n'}
+[1.338925] (tello_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ken/tello_ros_ws/install/tello_msg/share/tello_msg/local_setup.sh\n'}
+[1.339247] (tello_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ken/tello_ros_ws/install/tello_msg/share/tello_msg/local_setup.zsh\n'}
+[1.339540] (tello_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ken/tello_ros_ws/install/tello_msg/share/tello_msg/local_setup.dsv\n'}
+[1.339763] (tello_msg) StdoutLine: {'line': b'-- Symlinking: /home/ken/tello_ros_ws/install/tello_msg/share/tello_msg/package.dsv\n'}
+[1.352028] (tello_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ken/tello_ros_ws/install/tello_msg/share/ament_index/resource_index/packages/tello_msg\n'}
+[1.352369] (tello_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ken/tello_ros_ws/install/tello_msg/share/tello_msg/cmake/rosidl_cmake-extras.cmake\n'}
+[1.352652] (tello_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ken/tello_ros_ws/install/tello_msg/share/tello_msg/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[1.352992] (tello_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ken/tello_ros_ws/install/tello_msg/share/tello_msg/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[1.353321] (tello_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ken/tello_ros_ws/install/tello_msg/share/tello_msg/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[1.353648] (tello_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ken/tello_ros_ws/install/tello_msg/share/tello_msg/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[1.353963] (tello_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ken/tello_ros_ws/install/tello_msg/share/tello_msg/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[1.354277] (tello_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ken/tello_ros_ws/install/tello_msg/share/tello_msg/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[1.354624] (tello_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ken/tello_ros_ws/install/tello_msg/share/tello_msg/cmake/tello_msgConfig.cmake\n'}
+[1.354861] (tello_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ken/tello_ros_ws/install/tello_msg/share/tello_msg/cmake/tello_msgConfig-version.cmake\n'}
+[1.355178] (tello_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ken/tello_ros_ws/install/tello_msg/share/tello_msg/package.xml\n'}
+[1.355662] (tello_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ken/tello_ros_ws/install/tello_msg/lib/libtello_msg__rosidl_generator_c.so\n'}
+[1.356351] (tello_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ken/tello_ros_ws/install/tello_msg/lib/libtello_msg__rosidl_typesupport_fastrtps_c.so\n'}
+[1.356990] (tello_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ken/tello_ros_ws/install/tello_msg/lib/libtello_msg__rosidl_typesupport_introspection_c.so\n'}
+[1.357537] (tello_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ken/tello_ros_ws/install/tello_msg/lib/libtello_msg__rosidl_typesupport_c.so\n'}
+[1.358174] (tello_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ken/tello_ros_ws/install/tello_msg/lib/libtello_msg__rosidl_typesupport_fastrtps_cpp.so\n'}
+[1.358866] (tello_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ken/tello_ros_ws/install/tello_msg/lib/libtello_msg__rosidl_typesupport_introspection_cpp.so\n'}
+[1.359503] (tello_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ken/tello_ros_ws/install/tello_msg/lib/libtello_msg__rosidl_typesupport_cpp.so\n'}
+[1.404392] (-) TimerEvent: {}
+[1.404846] (tello_msg) StdoutLine: {'line': b"Listing '/home/ken/tello_ros_ws/install/tello_msg/local/lib/python3.10/dist-packages/tello_msg'...\n"}
+[1.405084] (tello_msg) StdoutLine: {'line': b"Listing '/home/ken/tello_ros_ws/install/tello_msg/local/lib/python3.10/dist-packages/tello_msg/msg'...\n"}
+[1.412254] (tello_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ken/tello_ros_ws/install/tello_msg/lib/libtello_msg__rosidl_generator_py.so\n'}
+[1.413118] (tello_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ken/tello_ros_ws/install/tello_msg/share/tello_msg/cmake/export_tello_msg__rosidl_generator_cExport.cmake\n'}
+[1.413428] (tello_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ken/tello_ros_ws/install/tello_msg/share/tello_msg/cmake/export_tello_msg__rosidl_generator_cExport-noconfig.cmake\n'}
+[1.413745] (tello_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ken/tello_ros_ws/install/tello_msg/share/tello_msg/cmake/export_tello_msg__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[1.413989] (tello_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ken/tello_ros_ws/install/tello_msg/share/tello_msg/cmake/export_tello_msg__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[1.414253] (tello_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ken/tello_ros_ws/install/tello_msg/share/tello_msg/cmake/tello_msg__rosidl_typesupport_introspection_cExport.cmake\n'}
+[1.414484] (tello_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ken/tello_ros_ws/install/tello_msg/share/tello_msg/cmake/tello_msg__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[1.414731] (tello_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ken/tello_ros_ws/install/tello_msg/share/tello_msg/cmake/tello_msg__rosidl_typesupport_cExport.cmake\n'}
+[1.414972] (tello_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ken/tello_ros_ws/install/tello_msg/share/tello_msg/cmake/tello_msg__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[1.415219] (tello_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ken/tello_ros_ws/install/tello_msg/share/tello_msg/cmake/export_tello_msg__rosidl_generator_cppExport.cmake\n'}
+[1.415444] (tello_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ken/tello_ros_ws/install/tello_msg/share/tello_msg/cmake/export_tello_msg__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[1.415575] (tello_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ken/tello_ros_ws/install/tello_msg/share/tello_msg/cmake/export_tello_msg__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[1.415686] (tello_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ken/tello_ros_ws/install/tello_msg/share/tello_msg/cmake/tello_msg__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[1.415793] (tello_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ken/tello_ros_ws/install/tello_msg/share/tello_msg/cmake/tello_msg__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[1.415924] (tello_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ken/tello_ros_ws/install/tello_msg/share/tello_msg/cmake/tello_msg__rosidl_typesupport_cppExport.cmake\n'}
+[1.416038] (tello_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ken/tello_ros_ws/install/tello_msg/share/tello_msg/cmake/tello_msg__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[1.416167] (tello_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ken/tello_ros_ws/install/tello_msg/share/tello_msg/cmake/export_tello_msg__rosidl_generator_pyExport.cmake\n'}
+[1.416441] (tello_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ken/tello_ros_ws/install/tello_msg/share/tello_msg/cmake/export_tello_msg__rosidl_generator_pyExport-noconfig.cmake\n'}
+[1.420588] (tello_msg) CommandEnded: {'returncode': 0}
+[1.499576] (tello_control_gamepad) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/tello_control_gamepad', 'build', '--build-base', '/home/ken/tello_ros_ws/build/tello_control_gamepad/build', 'install', '--record', '/home/ken/tello_ros_ws/build/tello_control_gamepad/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/ken/tello_ros_ws/src/tello_control_gamepad', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ken', 'LC_TIME': 'en_US.UTF-8', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/ken/tello_ros_ws/install/tello_msg/lib:/home/ken/tello_ros_ws/install/ros2_orb_slam3/lib:/home/ken/ros2_test/install/ros2_orb_slam3/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/ken', 'OLDPWD': '/home/ken/tello_ros_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'en_US.UTF-8', 'MANAGERPID': '903', 'SYSTEMD_EXEC_PID': '2205', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '2908', 'COLCON_PREFIX_PATH': '/home/ken/tello_ros_ws/install:/home/ken/ros2_test/install', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'ken', 'JOURNAL_STREAM': '8:11114', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'ken', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/humble/bin:/home/ken/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/kenPro4:@/tmp/.ICE-unix/1231,unix/kenPro4:/tmp/.ICE-unix/1231', 'INVOCATION_ID': 'f6bfe616966f4248b8f794992b0c2b8a', 'PAPERSIZE': 'letter', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'en_US.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'IBUS_DISABLE_SNOOPER': '1', 'LC_TELEPHONE': 'en_US.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/ken/tello_ros_ws/install/tello:/home/ken/tello_ros_ws/install/tello_msg:/home/ken/tello_ros_ws/install/tello_control_gamepad:/home/ken/tello_ros_ws/install/tello_control:/home/ken/tello_ros_ws/install/ros2_orb_slam3:/home/ken/ros2_test/install/ros2_orb_slam3:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'en_US.UTF-8', 'TERMINATOR_UUID': 'urn:uuid:9a615839-7b9f-4a20-9ca4-8d487a452852', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'en_US.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'en_US.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/ken/tello_ros_ws/build/tello_control_gamepad', 'QT_QPA_PLATFORM': 'xcb', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ken/tello_ros_ws/build/tello_control_gamepad/prefix_override:/home/ken/tello_ros_ws/install/tello_control_gamepad/lib/python3.10/site-packages:/home/ken/tello_ros_ws/install/tello/lib/python3.10/site-packages:/home/ken/tello_ros_ws/install/tello_msg/local/lib/python3.10/dist-packages:/home/ken/tello_ros_ws/install/tello_control_gamepad/lib/python3.10/site-packages:/home/ken/tello_ros_ws/install/ros2_orb_slam3/local/lib/python3.10/dist-packages:/home/ken/ros2_test/install/ros2_orb_slam3/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'en_US.UTF-8', 'LC_PAPER': 'en_US.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/ken/tello_ros_ws/install/tello_msg:/home/ken/tello_ros_ws/install/tello_control:/home/ken/tello_ros_ws/install/ros2_orb_slam3:/home/ken/ros2_test/install/ros2_orb_slam3'}, 'shell': False}
+[1.504499] (-) TimerEvent: {}
+[1.604859] (-) TimerEvent: {}
+[1.619308] (tello_msg) JobEnded: {'identifier': 'tello_msg', 'rc': 0}
+[1.620809] (tello) JobStarted: {'identifier': 'tello'}
+[1.705228] (-) TimerEvent: {}
+[1.805686] (-) TimerEvent: {}
+[1.906017] (-) TimerEvent: {}
+[2.006684] (-) TimerEvent: {}
+[2.024847] (tello_control_gamepad) StdoutLine: {'line': b'running egg_info\n'}
+[2.026340] (tello_control_gamepad) StdoutLine: {'line': b'writing ../../build/tello_control_gamepad/tello_control_gamepad.egg-info/PKG-INFO\n'}
+[2.026665] (tello_control_gamepad) StdoutLine: {'line': b'writing dependency_links to ../../build/tello_control_gamepad/tello_control_gamepad.egg-info/dependency_links.txt\n'}
+[2.026945] (tello_control_gamepad) StdoutLine: {'line': b'writing entry points to ../../build/tello_control_gamepad/tello_control_gamepad.egg-info/entry_points.txt\n'}
+[2.027338] (tello_control_gamepad) StdoutLine: {'line': b'writing requirements to ../../build/tello_control_gamepad/tello_control_gamepad.egg-info/requires.txt\n'}
+[2.027479] (tello_control_gamepad) StdoutLine: {'line': b'writing top-level names to ../../build/tello_control_gamepad/tello_control_gamepad.egg-info/top_level.txt\n'}
+[2.031230] (tello_control_gamepad) StdoutLine: {'line': b"reading manifest file '../../build/tello_control_gamepad/tello_control_gamepad.egg-info/SOURCES.txt'\n"}
+[2.031657] (tello_control_gamepad) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[2.033352] (tello_control_gamepad) StdoutLine: {'line': b"writing manifest file '../../build/tello_control_gamepad/tello_control_gamepad.egg-info/SOURCES.txt'\n"}
+[2.034442] (tello_control_gamepad) StdoutLine: {'line': b'running build\n'}
+[2.034654] (tello_control_gamepad) StdoutLine: {'line': b'running build_py\n'}
+[2.034884] (tello_control_gamepad) StdoutLine: {'line': b'running install\n'}
+[2.035937] (tello_control_gamepad) StdoutLine: {'line': b'running install_lib\n'}
+[2.038813] (tello_control_gamepad) StdoutLine: {'line': b'running install_data\n'}
+[2.039651] (tello_control_gamepad) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.042835] (tello_control_gamepad) StdoutLine: {'line': b"removing '/home/ken/tello_ros_ws/install/tello_control_gamepad/lib/python3.10/site-packages/tello_control_gamepad-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[2.045860] (tello_control_gamepad) StdoutLine: {'line': b'Copying ../../build/tello_control_gamepad/tello_control_gamepad.egg-info to /home/ken/tello_ros_ws/install/tello_control_gamepad/lib/python3.10/site-packages/tello_control_gamepad-0.0.0-py3.10.egg-info\n'}
+[2.049858] (tello_control_gamepad) StdoutLine: {'line': b'running install_scripts\n'}
+[2.093233] (tello_control_gamepad) StdoutLine: {'line': b'Installing tello_control_gamepad script to /home/ken/tello_ros_ws/install/tello_control_gamepad/lib/tello_control_gamepad\n'}
+[2.094706] (tello_control_gamepad) StdoutLine: {'line': b"writing list of installed files to '/home/ken/tello_ros_ws/build/tello_control_gamepad/install.log'\n"}
+[2.106817] (-) TimerEvent: {}
+[2.204757] (tello_control_gamepad) CommandEnded: {'returncode': 0}
+[2.206933] (-) TimerEvent: {}
+[2.214262] (tello_control_gamepad) JobEnded: {'identifier': 'tello_control_gamepad', 'rc': 0}
+[2.307050] (-) TimerEvent: {}
+[2.407378] (-) TimerEvent: {}
+[2.507726] (-) TimerEvent: {}
+[2.608341] (-) TimerEvent: {}
+[2.677482] (tello) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/tello', 'build', '--build-base', '/home/ken/tello_ros_ws/build/tello/build', 'install', '--record', '/home/ken/tello_ros_ws/build/tello/install.log', '--install-scripts', '$base/lib/tello', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/ken/tello_ros_ws/src/tello', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ken', 'LC_TIME': 'en_US.UTF-8', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/ken/tello_ros_ws/install/tello_msg/lib:/home/ken/tello_ros_ws/install/ros2_orb_slam3/lib:/home/ken/ros2_test/install/ros2_orb_slam3/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/ken', 'OLDPWD': '/home/ken/tello_ros_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'en_US.UTF-8', 'MANAGERPID': '903', 'SYSTEMD_EXEC_PID': '2205', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '2908', 'COLCON_PREFIX_PATH': '/home/ken/tello_ros_ws/install:/home/ken/ros2_test/install', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'ken', 'JOURNAL_STREAM': '8:11114', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'ken', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/humble/bin:/home/ken/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/kenPro4:@/tmp/.ICE-unix/1231,unix/kenPro4:/tmp/.ICE-unix/1231', 'INVOCATION_ID': 'f6bfe616966f4248b8f794992b0c2b8a', 'PAPERSIZE': 'letter', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'en_US.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'IBUS_DISABLE_SNOOPER': '1', 'LC_TELEPHONE': 'en_US.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/ken/tello_ros_ws/install/tello:/home/ken/tello_ros_ws/install/tello_msg:/home/ken/tello_ros_ws/install/tello_control_gamepad:/home/ken/tello_ros_ws/install/tello_control:/home/ken/tello_ros_ws/install/ros2_orb_slam3:/home/ken/ros2_test/install/ros2_orb_slam3:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'en_US.UTF-8', 'TERMINATOR_UUID': 'urn:uuid:9a615839-7b9f-4a20-9ca4-8d487a452852', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'en_US.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'en_US.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/ken/tello_ros_ws/build/tello', 'QT_QPA_PLATFORM': 'xcb', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ken/tello_ros_ws/build/tello/prefix_override:/home/ken/tello_ros_ws/install/tello/lib/python3.10/site-packages:/home/ken/tello_ros_ws/install/tello/lib/python3.10/site-packages:/home/ken/tello_ros_ws/install/tello_msg/local/lib/python3.10/dist-packages:/home/ken/tello_ros_ws/install/tello_control_gamepad/lib/python3.10/site-packages:/home/ken/tello_ros_ws/install/ros2_orb_slam3/local/lib/python3.10/dist-packages:/home/ken/ros2_test/install/ros2_orb_slam3/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'en_US.UTF-8', 'LC_PAPER': 'en_US.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/ken/tello_ros_ws/install/tello_msg:/home/ken/tello_ros_ws/install/tello_control:/home/ken/tello_ros_ws/install/ros2_orb_slam3:/home/ken/ros2_test/install/ros2_orb_slam3'}, 'shell': False}
+[2.708431] (-) TimerEvent: {}
+[2.808753] (-) TimerEvent: {}
+[2.909069] (-) TimerEvent: {}
+[2.988743] (tello) StderrLine: {'line': b"/usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead\n"}
+[2.989037] (tello) StderrLine: {'line': b'  warnings.warn(\n'}
+[2.999960] (tello) StdoutLine: {'line': b'running egg_info\n'}
+[3.001481] (tello) StdoutLine: {'line': b'writing ../../build/tello/tello.egg-info/PKG-INFO\n'}
+[3.001824] (tello) StdoutLine: {'line': b'writing dependency_links to ../../build/tello/tello.egg-info/dependency_links.txt\n'}
+[3.002054] (tello) StdoutLine: {'line': b'writing entry points to ../../build/tello/tello.egg-info/entry_points.txt\n'}
+[3.002239] (tello) StdoutLine: {'line': b'writing requirements to ../../build/tello/tello.egg-info/requires.txt\n'}
+[3.002431] (tello) StdoutLine: {'line': b'writing top-level names to ../../build/tello/tello.egg-info/top_level.txt\n'}
+[3.006204] (tello) StdoutLine: {'line': b"reading manifest file '../../build/tello/tello.egg-info/SOURCES.txt'\n"}
+[3.006721] (tello) StdoutLine: {'line': b"adding license file 'LICENSE.txt'\n"}
+[3.008369] (tello) StdoutLine: {'line': b"writing manifest file '../../build/tello/tello.egg-info/SOURCES.txt'\n"}
+[3.008678] (tello) StdoutLine: {'line': b'running build\n'}
+[3.008910] (tello) StdoutLine: {'line': b'running build_py\n'}
+[3.009128] (-) TimerEvent: {}
+[3.009435] (tello) StdoutLine: {'line': b'running install\n'}
+[3.009929] (tello) StdoutLine: {'line': b'running install_lib\n'}
+[3.011672] (tello) StdoutLine: {'line': b'running install_data\n'}
+[3.011938] (tello) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.013964] (tello) StdoutLine: {'line': b"removing '/home/ken/tello_ros_ws/install/tello/lib/python3.10/site-packages/tello-0.1.0-py3.10.egg-info' (and everything under it)\n"}
+[3.014563] (tello) StdoutLine: {'line': b'Copying ../../build/tello/tello.egg-info to /home/ken/tello_ros_ws/install/tello/lib/python3.10/site-packages/tello-0.1.0-py3.10.egg-info\n'}
+[3.015689] (tello) StdoutLine: {'line': b'running install_scripts\n'}
+[3.044862] (tello) StdoutLine: {'line': b'Installing tello script to /home/ken/tello_ros_ws/install/tello/lib/tello\n'}
+[3.045345] (tello) StdoutLine: {'line': b"writing list of installed files to '/home/ken/tello_ros_ws/build/tello/install.log'\n"}
+[3.076448] (tello) CommandEnded: {'returncode': 0}
+[3.084866] (tello) JobEnded: {'identifier': 'tello', 'rc': 0}
+[3.109283] (-) TimerEvent: {}
+[3.209609] (-) TimerEvent: {}
+[3.309935] (-) TimerEvent: {}
+[3.410268] (-) TimerEvent: {}
+[3.510726] (-) TimerEvent: {}
+[3.611063] (-) TimerEvent: {}
+[3.711470] (-) TimerEvent: {}
+[3.811794] (-) TimerEvent: {}
+[3.912092] (-) TimerEvent: {}
+[4.012538] (-) TimerEvent: {}
+[4.112855] (-) TimerEvent: {}
+[4.213371] (-) TimerEvent: {}
+[4.313712] (-) TimerEvent: {}
+[4.414077] (-) TimerEvent: {}
+[4.514404] (-) TimerEvent: {}
+[4.614732] (-) TimerEvent: {}
+[4.715032] (-) TimerEvent: {}
+[4.815408] (-) TimerEvent: {}
+[4.915815] (-) TimerEvent: {}
+[5.016172] (-) TimerEvent: {}
+[5.116439] (-) TimerEvent: {}
+[5.216764] (-) TimerEvent: {}
+[5.317104] (-) TimerEvent: {}
+[5.417456] (-) TimerEvent: {}
+[5.517795] (-) TimerEvent: {}
+[5.618138] (-) TimerEvent: {}
+[5.718479] (-) TimerEvent: {}
+[5.818796] (-) TimerEvent: {}
+[5.919153] (-) TimerEvent: {}
+[6.019499] (-) TimerEvent: {}
+[6.119848] (-) TimerEvent: {}
+[6.220193] (-) TimerEvent: {}
+[6.320602] (-) TimerEvent: {}
+[6.421026] (-) TimerEvent: {}
+[6.521390] (-) TimerEvent: {}
+[6.621732] (-) TimerEvent: {}
+[6.722073] (-) TimerEvent: {}
+[6.822522] (-) TimerEvent: {}
+[6.922892] (-) TimerEvent: {}
+[7.023238] (-) TimerEvent: {}
+[7.123737] (-) TimerEvent: {}
+[7.224084] (-) TimerEvent: {}
+[7.324433] (-) TimerEvent: {}
+[7.424794] (-) TimerEvent: {}
+[7.525197] (-) TimerEvent: {}
+[7.625566] (-) TimerEvent: {}
+[7.725904] (-) TimerEvent: {}
+[7.826241] (-) TimerEvent: {}
+[7.926598] (-) TimerEvent: {}
+[7.952389] (ros2_orb_slam3) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/include/ros2_orb_slam3/common.hpp:44\x1b[m\x1b[K,\n'}
+[7.952655] (ros2_orb_slam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/src/common.cpp:14\x1b[m\x1b[K:\n'}
+[7.952802] (ros2_orb_slam3) StderrLine: {'line': b"\x1b[01m\x1b[K/opt/ros/humble/include/image_transport/image_transport/image_transport.h:32:89:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K#pragma message: Warning: This header is deprecated. Use 'image_transport.hpp' instead\x1b[m\x1b[K\xe2\x80\x99\n"}
+[7.952913] (ros2_orb_slam3) StderrLine: {'line': b'   32 | #pragma message ("Warning: This header is deprecated. Use \'image_transport.hpp\' instead"\x1b[01;36m\x1b[K)\x1b[m\x1b[K\n'}
+[7.953022] (ros2_orb_slam3) StderrLine: {'line': b'      |                                                                                         \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[8.026752] (-) TimerEvent: {}
+[8.127090] (-) TimerEvent: {}
+[8.200616] (ros2_orb_slam3) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/Frame.h:30\x1b[m\x1b[K,\n'}
+[8.200829] (ros2_orb_slam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[8.200917] (ros2_orb_slam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[8.200985] (ros2_orb_slam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[8.201051] (ros2_orb_slam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[8.201118] (ros2_orb_slam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[8.201181] (ros2_orb_slam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/System.h:31\x1b[m\x1b[K,\n'}
+[8.201243] (ros2_orb_slam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/include/ros2_orb_slam3/common.hpp:47\x1b[m\x1b[K,\n'}
+[8.201305] (ros2_orb_slam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/src/common.cpp:14\x1b[m\x1b[K:\n'}
+[8.201368] (ros2_orb_slam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/ImuTypes.h:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid ORB_SLAM3::IMU::Preintegrated::printMeasurements() const\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[8.201432] (ros2_orb_slam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/ImuTypes.h:204:23:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<ORB_SLAM3::IMU::Preintegrated::integrable>::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[8.201516] (ros2_orb_slam3) StderrLine: {'line': b'  204 |         for(int i=0; \x1b[01;35m\x1b[Ki<mvMeasurements.size()\x1b[m\x1b[K; i++){\n'}
+[8.201580] (ros2_orb_slam3) StderrLine: {'line': b'      |                      \x1b[01;35m\x1b[K~^~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.227244] (-) TimerEvent: {}
+[8.306229] (ros2_orb_slam3) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:37\x1b[m\x1b[K,\n'}
+[8.306443] (ros2_orb_slam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/Converter.h:26\x1b[m\x1b[K,\n'}
+[8.306521] (ros2_orb_slam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/Frame.h:33\x1b[m\x1b[K,\n'}
+[8.306588] (ros2_orb_slam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[8.306651] (ros2_orb_slam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[8.306727] (ros2_orb_slam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[8.306790] (ros2_orb_slam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[8.306851] (ros2_orb_slam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[8.306912] (ros2_orb_slam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/System.h:31\x1b[m\x1b[K,\n'}
+[8.306972] (ros2_orb_slam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/include/ros2_orb_slam3/common.hpp:47\x1b[m\x1b[K,\n'}
+[8.307040] (ros2_orb_slam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/src/common.cpp:14\x1b[m\x1b[K:\n'}
+[8.307103] (ros2_orb_slam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/Thirdparty/g2o/g2o/types/../core/base_vertex.h:\x1b[m\x1b[K At global scope:\n'}
+[8.307164] (ros2_orb_slam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/Thirdparty/g2o/g2o/types/../core/base_vertex.h:62:74:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::AlignedBit\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[8.307236] (ros2_orb_slam3) StderrLine: {'line': b'   62 |     typedef Eigen::Map<Matrix<double, D, D>, Matrix<double,D,D>::Flags & \x1b[01;35m\x1b[KAlignedBit\x1b[m\x1b[K ? Aligned : Unaligned >  HessianBlockType;\n'}
+[8.307299] (ros2_orb_slam3) StderrLine: {'line': b'      |                                                                          \x1b[01;35m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.307359] (ros2_orb_slam3) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Core:161\x1b[m\x1b[K,\n'}
+[8.307419] (ros2_orb_slam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Dense:1\x1b[m\x1b[K,\n'}
+[8.307479] (ros2_orb_slam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/include/ros2_orb_slam3/common.hpp:33\x1b[m\x1b[K,\n'}
+[8.307544] (ros2_orb_slam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/src/common.cpp:14\x1b[m\x1b[K:\n'}
+[8.307605] (ros2_orb_slam3) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[8.307665] (ros2_orb_slam3) StderrLine: {'line': b'  167 | EIGEN_DEPRECATED const unsigned int \x1b[01;36m\x1b[KAlignedBit\x1b[m\x1b[K = 0x80;\n'}
+[8.307725] (ros2_orb_slam3) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.327404] (-) TimerEvent: {}
+[8.330152] (ros2_orb_slam3) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38\x1b[m\x1b[K,\n'}
+[8.330440] (ros2_orb_slam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/Converter.h:26\x1b[m\x1b[K,\n'}
+[8.330523] (ros2_orb_slam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/Frame.h:33\x1b[m\x1b[K,\n'}
+[8.330591] (ros2_orb_slam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[8.330656] (ros2_orb_slam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[8.330719] (ros2_orb_slam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[8.330782] (ros2_orb_slam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[8.330843] (ros2_orb_slam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[8.330904] (ros2_orb_slam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/System.h:31\x1b[m\x1b[K,\n'}
+[8.330965] (ros2_orb_slam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/include/ros2_orb_slam3/common.hpp:47\x1b[m\x1b[K,\n'}
+[8.331026] (ros2_orb_slam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/src/common.cpp:14\x1b[m\x1b[K:\n'}
+[8.331087] (ros2_orb_slam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:59:82:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::AlignedBit\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[8.331154] (ros2_orb_slam3) StderrLine: {'line': b'   59 |       typedef Eigen::Map<Matrix<double, Di, Dj>, Matrix<double, Di, Dj>::Flags & \x1b[01;35m\x1b[KAlignedBit\x1b[m\x1b[K ? Aligned : Unaligned > HessianBlockType;\n'}
+[8.331235] (ros2_orb_slam3) StderrLine: {'line': b'      |                                                                                  \x1b[01;35m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.331334] (ros2_orb_slam3) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Core:161\x1b[m\x1b[K,\n'}
+[8.331431] (ros2_orb_slam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Dense:1\x1b[m\x1b[K,\n'}
+[8.331495] (ros2_orb_slam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/include/ros2_orb_slam3/common.hpp:33\x1b[m\x1b[K,\n'}
+[8.331565] (ros2_orb_slam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/src/common.cpp:14\x1b[m\x1b[K:\n'}
+[8.331626] (ros2_orb_slam3) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[8.331688] (ros2_orb_slam3) StderrLine: {'line': b'  167 | EIGEN_DEPRECATED const unsigned int \x1b[01;36m\x1b[KAlignedBit\x1b[m\x1b[K = 0x80;\n'}
+[8.331750] (ros2_orb_slam3) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.331812] (ros2_orb_slam3) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38\x1b[m\x1b[K,\n'}
+[8.331878] (ros2_orb_slam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/Converter.h:26\x1b[m\x1b[K,\n'}
+[8.331940] (ros2_orb_slam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/Frame.h:33\x1b[m\x1b[K,\n'}
+[8.332000] (ros2_orb_slam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[8.332062] (ros2_orb_slam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[8.332123] (ros2_orb_slam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[8.332189] (ros2_orb_slam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[8.332251] (ros2_orb_slam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[8.332313] (ros2_orb_slam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/System.h:31\x1b[m\x1b[K,\n'}
+[8.332400] (ros2_orb_slam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/include/ros2_orb_slam3/common.hpp:47\x1b[m\x1b[K,\n'}
+[8.332469] (ros2_orb_slam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/src/common.cpp:14\x1b[m\x1b[K:\n'}
+[8.332530] (ros2_orb_slam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:60:82:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::AlignedBit\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[8.332597] (ros2_orb_slam3) StderrLine: {'line': b'   60 |       typedef Eigen::Map<Matrix<double, Dj, Di>, Matrix<double, Dj, Di>::Flags & \x1b[01;35m\x1b[KAlignedBit\x1b[m\x1b[K ? Aligned : Unaligned > HessianBlockTransposedType;\n'}
+[8.332660] (ros2_orb_slam3) StderrLine: {'line': b'      |                                                                                  \x1b[01;35m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.332722] (ros2_orb_slam3) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Core:161\x1b[m\x1b[K,\n'}
+[8.332783] (ros2_orb_slam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Dense:1\x1b[m\x1b[K,\n'}
+[8.332844] (ros2_orb_slam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/include/ros2_orb_slam3/common.hpp:33\x1b[m\x1b[K,\n'}
+[8.332904] (ros2_orb_slam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/src/common.cpp:14\x1b[m\x1b[K:\n'}
+[8.332971] (ros2_orb_slam3) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[8.333032] (ros2_orb_slam3) StderrLine: {'line': b'  167 | EIGEN_DEPRECATED const unsigned int \x1b[01;36m\x1b[KAlignedBit\x1b[m\x1b[K = 0x80;\n'}
+[8.333092] (ros2_orb_slam3) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.427528] (-) TimerEvent: {}
+[8.527892] (-) TimerEvent: {}
+[8.628435] (-) TimerEvent: {}
+[8.728897] (-) TimerEvent: {}
+[8.829589] (-) TimerEvent: {}
+[8.904689] (ros2_orb_slam3) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:37\x1b[m\x1b[K,\n'}
+[8.904951] (ros2_orb_slam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/Converter.h:26\x1b[m\x1b[K,\n'}
+[8.905098] (ros2_orb_slam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/Frame.h:33\x1b[m\x1b[K,\n'}
+[8.905238] (ros2_orb_slam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[8.905396] (ros2_orb_slam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[8.905547] (ros2_orb_slam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[8.905688] (ros2_orb_slam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[8.905831] (ros2_orb_slam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[8.905971] (ros2_orb_slam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/System.h:31\x1b[m\x1b[K,\n'}
+[8.906107] (ros2_orb_slam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/include/ros2_orb_slam3/common.hpp:47\x1b[m\x1b[K,\n'}
+[8.906242] (ros2_orb_slam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/src/common.cpp:14\x1b[m\x1b[K:\n'}
+[8.906373] (ros2_orb_slam3) StderrLine: {'line': b'/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/Thirdparty/g2o/g2o/types/../core/base_vertex.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kclass g2o::BaseVertex<3, Eigen::Matrix<double, 3, 1> >\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[8.906513] (ros2_orb_slam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/Thirdparty/g2o/g2o/types/types_sba.h:40:35:\x1b[m\x1b[K   required from here\n'}
+[8.906653] (ros2_orb_slam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/Thirdparty/g2o/g2o/types/../core/base_vertex.h:62:72:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::AlignedBit\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[8.906918] (ros2_orb_slam3) StderrLine: {'line': b'   62 |     typedef Eigen::Map<Matrix<double, D, D>, Matrix<double,D,D>::\x1b[01;35m\x1b[KFlags & AlignedBit\x1b[m\x1b[K ? Aligned : Unaligned >  HessianBlockType;\n'}
+[8.907090] (ros2_orb_slam3) StderrLine: {'line': b'      |                                                                  \x1b[01;35m\x1b[K~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.907227] (ros2_orb_slam3) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Core:161\x1b[m\x1b[K,\n'}
+[8.907366] (ros2_orb_slam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Dense:1\x1b[m\x1b[K,\n'}
+[8.907491] (ros2_orb_slam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/include/ros2_orb_slam3/common.hpp:33\x1b[m\x1b[K,\n'}
+[8.907615] (ros2_orb_slam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/src/common.cpp:14\x1b[m\x1b[K:\n'}
+[8.907737] (ros2_orb_slam3) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[8.907854] (ros2_orb_slam3) StderrLine: {'line': b'  167 | EIGEN_DEPRECATED const unsigned int \x1b[01;36m\x1b[KAlignedBit\x1b[m\x1b[K = 0x80;\n'}
+[8.907980] (ros2_orb_slam3) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.930303] (-) TimerEvent: {}
+[8.959623] (ros2_orb_slam3) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:37\x1b[m\x1b[K,\n'}
+[8.959891] (ros2_orb_slam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/Converter.h:26\x1b[m\x1b[K,\n'}
+[8.960043] (ros2_orb_slam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/Frame.h:33\x1b[m\x1b[K,\n'}
+[8.960186] (ros2_orb_slam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[8.960340] (ros2_orb_slam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[8.960499] (ros2_orb_slam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[8.960620] (ros2_orb_slam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[8.960749] (ros2_orb_slam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[8.960864] (ros2_orb_slam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/System.h:31\x1b[m\x1b[K,\n'}
+[8.960973] (ros2_orb_slam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/include/ros2_orb_slam3/common.hpp:47\x1b[m\x1b[K,\n'}
+[8.961084] (ros2_orb_slam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/src/common.cpp:14\x1b[m\x1b[K:\n'}
+[8.961189] (ros2_orb_slam3) StderrLine: {'line': b'/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/Thirdparty/g2o/g2o/types/../core/base_vertex.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kclass g2o::BaseVertex<6, g2o::SE3Quat>\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[8.961300] (ros2_orb_slam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:59:33:\x1b[m\x1b[K   required from here\n'}
+[8.961420] (ros2_orb_slam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/Thirdparty/g2o/g2o/types/../core/base_vertex.h:62:72:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::AlignedBit\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[8.961550] (ros2_orb_slam3) StderrLine: {'line': b'   62 |     typedef Eigen::Map<Matrix<double, D, D>, Matrix<double,D,D>::\x1b[01;35m\x1b[KFlags & AlignedBit\x1b[m\x1b[K ? Aligned : Unaligned >  HessianBlockType;\n'}
+[8.961673] (ros2_orb_slam3) StderrLine: {'line': b'      |                                                                  \x1b[01;35m\x1b[K~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.961782] (ros2_orb_slam3) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Core:161\x1b[m\x1b[K,\n'}
+[8.961888] (ros2_orb_slam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Dense:1\x1b[m\x1b[K,\n'}
+[8.961995] (ros2_orb_slam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/include/ros2_orb_slam3/common.hpp:33\x1b[m\x1b[K,\n'}
+[8.962098] (ros2_orb_slam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/src/common.cpp:14\x1b[m\x1b[K:\n'}
+[8.962206] (ros2_orb_slam3) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[8.962319] (ros2_orb_slam3) StderrLine: {'line': b'  167 | EIGEN_DEPRECATED const unsigned int \x1b[01;36m\x1b[KAlignedBit\x1b[m\x1b[K = 0x80;\n'}
+[8.962449] (ros2_orb_slam3) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[9.012787] (ros2_orb_slam3) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38\x1b[m\x1b[K,\n'}
+[9.013375] (ros2_orb_slam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/Converter.h:26\x1b[m\x1b[K,\n'}
+[9.013556] (ros2_orb_slam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/Frame.h:33\x1b[m\x1b[K,\n'}
+[9.013712] (ros2_orb_slam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[9.013851] (ros2_orb_slam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[9.013989] (ros2_orb_slam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[9.014124] (ros2_orb_slam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[9.014259] (ros2_orb_slam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[9.014403] (ros2_orb_slam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/System.h:31\x1b[m\x1b[K,\n'}
+[9.014538] (ros2_orb_slam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/include/ros2_orb_slam3/common.hpp:47\x1b[m\x1b[K,\n'}
+[9.014675] (ros2_orb_slam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/src/common.cpp:14\x1b[m\x1b[K:\n'}
+[9.014808] (ros2_orb_slam3) StderrLine: {'line': b'/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kclass g2o::BaseBinaryEdge<6, g2o::SE3Quat, g2o::VertexSE3Expmap, g2o::VertexSE3Expmap>\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[9.014945] (ros2_orb_slam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:83:24:\x1b[m\x1b[K   required from here\n'}
+[9.015192] (ros2_orb_slam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:59:80:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::AlignedBit\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[9.015363] (ros2_orb_slam3) StderrLine: {'line': b'   59 |       typedef Eigen::Map<Matrix<double, Di, Dj>, Matrix<double, Di, Dj>::\x1b[01;35m\x1b[KFlags & AlignedBit\x1b[m\x1b[K ? Aligned : Unaligned > HessianBlockType;\n'}
+[9.015524] (ros2_orb_slam3) StderrLine: {'line': b'      |                                                                          \x1b[01;35m\x1b[K~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[9.015662] (ros2_orb_slam3) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Core:161\x1b[m\x1b[K,\n'}
+[9.015795] (ros2_orb_slam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Dense:1\x1b[m\x1b[K,\n'}
+[9.015945] (ros2_orb_slam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/include/ros2_orb_slam3/common.hpp:33\x1b[m\x1b[K,\n'}
+[9.016084] (ros2_orb_slam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/src/common.cpp:14\x1b[m\x1b[K:\n'}
+[9.016218] (ros2_orb_slam3) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[9.019156] (ros2_orb_slam3) StderrLine: {'line': b'  167 | EIGEN_DEPRECATED const unsigned int \x1b[01;36m\x1b[KAlignedBit\x1b[m\x1b[K = 0x80;\n'}
+[9.019437] (ros2_orb_slam3) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[9.019811] (ros2_orb_slam3) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38\x1b[m\x1b[K,\n'}
+[9.020007] (ros2_orb_slam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/Converter.h:26\x1b[m\x1b[K,\n'}
+[9.020152] (ros2_orb_slam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/Frame.h:33\x1b[m\x1b[K,\n'}
+[9.020275] (ros2_orb_slam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[9.020917] (ros2_orb_slam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[9.021092] (ros2_orb_slam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[9.021276] (ros2_orb_slam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[9.021444] (ros2_orb_slam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[9.021566] (ros2_orb_slam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/System.h:31\x1b[m\x1b[K,\n'}
+[9.021684] (ros2_orb_slam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/include/ros2_orb_slam3/common.hpp:47\x1b[m\x1b[K,\n'}
+[9.021804] (ros2_orb_slam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/src/common.cpp:14\x1b[m\x1b[K:\n'}
+[9.022141] (ros2_orb_slam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:60:80:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::AlignedBit\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[9.022312] (ros2_orb_slam3) StderrLine: {'line': b'   60 |       typedef Eigen::Map<Matrix<double, Dj, Di>, Matrix<double, Dj, Di>::\x1b[01;35m\x1b[KFlags & AlignedBit\x1b[m\x1b[K ? Aligned : Unaligned > HessianBlockTransposedType;\n'}
+[9.022441] (ros2_orb_slam3) StderrLine: {'line': b'      |                                                                          \x1b[01;35m\x1b[K~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[9.022555] (ros2_orb_slam3) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Core:161\x1b[m\x1b[K,\n'}
+[9.022668] (ros2_orb_slam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Dense:1\x1b[m\x1b[K,\n'}
+[9.022780] (ros2_orb_slam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/include/ros2_orb_slam3/common.hpp:33\x1b[m\x1b[K,\n'}
+[9.022906] (ros2_orb_slam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/src/common.cpp:14\x1b[m\x1b[K:\n'}
+[9.023029] (ros2_orb_slam3) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[9.023154] (ros2_orb_slam3) StderrLine: {'line': b'  167 | EIGEN_DEPRECATED const unsigned int \x1b[01;36m\x1b[KAlignedBit\x1b[m\x1b[K = 0x80;\n'}
+[9.023277] (ros2_orb_slam3) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[9.031567] (-) TimerEvent: {}
+[9.131018] (ros2_orb_slam3) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38\x1b[m\x1b[K,\n'}
+[9.131278] (ros2_orb_slam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/Converter.h:26\x1b[m\x1b[K,\n'}
+[9.131408] (ros2_orb_slam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/Frame.h:33\x1b[m\x1b[K,\n'}
+[9.131552] (-) TimerEvent: {}
+[9.131730] (ros2_orb_slam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[9.131876] (ros2_orb_slam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[9.132006] (ros2_orb_slam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[9.132126] (ros2_orb_slam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[9.132242] (ros2_orb_slam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[9.132373] (ros2_orb_slam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/System.h:31\x1b[m\x1b[K,\n'}
+[9.132510] (ros2_orb_slam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/include/ros2_orb_slam3/common.hpp:47\x1b[m\x1b[K,\n'}
+[9.132635] (ros2_orb_slam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/src/common.cpp:14\x1b[m\x1b[K:\n'}
+[9.132752] (ros2_orb_slam3) StderrLine: {'line': b'/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kclass g2o::BaseBinaryEdge<2, Eigen::Matrix<double, 2, 1>, g2o::VertexSBAPointXYZ, g2o::VertexSE3Expmap>\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[9.132866] (ros2_orb_slam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:114:35:\x1b[m\x1b[K   required from here\n'}
+[9.132997] (ros2_orb_slam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:59:80:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::AlignedBit\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[9.133116] (ros2_orb_slam3) StderrLine: {'line': b'   59 |       typedef Eigen::Map<Matrix<double, Di, Dj>, Matrix<double, Di, Dj>::\x1b[01;35m\x1b[KFlags & AlignedBit\x1b[m\x1b[K ? Aligned : Unaligned > HessianBlockType;\n'}
+[9.133230] (ros2_orb_slam3) StderrLine: {'line': b'      |                                                                          \x1b[01;35m\x1b[K~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[9.133346] (ros2_orb_slam3) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Core:161\x1b[m\x1b[K,\n'}
+[9.133463] (ros2_orb_slam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Dense:1\x1b[m\x1b[K,\n'}
+[9.133592] (ros2_orb_slam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/include/ros2_orb_slam3/common.hpp:33\x1b[m\x1b[K,\n'}
+[9.133704] (ros2_orb_slam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/src/common.cpp:14\x1b[m\x1b[K:\n'}
+[9.133805] (ros2_orb_slam3) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[9.133917] (ros2_orb_slam3) StderrLine: {'line': b'  167 | EIGEN_DEPRECATED const unsigned int \x1b[01;36m\x1b[KAlignedBit\x1b[m\x1b[K = 0x80;\n'}
+[9.134020] (ros2_orb_slam3) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[9.153923] (ros2_orb_slam3) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38\x1b[m\x1b[K,\n'}
+[9.154185] (ros2_orb_slam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/Converter.h:26\x1b[m\x1b[K,\n'}
+[9.154359] (ros2_orb_slam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/Frame.h:33\x1b[m\x1b[K,\n'}
+[9.154492] (ros2_orb_slam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[9.154615] (ros2_orb_slam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[9.154740] (ros2_orb_slam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[9.154860] (ros2_orb_slam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[9.154991] (ros2_orb_slam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[9.155112] (ros2_orb_slam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/System.h:31\x1b[m\x1b[K,\n'}
+[9.155231] (ros2_orb_slam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/include/ros2_orb_slam3/common.hpp:47\x1b[m\x1b[K,\n'}
+[9.155361] (ros2_orb_slam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/src/common.cpp:14\x1b[m\x1b[K:\n'}
+[9.155494] (ros2_orb_slam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:60:80:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::AlignedBit\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[9.155623] (ros2_orb_slam3) StderrLine: {'line': b'   60 |       typedef Eigen::Map<Matrix<double, Dj, Di>, Matrix<double, Dj, Di>::\x1b[01;35m\x1b[KFlags & AlignedBit\x1b[m\x1b[K ? Aligned : Unaligned > HessianBlockTransposedType;\n'}
+[9.155745] (ros2_orb_slam3) StderrLine: {'line': b'      |                                                                          \x1b[01;35m\x1b[K~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[9.155872] (ros2_orb_slam3) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Core:161\x1b[m\x1b[K,\n'}
+[9.155999] (ros2_orb_slam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Dense:1\x1b[m\x1b[K,\n'}
+[9.156120] (ros2_orb_slam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/include/ros2_orb_slam3/common.hpp:33\x1b[m\x1b[K,\n'}
+[9.156257] (ros2_orb_slam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/src/common.cpp:14\x1b[m\x1b[K:\n'}
+[9.156424] (ros2_orb_slam3) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[9.156579] (ros2_orb_slam3) StderrLine: {'line': b'  167 | EIGEN_DEPRECATED const unsigned int \x1b[01;36m\x1b[KAlignedBit\x1b[m\x1b[K = 0x80;\n'}
+[9.156705] (ros2_orb_slam3) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[9.231944] (-) TimerEvent: {}
+[9.261057] (ros2_orb_slam3) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38\x1b[m\x1b[K,\n'}
+[9.262114] (ros2_orb_slam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/Converter.h:26\x1b[m\x1b[K,\n'}
+[9.262340] (ros2_orb_slam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/Frame.h:33\x1b[m\x1b[K,\n'}
+[9.262468] (ros2_orb_slam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[9.262578] (ros2_orb_slam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[9.262685] (ros2_orb_slam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[9.262802] (ros2_orb_slam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[9.262950] (ros2_orb_slam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[9.263103] (ros2_orb_slam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/System.h:31\x1b[m\x1b[K,\n'}
+[9.263218] (ros2_orb_slam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/include/ros2_orb_slam3/common.hpp:47\x1b[m\x1b[K,\n'}
+[9.263329] (ros2_orb_slam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/src/common.cpp:14\x1b[m\x1b[K:\n'}
+[9.263433] (ros2_orb_slam3) StderrLine: {'line': b'/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kclass g2o::BaseBinaryEdge<3, Eigen::Matrix<double, 3, 1>, g2o::VertexSBAPointXYZ, g2o::VertexSE3Expmap>\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[9.263555] (ros2_orb_slam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:146:41:\x1b[m\x1b[K   required from here\n'}
+[9.263664] (ros2_orb_slam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:59:80:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::AlignedBit\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[9.263792] (ros2_orb_slam3) StderrLine: {'line': b'   59 |       typedef Eigen::Map<Matrix<double, Di, Dj>, Matrix<double, Di, Dj>::\x1b[01;35m\x1b[KFlags & AlignedBit\x1b[m\x1b[K ? Aligned : Unaligned > HessianBlockType;\n'}
+[9.263900] (ros2_orb_slam3) StderrLine: {'line': b'      |                                                                          \x1b[01;35m\x1b[K~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[9.264002] (ros2_orb_slam3) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Core:161\x1b[m\x1b[K,\n'}
+[9.264104] (ros2_orb_slam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Dense:1\x1b[m\x1b[K,\n'}
+[9.264201] (ros2_orb_slam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/include/ros2_orb_slam3/common.hpp:33\x1b[m\x1b[K,\n'}
+[9.264307] (ros2_orb_slam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/src/common.cpp:14\x1b[m\x1b[K:\n'}
+[9.268818] (ros2_orb_slam3) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[9.268982] (ros2_orb_slam3) StderrLine: {'line': b'  167 | EIGEN_DEPRECATED const unsigned int \x1b[01;36m\x1b[KAlignedBit\x1b[m\x1b[K = 0x80;\n'}
+[9.269103] (ros2_orb_slam3) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[9.269212] (ros2_orb_slam3) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38\x1b[m\x1b[K,\n'}
+[9.269320] (ros2_orb_slam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/Converter.h:26\x1b[m\x1b[K,\n'}
+[9.269426] (ros2_orb_slam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/Frame.h:33\x1b[m\x1b[K,\n'}
+[9.269539] (ros2_orb_slam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[9.269643] (ros2_orb_slam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[9.269763] (ros2_orb_slam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[9.269872] (ros2_orb_slam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[9.269977] (ros2_orb_slam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[9.270078] (ros2_orb_slam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/System.h:31\x1b[m\x1b[K,\n'}
+[9.270184] (ros2_orb_slam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/include/ros2_orb_slam3/common.hpp:47\x1b[m\x1b[K,\n'}
+[9.270285] (ros2_orb_slam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/src/common.cpp:14\x1b[m\x1b[K:\n'}
+[9.270410] (ros2_orb_slam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:60:80:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::AlignedBit\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[9.270553] (ros2_orb_slam3) StderrLine: {'line': b'   60 |       typedef Eigen::Map<Matrix<double, Dj, Di>, Matrix<double, Dj, Di>::\x1b[01;35m\x1b[KFlags & AlignedBit\x1b[m\x1b[K ? Aligned : Unaligned > HessianBlockTransposedType;\n'}
+[9.270668] (ros2_orb_slam3) StderrLine: {'line': b'      |                                                                          \x1b[01;35m\x1b[K~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[9.270771] (ros2_orb_slam3) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Core:161\x1b[m\x1b[K,\n'}
+[9.270871] (ros2_orb_slam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Dense:1\x1b[m\x1b[K,\n'}
+[9.270981] (ros2_orb_slam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/include/ros2_orb_slam3/common.hpp:33\x1b[m\x1b[K,\n'}
+[9.271084] (ros2_orb_slam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/src/common.cpp:14\x1b[m\x1b[K:\n'}
+[9.271204] (ros2_orb_slam3) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[9.271313] (ros2_orb_slam3) StderrLine: {'line': b'  167 | EIGEN_DEPRECATED const unsigned int \x1b[01;36m\x1b[KAlignedBit\x1b[m\x1b[K = 0x80;\n'}
+[9.271413] (ros2_orb_slam3) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[9.336438] (-) TimerEvent: {}
+[9.436819] (-) TimerEvent: {}
+[9.537239] (-) TimerEvent: {}
+[9.637624] (-) TimerEvent: {}
+[9.661226] (ros2_orb_slam3) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:37\x1b[m\x1b[K,\n'}
+[9.661545] (ros2_orb_slam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/Converter.h:26\x1b[m\x1b[K,\n'}
+[9.661745] (ros2_orb_slam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/Frame.h:33\x1b[m\x1b[K,\n'}
+[9.661926] (ros2_orb_slam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[9.662113] (ros2_orb_slam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[9.662321] (ros2_orb_slam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[9.662511] (ros2_orb_slam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[9.662743] (ros2_orb_slam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[9.663049] (ros2_orb_slam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/System.h:31\x1b[m\x1b[K,\n'}
+[9.663184] (ros2_orb_slam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/include/ros2_orb_slam3/common.hpp:47\x1b[m\x1b[K,\n'}
+[9.663293] (ros2_orb_slam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/src/common.cpp:14\x1b[m\x1b[K:\n'}
+[9.663410] (ros2_orb_slam3) StderrLine: {'line': b'/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/Thirdparty/g2o/g2o/types/../core/base_vertex.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kclass g2o::BaseVertex<7, g2o::Sim3>\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[9.663519] (ros2_orb_slam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h:48:35:\x1b[m\x1b[K   required from here\n'}
+[9.668904] (ros2_orb_slam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/Thirdparty/g2o/g2o/types/../core/base_vertex.h:62:72:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::AlignedBit\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[9.669185] (ros2_orb_slam3) StderrLine: {'line': b'   62 |     typedef Eigen::Map<Matrix<double, D, D>, Matrix<double,D,D>::\x1b[01;35m\x1b[KFlags & AlignedBit\x1b[m\x1b[K ? Aligned : Unaligned >  HessianBlockType;\n'}
+[9.669382] (ros2_orb_slam3) StderrLine: {'line': b'      |                                                                  \x1b[01;35m\x1b[K~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[9.669519] (ros2_orb_slam3) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Core:161\x1b[m\x1b[K,\n'}
+[9.669639] (ros2_orb_slam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Dense:1\x1b[m\x1b[K,\n'}
+[9.669759] (ros2_orb_slam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/include/ros2_orb_slam3/common.hpp:33\x1b[m\x1b[K,\n'}
+[9.669877] (ros2_orb_slam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/src/common.cpp:14\x1b[m\x1b[K:\n'}
+[9.670040] (ros2_orb_slam3) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[9.670181] (ros2_orb_slam3) StderrLine: {'line': b'  167 | EIGEN_DEPRECATED const unsigned int \x1b[01;36m\x1b[KAlignedBit\x1b[m\x1b[K = 0x80;\n'}
+[9.670310] (ros2_orb_slam3) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[9.726266] (ros2_orb_slam3) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38\x1b[m\x1b[K,\n'}
+[9.726582] (ros2_orb_slam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/Converter.h:26\x1b[m\x1b[K,\n'}
+[9.726778] (ros2_orb_slam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/Frame.h:33\x1b[m\x1b[K,\n'}
+[9.726968] (ros2_orb_slam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[9.727160] (ros2_orb_slam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[9.727345] (ros2_orb_slam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[9.727528] (ros2_orb_slam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[9.727712] (ros2_orb_slam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[9.727912] (ros2_orb_slam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/System.h:31\x1b[m\x1b[K,\n'}
+[9.728103] (ros2_orb_slam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/include/ros2_orb_slam3/common.hpp:47\x1b[m\x1b[K,\n'}
+[9.728287] (ros2_orb_slam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/src/common.cpp:14\x1b[m\x1b[K:\n'}
+[9.728997] (ros2_orb_slam3) StderrLine: {'line': b'/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kclass g2o::BaseBinaryEdge<7, g2o::Sim3, g2o::VertexSim3Expmap, g2o::VertexSim3Expmap>\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[9.729252] (ros2_orb_slam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h:99:27:\x1b[m\x1b[K   required from here\n'}
+[9.729489] (ros2_orb_slam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:59:80:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::AlignedBit\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[9.729736] (ros2_orb_slam3) StderrLine: {'line': b'   59 |       typedef Eigen::Map<Matrix<double, Di, Dj>, Matrix<double, Di, Dj>::\x1b[01;35m\x1b[KFlags & AlignedBit\x1b[m\x1b[K ? Aligned : Unaligned > HessianBlockType;\n'}
+[9.730008] (ros2_orb_slam3) StderrLine: {'line': b'      |                                                                          \x1b[01;35m\x1b[K~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[9.730244] (ros2_orb_slam3) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Core:161\x1b[m\x1b[K,\n'}
+[9.730970] (ros2_orb_slam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Dense:1\x1b[m\x1b[K,\n'}
+[9.731140] (ros2_orb_slam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/include/ros2_orb_slam3/common.hpp:33\x1b[m\x1b[K,\n'}
+[9.731290] (ros2_orb_slam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/src/common.cpp:14\x1b[m\x1b[K:\n'}
+[9.731425] (ros2_orb_slam3) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[9.731555] (ros2_orb_slam3) StderrLine: {'line': b'  167 | EIGEN_DEPRECATED const unsigned int \x1b[01;36m\x1b[KAlignedBit\x1b[m\x1b[K = 0x80;\n'}
+[9.731694] (ros2_orb_slam3) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[9.732208] (ros2_orb_slam3) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38\x1b[m\x1b[K,\n'}
+[9.732525] (ros2_orb_slam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/Converter.h:26\x1b[m\x1b[K,\n'}
+[9.732792] (ros2_orb_slam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/Frame.h:33\x1b[m\x1b[K,\n'}
+[9.733039] (ros2_orb_slam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[9.733292] (ros2_orb_slam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[9.733545] (ros2_orb_slam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[9.733797] (ros2_orb_slam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[9.733965] (ros2_orb_slam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[9.734092] (ros2_orb_slam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/System.h:31\x1b[m\x1b[K,\n'}
+[9.734211] (ros2_orb_slam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/include/ros2_orb_slam3/common.hpp:47\x1b[m\x1b[K,\n'}
+[9.734329] (ros2_orb_slam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/src/common.cpp:14\x1b[m\x1b[K:\n'}
+[9.735120] (ros2_orb_slam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:60:80:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::AlignedBit\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[9.735412] (ros2_orb_slam3) StderrLine: {'line': b'   60 |       typedef Eigen::Map<Matrix<double, Dj, Di>, Matrix<double, Dj, Di>::\x1b[01;35m\x1b[KFlags & AlignedBit\x1b[m\x1b[K ? Aligned : Unaligned > HessianBlockTransposedType;\n'}
+[9.735564] (ros2_orb_slam3) StderrLine: {'line': b'      |                                                                          \x1b[01;35m\x1b[K~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[9.735693] (ros2_orb_slam3) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Core:161\x1b[m\x1b[K,\n'}
+[9.740378] (-) TimerEvent: {}
+[9.740601] (ros2_orb_slam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Dense:1\x1b[m\x1b[K,\n'}
+[9.740792] (ros2_orb_slam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/include/ros2_orb_slam3/common.hpp:33\x1b[m\x1b[K,\n'}
+[9.740937] (ros2_orb_slam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/src/common.cpp:14\x1b[m\x1b[K:\n'}
+[9.741061] (ros2_orb_slam3) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[9.741173] (ros2_orb_slam3) StderrLine: {'line': b'  167 | EIGEN_DEPRECATED const unsigned int \x1b[01;36m\x1b[KAlignedBit\x1b[m\x1b[K = 0x80;\n'}
+[9.741294] (ros2_orb_slam3) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[9.814480] (ros2_orb_slam3) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38\x1b[m\x1b[K,\n'}
+[9.814734] (ros2_orb_slam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/Converter.h:26\x1b[m\x1b[K,\n'}
+[9.814858] (ros2_orb_slam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/Frame.h:33\x1b[m\x1b[K,\n'}
+[9.814981] (ros2_orb_slam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[9.815096] (ros2_orb_slam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[9.815211] (ros2_orb_slam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[9.815344] (ros2_orb_slam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[9.815627] (ros2_orb_slam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[9.815764] (ros2_orb_slam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/System.h:31\x1b[m\x1b[K,\n'}
+[9.815888] (ros2_orb_slam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/include/ros2_orb_slam3/common.hpp:47\x1b[m\x1b[K,\n'}
+[9.816012] (ros2_orb_slam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/src/common.cpp:14\x1b[m\x1b[K:\n'}
+[9.816142] (ros2_orb_slam3) StderrLine: {'line': b'/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kclass g2o::BaseBinaryEdge<2, Eigen::Matrix<double, 2, 1>, g2o::VertexSBAPointXYZ, g2o::VertexSim3Expmap>\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[9.816259] (ros2_orb_slam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h:130:36:\x1b[m\x1b[K   required from here\n'}
+[9.816377] (ros2_orb_slam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:59:80:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::AlignedBit\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[9.816518] (ros2_orb_slam3) StderrLine: {'line': b'   59 |       typedef Eigen::Map<Matrix<double, Di, Dj>, Matrix<double, Di, Dj>::\x1b[01;35m\x1b[KFlags & AlignedBit\x1b[m\x1b[K ? Aligned : Unaligned > HessianBlockType;\n'}
+[9.816641] (ros2_orb_slam3) StderrLine: {'line': b'      |                                                                          \x1b[01;35m\x1b[K~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[9.816758] (ros2_orb_slam3) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Core:161\x1b[m\x1b[K,\n'}
+[9.816873] (ros2_orb_slam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Dense:1\x1b[m\x1b[K,\n'}
+[9.816987] (ros2_orb_slam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/include/ros2_orb_slam3/common.hpp:33\x1b[m\x1b[K,\n'}
+[9.817106] (ros2_orb_slam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/src/common.cpp:14\x1b[m\x1b[K:\n'}
+[9.817224] (ros2_orb_slam3) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[9.817336] (ros2_orb_slam3) StderrLine: {'line': b'  167 | EIGEN_DEPRECATED const unsigned int \x1b[01;36m\x1b[KAlignedBit\x1b[m\x1b[K = 0x80;\n'}
+[9.817453] (ros2_orb_slam3) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[9.840507] (-) TimerEvent: {}
+[9.841968] (ros2_orb_slam3) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38\x1b[m\x1b[K,\n'}
+[9.842223] (ros2_orb_slam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/Converter.h:26\x1b[m\x1b[K,\n'}
+[9.842354] (ros2_orb_slam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/Frame.h:33\x1b[m\x1b[K,\n'}
+[9.842491] (ros2_orb_slam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[9.842613] (ros2_orb_slam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[9.842734] (ros2_orb_slam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[9.842860] (ros2_orb_slam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[9.842985] (ros2_orb_slam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[9.843101] (ros2_orb_slam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/System.h:31\x1b[m\x1b[K,\n'}
+[9.843218] (ros2_orb_slam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/include/ros2_orb_slam3/common.hpp:47\x1b[m\x1b[K,\n'}
+[9.843333] (ros2_orb_slam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/src/common.cpp:14\x1b[m\x1b[K:\n'}
+[9.843453] (ros2_orb_slam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:60:80:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::AlignedBit\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[9.843579] (ros2_orb_slam3) StderrLine: {'line': b'   60 |       typedef Eigen::Map<Matrix<double, Dj, Di>, Matrix<double, Dj, Di>::\x1b[01;35m\x1b[KFlags & AlignedBit\x1b[m\x1b[K ? Aligned : Unaligned > HessianBlockTransposedType;\n'}
+[9.843697] (ros2_orb_slam3) StderrLine: {'line': b'      |                                                                          \x1b[01;35m\x1b[K~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[9.843830] (ros2_orb_slam3) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Core:161\x1b[m\x1b[K,\n'}
+[9.843947] (ros2_orb_slam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Dense:1\x1b[m\x1b[K,\n'}
+[9.844069] (ros2_orb_slam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/include/ros2_orb_slam3/common.hpp:33\x1b[m\x1b[K,\n'}
+[9.844188] (ros2_orb_slam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/src/common.cpp:14\x1b[m\x1b[K:\n'}
+[9.844303] (ros2_orb_slam3) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[9.848252] (ros2_orb_slam3) StderrLine: {'line': b'  167 | EIGEN_DEPRECATED const unsigned int \x1b[01;36m\x1b[KAlignedBit\x1b[m\x1b[K = 0x80;\n'}
+[9.848456] (ros2_orb_slam3) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[9.944447] (-) TimerEvent: {}
+[10.044862] (-) TimerEvent: {}
+[10.148082] (-) TimerEvent: {}
+[10.248444] (-) TimerEvent: {}
+[10.349042] (-) TimerEvent: {}
+[10.451727] (-) TimerEvent: {}
+[10.556441] (-) TimerEvent: {}
+[10.656792] (-) TimerEvent: {}
+[10.758515] (-) TimerEvent: {}
+[10.858871] (-) TimerEvent: {}
+[10.959220] (-) TimerEvent: {}
+[11.059578] (-) TimerEvent: {}
+[11.159980] (-) TimerEvent: {}
+[11.260999] (-) TimerEvent: {}
+[11.361401] (-) TimerEvent: {}
+[11.463468] (-) TimerEvent: {}
+[11.563800] (-) TimerEvent: {}
+[11.664131] (-) TimerEvent: {}
+[11.768763] (-) TimerEvent: {}
+[11.869110] (-) TimerEvent: {}
+[11.969447] (-) TimerEvent: {}
+[12.008269] (ros2_orb_slam3) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/Atlas.h:27\x1b[m\x1b[K,\n'}
+[12.008669] (ros2_orb_slam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/FrameDrawer.h:25\x1b[m\x1b[K,\n'}
+[12.008861] (ros2_orb_slam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[12.009006] (ros2_orb_slam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[12.009129] (ros2_orb_slam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/System.h:31\x1b[m\x1b[K,\n'}
+[12.009244] (ros2_orb_slam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/include/ros2_orb_slam3/common.hpp:47\x1b[m\x1b[K,\n'}
+[12.009390] (ros2_orb_slam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/src/common.cpp:14\x1b[m\x1b[K:\n'}
+[12.009507] (ros2_orb_slam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/CameraModels/KannalaBrandt8.h:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KORB_SLAM3::KannalaBrandt8::KannalaBrandt8(std::vector<float>)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[12.009624] (ros2_orb_slam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/CameraModels/KannalaBrandt8.h:102:21:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KORB_SLAM3::KannalaBrandt8::precision\x1b[m\x1b[K\xe2\x80\x99 will be initialized after [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder\x07-Wreorder\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[12.009750] (ros2_orb_slam3) StderrLine: {'line': b'  102 |         const float \x1b[01;35m\x1b[Kprecision\x1b[m\x1b[K;\n'}
+[12.009855] (ros2_orb_slam3) StderrLine: {'line': b'      |                     \x1b[01;35m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[12.009955] (ros2_orb_slam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/CameraModels/KannalaBrandt8.h:88:26:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<int> ORB_SLAM3::KannalaBrandt8::mvLappingArea\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder\x07-Wreorder\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[12.010063] (ros2_orb_slam3) StderrLine: {'line': b'   88 |         std::vector<int> \x1b[01;35m\x1b[KmvLappingArea\x1b[m\x1b[K;\n'}
+[12.010164] (ros2_orb_slam3) StderrLine: {'line': b'      |                          \x1b[01;35m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[12.010262] (ros2_orb_slam3) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/Atlas.h:27\x1b[m\x1b[K,\n'}
+[12.010360] (ros2_orb_slam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/FrameDrawer.h:25\x1b[m\x1b[K,\n'}
+[12.010460] (ros2_orb_slam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[12.010563] (ros2_orb_slam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[12.010662] (ros2_orb_slam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/System.h:31\x1b[m\x1b[K,\n'}
+[12.010761] (ros2_orb_slam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/include/ros2_orb_slam3/common.hpp:47\x1b[m\x1b[K,\n'}
+[12.010858] (ros2_orb_slam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/src/common.cpp:14\x1b[m\x1b[K:\n'}
+[12.010978] (ros2_orb_slam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/CameraModels/KannalaBrandt8.h:47:9:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K  when initialized here [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder\x07-Wreorder\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[12.014306] (ros2_orb_slam3) StderrLine: {'line': b'   47 |         \x1b[01;35m\x1b[KKannalaBrandt8\x1b[m\x1b[K(const std::vector<float> _vParameters) : GeometricCamera(_vParameters), precision(1e-6), mvLappingArea(2,0) ,tvr(nullptr) {\n'}
+[12.014624] (ros2_orb_slam3) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[12.014806] (ros2_orb_slam3) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/Atlas.h:27\x1b[m\x1b[K,\n'}
+[12.015038] (ros2_orb_slam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/FrameDrawer.h:25\x1b[m\x1b[K,\n'}
+[12.015183] (ros2_orb_slam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[12.015298] (ros2_orb_slam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[12.015421] (ros2_orb_slam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/System.h:31\x1b[m\x1b[K,\n'}
+[12.015633] (ros2_orb_slam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/include/ros2_orb_slam3/common.hpp:47\x1b[m\x1b[K,\n'}
+[12.015740] (ros2_orb_slam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/src/common.cpp:14\x1b[m\x1b[K:\n'}
+[12.015844] (ros2_orb_slam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/CameraModels/KannalaBrandt8.h:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KORB_SLAM3::KannalaBrandt8::KannalaBrandt8(std::vector<float>, float)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[12.015958] (ros2_orb_slam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/CameraModels/KannalaBrandt8.h:102:21:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KORB_SLAM3::KannalaBrandt8::precision\x1b[m\x1b[K\xe2\x80\x99 will be initialized after [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder\x07-Wreorder\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[12.016072] (ros2_orb_slam3) StderrLine: {'line': b'  102 |         const float \x1b[01;35m\x1b[Kprecision\x1b[m\x1b[K;\n'}
+[12.016191] (ros2_orb_slam3) StderrLine: {'line': b'      |                     \x1b[01;35m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[12.016294] (ros2_orb_slam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/CameraModels/KannalaBrandt8.h:88:26:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<int> ORB_SLAM3::KannalaBrandt8::mvLappingArea\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder\x07-Wreorder\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[12.016430] (ros2_orb_slam3) StderrLine: {'line': b'   88 |         std::vector<int> \x1b[01;35m\x1b[KmvLappingArea\x1b[m\x1b[K;\n'}
+[12.016543] (ros2_orb_slam3) StderrLine: {'line': b'      |                          \x1b[01;35m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[12.016644] (ros2_orb_slam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/CameraModels/KannalaBrandt8.h:53:9:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K  when initialized here [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder\x07-Wreorder\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[12.016758] (ros2_orb_slam3) StderrLine: {'line': b'   53 |         \x1b[01;35m\x1b[KKannalaBrandt8\x1b[m\x1b[K(const std::vector<float> _vParameters, const float _precision) : GeometricCamera(_vParameters),\n'}
+[12.016861] (ros2_orb_slam3) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[12.016967] (ros2_orb_slam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/CameraModels/KannalaBrandt8.h:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KORB_SLAM3::KannalaBrandt8::KannalaBrandt8(ORB_SLAM3::KannalaBrandt8*)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[12.017072] (ros2_orb_slam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/CameraModels/KannalaBrandt8.h:102:21:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KORB_SLAM3::KannalaBrandt8::precision\x1b[m\x1b[K\xe2\x80\x99 will be initialized after [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder\x07-Wreorder\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[12.017180] (ros2_orb_slam3) StderrLine: {'line': b'  102 |         const float \x1b[01;35m\x1b[Kprecision\x1b[m\x1b[K;\n'}
+[12.017282] (ros2_orb_slam3) StderrLine: {'line': b'      |                     \x1b[01;35m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[12.017383] (ros2_orb_slam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/CameraModels/KannalaBrandt8.h:88:26:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<int> ORB_SLAM3::KannalaBrandt8::mvLappingArea\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder\x07-Wreorder\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[12.017489] (ros2_orb_slam3) StderrLine: {'line': b'   88 |         std::vector<int> \x1b[01;35m\x1b[KmvLappingArea\x1b[m\x1b[K;\n'}
+[12.017592] (ros2_orb_slam3) StderrLine: {'line': b'      |                          \x1b[01;35m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[12.017695] (ros2_orb_slam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/CameraModels/KannalaBrandt8.h:59:9:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K  when initialized here [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder\x07-Wreorder\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[12.017804] (ros2_orb_slam3) StderrLine: {'line': b'   59 |         \x1b[01;35m\x1b[KKannalaBrandt8\x1b[m\x1b[K(KannalaBrandt8* pKannala) : GeometricCamera(pKannala->mvParameters), precision(pKannala->precision), mvLappingArea(2,0) ,tvr(nullptr) {\n'}
+[12.017909] (ros2_orb_slam3) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[12.069631] (-) TimerEvent: {}
+[12.172436] (-) TimerEvent: {}
+[12.272952] (-) TimerEvent: {}
+[12.373454] (-) TimerEvent: {}
+[12.473828] (-) TimerEvent: {}
+[12.574385] (-) TimerEvent: {}
+[12.674723] (-) TimerEvent: {}
+[12.740559] (ros2_orb_slam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/src/common.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid MonocularMode::Img_callback(const Image&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[12.740911] (ros2_orb_slam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/src/common.cpp:184:18:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kvariable \xe2\x80\x98\x1b[01m\x1b[KTcw\x1b[m\x1b[K\xe2\x80\x99 set but not used [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable\x07-Wunused-but-set-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[12.741123] (ros2_orb_slam3) StderrLine: {'line': b'  184 |     Sophus::SE3f \x1b[01;35m\x1b[KTcw\x1b[m\x1b[K = pAgent->TrackMonocular(cv_ptr->image, timeStep);\n'}
+[12.741205] (ros2_orb_slam3) StderrLine: {'line': b'      |                  \x1b[01;35m\x1b[K^~~\x1b[m\x1b[K\n'}
+[12.774890] (-) TimerEvent: {}
+[12.875232] (-) TimerEvent: {}
+[12.975597] (-) TimerEvent: {}
+[13.076040] (-) TimerEvent: {}
+[13.176415] (-) TimerEvent: {}
+[13.276719] (-) TimerEvent: {}
+[13.377108] (-) TimerEvent: {}
+[13.477789] (-) TimerEvent: {}
+[13.578785] (-) TimerEvent: {}
+[13.679151] (-) TimerEvent: {}
+[13.780896] (-) TimerEvent: {}
+[13.881577] (-) TimerEvent: {}
+[13.981965] (-) TimerEvent: {}
+[14.082483] (-) TimerEvent: {}
+[14.182870] (-) TimerEvent: {}
+[14.283793] (-) TimerEvent: {}
+[14.384133] (-) TimerEvent: {}
+[14.484599] (-) TimerEvent: {}
+[14.584933] (-) TimerEvent: {}
+[14.685262] (-) TimerEvent: {}
+[14.785609] (-) TimerEvent: {}
+[14.885959] (-) TimerEvent: {}
+[14.986289] (-) TimerEvent: {}
+[15.086622] (-) TimerEvent: {}
+[15.186954] (-) TimerEvent: {}
+[15.287302] (-) TimerEvent: {}
+[15.387700] (-) TimerEvent: {}
+[15.487991] (-) TimerEvent: {}
+[15.588325] (-) TimerEvent: {}
+[15.688728] (-) TimerEvent: {}
+[15.789098] (-) TimerEvent: {}
+[15.889434] (-) TimerEvent: {}
+[15.989781] (-) TimerEvent: {}
+[16.090115] (-) TimerEvent: {}
+[16.190440] (-) TimerEvent: {}
+[16.290785] (-) TimerEvent: {}
+[16.391085] (-) TimerEvent: {}
+[16.491468] (-) TimerEvent: {}
+[16.591789] (-) TimerEvent: {}
+[16.692113] (-) TimerEvent: {}
+[16.792466] (-) TimerEvent: {}
+[16.892794] (-) TimerEvent: {}
+[16.993132] (-) TimerEvent: {}
+[17.093465] (-) TimerEvent: {}
+[17.193878] (-) TimerEvent: {}
+[17.294309] (-) TimerEvent: {}
+[17.394661] (-) TimerEvent: {}
+[17.495033] (-) TimerEvent: {}
+[17.595428] (-) TimerEvent: {}
+[17.695880] (-) TimerEvent: {}
+[17.796232] (-) TimerEvent: {}
+[17.896661] (-) TimerEvent: {}
+[17.997066] (-) TimerEvent: {}
+[18.097443] (-) TimerEvent: {}
+[18.197822] (-) TimerEvent: {}
+[18.298196] (-) TimerEvent: {}
+[18.398572] (-) TimerEvent: {}
+[18.498925] (-) TimerEvent: {}
+[18.599284] (-) TimerEvent: {}
+[18.699681] (-) TimerEvent: {}
+[18.799981] (-) TimerEvent: {}
+[18.900368] (-) TimerEvent: {}
+[19.000682] (-) TimerEvent: {}
+[19.101042] (-) TimerEvent: {}
+[19.201371] (-) TimerEvent: {}
+[19.301705] (-) TimerEvent: {}
+[19.402062] (-) TimerEvent: {}
+[19.502400] (-) TimerEvent: {}
+[19.602744] (-) TimerEvent: {}
+[19.703095] (-) TimerEvent: {}
+[19.803519] (-) TimerEvent: {}
+[19.903866] (-) TimerEvent: {}
+[20.004205] (-) TimerEvent: {}
+[20.104475] (-) TimerEvent: {}
+[20.204819] (-) TimerEvent: {}
+[20.305123] (-) TimerEvent: {}
+[20.405459] (-) TimerEvent: {}
+[20.505808] (-) TimerEvent: {}
+[20.606144] (-) TimerEvent: {}
+[20.706492] (-) TimerEvent: {}
+[20.806826] (-) TimerEvent: {}
+[20.907176] (-) TimerEvent: {}
+[21.007537] (-) TimerEvent: {}
+[21.107886] (-) TimerEvent: {}
+[21.208203] (-) TimerEvent: {}
+[21.308529] (-) TimerEvent: {}
+[21.408829] (-) TimerEvent: {}
+[21.509172] (-) TimerEvent: {}
+[21.609472] (-) TimerEvent: {}
+[21.709819] (-) TimerEvent: {}
+[21.810178] (-) TimerEvent: {}
+[21.910528] (-) TimerEvent: {}
+[22.010900] (-) TimerEvent: {}
+[22.111255] (-) TimerEvent: {}
+[22.211815] (-) TimerEvent: {}
+[22.312243] (-) TimerEvent: {}
+[22.412573] (-) TimerEvent: {}
+[22.512898] (-) TimerEvent: {}
+[22.613230] (-) TimerEvent: {}
+[22.713563] (-) TimerEvent: {}
+[22.813891] (-) TimerEvent: {}
+[22.914235] (-) TimerEvent: {}
+[23.014570] (-) TimerEvent: {}
+[23.114918] (-) TimerEvent: {}
+[23.215262] (-) TimerEvent: {}
+[23.315599] (-) TimerEvent: {}
+[23.415938] (-) TimerEvent: {}
+[23.516287] (-) TimerEvent: {}
+[23.616597] (-) TimerEvent: {}
+[23.716921] (-) TimerEvent: {}
+[23.817252] (-) TimerEvent: {}
+[23.917596] (-) TimerEvent: {}
+[24.017939] (-) TimerEvent: {}
+[24.118260] (-) TimerEvent: {}
+[24.218636] (-) TimerEvent: {}
+[24.318980] (-) TimerEvent: {}
+[24.419294] (-) TimerEvent: {}
+[24.519588] (-) TimerEvent: {}
+[24.619973] (-) TimerEvent: {}
+[24.720320] (-) TimerEvent: {}
+[24.820732] (-) TimerEvent: {}
+[24.921367] (-) TimerEvent: {}
+[25.021700] (-) TimerEvent: {}
+[25.122028] (-) TimerEvent: {}
+[25.222469] (-) TimerEvent: {}
+[25.322763] (-) TimerEvent: {}
+[25.423171] (-) TimerEvent: {}
+[25.523518] (-) TimerEvent: {}
+[25.623798] (-) TimerEvent: {}
+[25.724141] (-) TimerEvent: {}
+[25.824469] (-) TimerEvent: {}
+[25.924822] (-) TimerEvent: {}
+[26.025199] (-) TimerEvent: {}
+[26.125530] (-) TimerEvent: {}
+[26.225885] (-) TimerEvent: {}
+[26.326214] (-) TimerEvent: {}
+[26.426555] (-) TimerEvent: {}
+[26.526891] (-) TimerEvent: {}
+[26.627238] (-) TimerEvent: {}
+[26.727601] (-) TimerEvent: {}
+[26.827954] (-) TimerEvent: {}
+[26.928294] (-) TimerEvent: {}
+[27.028631] (-) TimerEvent: {}
+[27.128960] (-) TimerEvent: {}
+[27.229303] (-) TimerEvent: {}
+[27.329655] (-) TimerEvent: {}
+[27.429990] (-) TimerEvent: {}
+[27.530278] (-) TimerEvent: {}
+[27.630607] (-) TimerEvent: {}
+[27.730952] (-) TimerEvent: {}
+[27.831294] (-) TimerEvent: {}
+[27.931692] (-) TimerEvent: {}
+[28.032021] (-) TimerEvent: {}
+[28.132375] (-) TimerEvent: {}
+[28.232698] (-) TimerEvent: {}
+[28.333028] (-) TimerEvent: {}
+[28.433364] (-) TimerEvent: {}
+[28.533710] (-) TimerEvent: {}
+[28.634070] (-) TimerEvent: {}
+[28.734411] (-) TimerEvent: {}
+[28.834744] (-) TimerEvent: {}
+[28.935087] (-) TimerEvent: {}
+[29.035498] (-) TimerEvent: {}
+[29.135787] (-) TimerEvent: {}
+[29.236113] (-) TimerEvent: {}
+[29.336583] (-) TimerEvent: {}
+[29.436912] (-) TimerEvent: {}
+[29.537273] (-) TimerEvent: {}
+[29.637707] (-) TimerEvent: {}
+[29.738136] (-) TimerEvent: {}
+[29.838484] (-) TimerEvent: {}
+[29.938825] (-) TimerEvent: {}
+[30.039183] (-) TimerEvent: {}
+[30.139504] (-) TimerEvent: {}
+[30.239843] (-) TimerEvent: {}
+[30.340183] (-) TimerEvent: {}
+[30.440498] (-) TimerEvent: {}
+[30.540899] (-) TimerEvent: {}
+[30.641310] (-) TimerEvent: {}
+[30.741765] (-) TimerEvent: {}
+[30.842088] (-) TimerEvent: {}
+[30.942387] (-) TimerEvent: {}
+[31.042713] (-) TimerEvent: {}
+[31.143060] (-) TimerEvent: {}
+[31.243485] (-) TimerEvent: {}
+[31.343891] (-) TimerEvent: {}
+[31.444244] (-) TimerEvent: {}
+[31.544557] (-) TimerEvent: {}
+[31.644889] (-) TimerEvent: {}
+[31.745221] (-) TimerEvent: {}
+[31.845562] (-) TimerEvent: {}
+[31.945914] (-) TimerEvent: {}
+[32.046246] (-) TimerEvent: {}
+[32.146590] (-) TimerEvent: {}
+[32.246939] (-) TimerEvent: {}
+[32.347280] (-) TimerEvent: {}
+[32.447640] (-) TimerEvent: {}
+[32.547924] (-) TimerEvent: {}
+[32.648241] (-) TimerEvent: {}
+[32.748635] (-) TimerEvent: {}
+[32.849077] (-) TimerEvent: {}
+[32.949410] (-) TimerEvent: {}
+[33.049745] (-) TimerEvent: {}
+[33.150071] (-) TimerEvent: {}
+[33.250387] (-) TimerEvent: {}
+[33.350755] (-) TimerEvent: {}
+[33.451045] (-) TimerEvent: {}
+[33.551563] (-) TimerEvent: {}
+[33.651988] (-) TimerEvent: {}
+[33.752322] (-) TimerEvent: {}
+[33.852633] (-) TimerEvent: {}
+[33.952950] (-) TimerEvent: {}
+[34.053293] (-) TimerEvent: {}
+[34.153621] (-) TimerEvent: {}
+[34.253966] (-) TimerEvent: {}
+[34.354295] (-) TimerEvent: {}
+[34.454631] (-) TimerEvent: {}
+[34.555147] (-) TimerEvent: {}
+[34.655489] (-) TimerEvent: {}
+[34.755878] (-) TimerEvent: {}
+[34.856216] (-) TimerEvent: {}
+[34.956513] (-) TimerEvent: {}
+[35.056849] (-) TimerEvent: {}
+[35.157141] (-) TimerEvent: {}
+[35.257474] (-) TimerEvent: {}
+[35.357804] (-) TimerEvent: {}
+[35.458133] (-) TimerEvent: {}
+[35.558456] (-) TimerEvent: {}
+[35.658874] (-) TimerEvent: {}
+[35.759146] (-) TimerEvent: {}
+[35.859583] (-) TimerEvent: {}
+[35.959998] (-) TimerEvent: {}
+[36.060395] (-) TimerEvent: {}
+[36.160721] (-) TimerEvent: {}
+[36.261036] (-) TimerEvent: {}
+[36.361345] (-) TimerEvent: {}
+[36.461678] (-) TimerEvent: {}
+[36.562021] (-) TimerEvent: {}
+[36.662366] (-) TimerEvent: {}
+[36.762721] (-) TimerEvent: {}
+[36.863057] (-) TimerEvent: {}
+[36.963394] (-) TimerEvent: {}
+[37.063898] (-) TimerEvent: {}
+[37.164274] (-) TimerEvent: {}
+[37.264592] (-) TimerEvent: {}
+[37.364941] (-) TimerEvent: {}
+[37.465302] (-) TimerEvent: {}
+[37.565635] (-) TimerEvent: {}
+[37.665945] (-) TimerEvent: {}
+[37.766285] (-) TimerEvent: {}
+[37.856341] (ros2_orb_slam3) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking CXX executable mono_node_cpp\x1b[0m\n'}
+[37.866394] (-) TimerEvent: {}
+[37.966693] (-) TimerEvent: {}
+[38.067076] (-) TimerEvent: {}
+[38.167477] (-) TimerEvent: {}
+[38.267847] (-) TimerEvent: {}
+[38.368204] (-) TimerEvent: {}
+[38.468564] (-) TimerEvent: {}
+[38.568931] (-) TimerEvent: {}
+[38.669282] (-) TimerEvent: {}
+[38.767034] (ros2_orb_slam3) StdoutLine: {'line': b'[100%] Built target mono_node_cpp\n'}
+[38.769398] (-) TimerEvent: {}
+[38.783065] (ros2_orb_slam3) CommandEnded: {'returncode': 0}
+[38.869540] (-) TimerEvent: {}
+[38.934866] (ros2_orb_slam3) JobProgress: {'identifier': 'ros2_orb_slam3', 'progress': 'install'}
+[38.936087] (ros2_orb_slam3) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ken/tello_ros_ws/build/ros2_orb_slam3'], 'cwd': '/home/ken/tello_ros_ws/build/ros2_orb_slam3', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ken'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ken/tello_ros_ws/install/tello_msg/lib:/home/ken/tello_ros_ws/install/ros2_orb_slam3/lib:/home/ken/ros2_test/install/ros2_orb_slam3/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ken'), ('OLDPWD', '/home/ken/tello_ros_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_US.UTF-8'), ('MANAGERPID', '903'), ('SYSTEMD_EXEC_PID', '2205'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2908'), ('COLCON_PREFIX_PATH', '/home/ken/tello_ros_ws/install:/home/ken/ros2_test/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'ken'), ('JOURNAL_STREAM', '8:11114'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ken'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/ken/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/kenPro4:@/tmp/.ICE-unix/1231,unix/kenPro4:/tmp/.ICE-unix/1231'), ('INVOCATION_ID', 'f6bfe616966f4248b8f794992b0c2b8a'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ken/tello_ros_ws/install/tello:/home/ken/tello_ros_ws/install/tello_msg:/home/ken/tello_ros_ws/install/tello_control_gamepad:/home/ken/tello_ros_ws/install/tello_control:/home/ken/tello_ros_ws/install/ros2_orb_slam3:/home/ken/ros2_test/install/ros2_orb_slam3:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:9a615839-7b9f-4a20-9ca4-8d487a452852'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ken/tello_ros_ws/build/ros2_orb_slam3'), ('QT_QPA_PLATFORM', 'xcb'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ken/tello_ros_ws/install/tello/lib/python3.10/site-packages:/home/ken/tello_ros_ws/install/tello_msg/local/lib/python3.10/dist-packages:/home/ken/tello_ros_ws/install/tello_control_gamepad/lib/python3.10/site-packages:/home/ken/tello_ros_ws/install/ros2_orb_slam3/local/lib/python3.10/dist-packages:/home/ken/ros2_test/install/ros2_orb_slam3/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ken/tello_ros_ws/install/tello_msg:/home/ken/tello_ros_ws/install/tello_control:/home/ken/tello_ros_ws/install/ros2_orb_slam3:/home/ken/ros2_test/install/ros2_orb_slam3:/home/ken/tello_ros_ws/install/tello:/home/ken/tello_ros_ws/install/tello_control_gamepad:/opt/ros/humble')]), 'shell': False}
+[38.946408] (ros2_orb_slam3) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[38.946737] (ros2_orb_slam3) StdoutLine: {'line': b'-- Up-to-date: /home/ken/tello_ros_ws/install/ros2_orb_slam3/lib/libDBoW2.so\n'}
+[38.946839] (ros2_orb_slam3) StdoutLine: {'line': b'-- Up-to-date: /home/ken/tello_ros_ws/install/ros2_orb_slam3/lib/libg2o.so\n'}
+[38.946911] (ros2_orb_slam3) StdoutLine: {'line': b'-- Up-to-date: /home/ken/tello_ros_ws/install/ros2_orb_slam3/include\n'}
+[38.946979] (ros2_orb_slam3) StdoutLine: {'line': b'-- Up-to-date: /home/ken/tello_ros_ws/install/ros2_orb_slam3/include/ros2_orb_slam3\n'}
+[38.947047] (ros2_orb_slam3) StdoutLine: {'line': b'-- Up-to-date: /home/ken/tello_ros_ws/install/ros2_orb_slam3/include/ros2_orb_slam3/common.hpp\n'}
+[38.947167] (ros2_orb_slam3) StdoutLine: {'line': b'-- Installing: /home/ken/tello_ros_ws/install/ros2_orb_slam3/lib/ros2_orb_slam3/mono_node_cpp\n'}
+[38.949651] (ros2_orb_slam3) StdoutLine: {'line': b'-- Set runtime path of "/home/ken/tello_ros_ws/install/ros2_orb_slam3/lib/ros2_orb_slam3/mono_node_cpp" to ""\n'}
+[38.950024] (ros2_orb_slam3) StdoutLine: {'line': b'-- Up-to-date: /home/ken/tello_ros_ws/install/ros2_orb_slam3/lib/liborb_slam3_lib.so.\n'}
+[38.950405] (ros2_orb_slam3) StdoutLine: {'line': b'-- Up-to-date: /home/ken/tello_ros_ws/install/ros2_orb_slam3/lib/liborb_slam3_lib.so\n'}
+[38.950616] (ros2_orb_slam3) StdoutLine: {'line': b'-- Up-to-date: /home/ken/tello_ros_ws/install/ros2_orb_slam3/share/ros2_orb_slam3/environment/pythonpath.sh\n'}
+[38.950849] (ros2_orb_slam3) StdoutLine: {'line': b'-- Up-to-date: /home/ken/tello_ros_ws/install/ros2_orb_slam3/share/ros2_orb_slam3/environment/pythonpath.dsv\n'}
+[38.951055] (ros2_orb_slam3) StdoutLine: {'line': b'-- Up-to-date: /home/ken/tello_ros_ws/install/ros2_orb_slam3/local/lib/python3.10/dist-packages/ros2_orb_slam3-1.0.0-py3.10.egg-info\n'}
+[38.951254] (ros2_orb_slam3) StdoutLine: {'line': b'-- Installing: /home/ken/tello_ros_ws/install/ros2_orb_slam3/local/lib/python3.10/dist-packages/ros2_orb_slam3-1.0.0-py3.10.egg-info/PKG-INFO\n'}
+[38.951453] (ros2_orb_slam3) StdoutLine: {'line': b'-- Installing: /home/ken/tello_ros_ws/install/ros2_orb_slam3/local/lib/python3.10/dist-packages/ros2_orb_slam3-1.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[38.951608] (ros2_orb_slam3) StdoutLine: {'line': b'-- Installing: /home/ken/tello_ros_ws/install/ros2_orb_slam3/local/lib/python3.10/dist-packages/ros2_orb_slam3-1.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[38.951819] (ros2_orb_slam3) StdoutLine: {'line': b'-- Installing: /home/ken/tello_ros_ws/install/ros2_orb_slam3/local/lib/python3.10/dist-packages/ros2_orb_slam3-1.0.0-py3.10.egg-info/top_level.txt\n'}
+[38.951982] (ros2_orb_slam3) StdoutLine: {'line': b'-- Up-to-date: /home/ken/tello_ros_ws/install/ros2_orb_slam3/local/lib/python3.10/dist-packages/ros2_orb_slam3\n'}
+[38.952135] (ros2_orb_slam3) StdoutLine: {'line': b'-- Up-to-date: /home/ken/tello_ros_ws/install/ros2_orb_slam3/local/lib/python3.10/dist-packages/ros2_orb_slam3/__init__.py\n'}
+[38.969641] (-) TimerEvent: {}
+[38.994366] (ros2_orb_slam3) StdoutLine: {'line': b"Listing '/home/ken/tello_ros_ws/install/ros2_orb_slam3/local/lib/python3.10/dist-packages/ros2_orb_slam3'...\n"}
+[39.000595] (ros2_orb_slam3) StdoutLine: {'line': b'-- Installing: /home/ken/tello_ros_ws/install/ros2_orb_slam3/lib/ros2_orb_slam3/mono_tello_driver_node.py\n'}
+[39.001081] (ros2_orb_slam3) StdoutLine: {'line': b'-- Up-to-date: /home/ken/tello_ros_ws/install/ros2_orb_slam3/share/ament_index/resource_index/package_run_dependencies/ros2_orb_slam3\n'}
+[39.001376] (ros2_orb_slam3) StdoutLine: {'line': b'-- Up-to-date: /home/ken/tello_ros_ws/install/ros2_orb_slam3/share/ament_index/resource_index/parent_prefix_path/ros2_orb_slam3\n'}
+[39.001624] (ros2_orb_slam3) StdoutLine: {'line': b'-- Up-to-date: /home/ken/tello_ros_ws/install/ros2_orb_slam3/share/ros2_orb_slam3/environment/ament_prefix_path.sh\n'}
+[39.001865] (ros2_orb_slam3) StdoutLine: {'line': b'-- Up-to-date: /home/ken/tello_ros_ws/install/ros2_orb_slam3/share/ros2_orb_slam3/environment/ament_prefix_path.dsv\n'}
+[39.002116] (ros2_orb_slam3) StdoutLine: {'line': b'-- Up-to-date: /home/ken/tello_ros_ws/install/ros2_orb_slam3/share/ros2_orb_slam3/environment/path.sh\n'}
+[39.002270] (ros2_orb_slam3) StdoutLine: {'line': b'-- Up-to-date: /home/ken/tello_ros_ws/install/ros2_orb_slam3/share/ros2_orb_slam3/environment/path.dsv\n'}
+[39.002507] (ros2_orb_slam3) StdoutLine: {'line': b'-- Up-to-date: /home/ken/tello_ros_ws/install/ros2_orb_slam3/share/ros2_orb_slam3/local_setup.bash\n'}
+[39.002772] (ros2_orb_slam3) StdoutLine: {'line': b'-- Up-to-date: /home/ken/tello_ros_ws/install/ros2_orb_slam3/share/ros2_orb_slam3/local_setup.sh\n'}
+[39.002960] (ros2_orb_slam3) StdoutLine: {'line': b'-- Up-to-date: /home/ken/tello_ros_ws/install/ros2_orb_slam3/share/ros2_orb_slam3/local_setup.zsh\n'}
+[39.003097] (ros2_orb_slam3) StdoutLine: {'line': b'-- Up-to-date: /home/ken/tello_ros_ws/install/ros2_orb_slam3/share/ros2_orb_slam3/local_setup.dsv\n'}
+[39.003233] (ros2_orb_slam3) StdoutLine: {'line': b'-- Installing: /home/ken/tello_ros_ws/install/ros2_orb_slam3/share/ros2_orb_slam3/package.dsv\n'}
+[39.003379] (ros2_orb_slam3) StdoutLine: {'line': b'-- Up-to-date: /home/ken/tello_ros_ws/install/ros2_orb_slam3/share/ament_index/resource_index/packages/ros2_orb_slam3\n'}
+[39.003545] (ros2_orb_slam3) StdoutLine: {'line': b'-- Up-to-date: /home/ken/tello_ros_ws/install/ros2_orb_slam3/share/ros2_orb_slam3/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[39.003689] (ros2_orb_slam3) StdoutLine: {'line': b'-- Up-to-date: /home/ken/tello_ros_ws/install/ros2_orb_slam3/share/ros2_orb_slam3/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[39.003834] (ros2_orb_slam3) StdoutLine: {'line': b'-- Up-to-date: /home/ken/tello_ros_ws/install/ros2_orb_slam3/share/ros2_orb_slam3/cmake/ros2_orb_slam3Config.cmake\n'}
+[39.003983] (ros2_orb_slam3) StdoutLine: {'line': b'-- Up-to-date: /home/ken/tello_ros_ws/install/ros2_orb_slam3/share/ros2_orb_slam3/cmake/ros2_orb_slam3Config-version.cmake\n'}
+[39.004140] (ros2_orb_slam3) StdoutLine: {'line': b'-- Up-to-date: /home/ken/tello_ros_ws/install/ros2_orb_slam3/share/ros2_orb_slam3/package.xml\n'}
+[39.006095] (ros2_orb_slam3) CommandEnded: {'returncode': 0}
+[39.069761] (-) TimerEvent: {}
+[39.170527] (-) TimerEvent: {}
+[39.173001] (ros2_orb_slam3) JobEnded: {'identifier': 'ros2_orb_slam3', 'rc': 0}
+[39.174818] (-) EventReactorShutdown: {}

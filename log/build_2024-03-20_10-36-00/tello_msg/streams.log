@@ -1,0 +1,72 @@
+[0.021s] Invoking command in '/home/ken/tello_ros_ws/build/tello_msg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ken/tello_ros_ws/install/tello:/opt/ros/humble /usr/bin/cmake --build /home/ken/tello_ros_ws/build/tello_msg -- -j4 -l4
+[0.084s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[0.107s] [  4%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[0.130s] [  4%] Built target ament_cmake_python_symlink_tello_msg
+[0.664s] running egg_info
+[0.665s] creating tello_msg.egg-info
+[0.666s] writing tello_msg.egg-info/PKG-INFO
+[0.666s] writing dependency_links to tello_msg.egg-info/dependency_links.txt
+[0.666s] writing top-level names to tello_msg.egg-info/top_level.txt
+[0.667s] writing manifest file 'tello_msg.egg-info/SOURCES.txt'
+[0.672s] reading manifest file 'tello_msg.egg-info/SOURCES.txt'
+[0.672s] writing manifest file 'tello_msg.egg-info/SOURCES.txt'
+[0.739s] [  4%] Built target ament_cmake_python_build_tello_msg_egg
+[1.125s] [  4%] Built target tello_msg__cpp
+[1.145s] [  6%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[1.148s] [  8%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[1.153s] [ 10%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[1.292s] [ 12%] [32mBuilding C object CMakeFiles/tello_msg__rosidl_generator_c.dir/rosidl_generator_c/tello_msg/msg/detail/tello_status__functions.c.o[0m
+[1.403s] [ 14%] [32mBuilding C object CMakeFiles/tello_msg__rosidl_generator_c.dir/rosidl_generator_c/tello_msg/msg/detail/tello_id__functions.c.o[0m
+[1.503s] [ 17%] [32mBuilding C object CMakeFiles/tello_msg__rosidl_generator_c.dir/rosidl_generator_c/tello_msg/msg/detail/tello_wifi_config__functions.c.o[0m
+[1.603s] [ 19%] [32m[1mLinking C shared library libtello_msg__rosidl_generator_c.so[0m
+[1.681s] [ 19%] Built target tello_msg__rosidl_generator_c
+[1.701s] [ 21%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[2.134s] [ 23%] [32mBuilding CXX object CMakeFiles/tello_msg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tello_msg/msg/tello_status__type_support.cpp.o[0m
+[2.200s] [ 25%] [32mBuilding CXX object CMakeFiles/tello_msg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tello_msg/msg/detail/tello_status__type_support.cpp.o[0m
+[2.254s] [ 27%] [32mBuilding CXX object CMakeFiles/tello_msg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tello_msg/msg/detail/dds_fastrtps/tello_status__type_support.cpp.o[0m
+[2.712s] [ 29%] [32mBuilding CXX object CMakeFiles/tello_msg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tello_msg/msg/tello_id__type_support.cpp.o[0m
+[2.892s] [ 31%] [32mBuilding CXX object CMakeFiles/tello_msg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tello_msg/msg/detail/tello_status__type_support_c.cpp.o[0m
+[3.007s] [ 34%] [32mBuilding CXX object CMakeFiles/tello_msg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tello_msg/msg/detail/tello_id__type_support.cpp.o[0m
+[3.130s] [ 36%] [32mBuilding CXX object CMakeFiles/tello_msg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tello_msg/msg/detail/dds_fastrtps/tello_id__type_support.cpp.o[0m
+[3.270s] [ 38%] [32mBuilding CXX object CMakeFiles/tello_msg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tello_msg/msg/tello_wifi_config__type_support.cpp.o[0m
+[3.628s] [ 40%] [32mBuilding CXX object CMakeFiles/tello_msg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tello_msg/msg/detail/tello_id__type_support_c.cpp.o[0m
+[3.798s] [ 42%] [32mBuilding CXX object CMakeFiles/tello_msg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tello_msg/msg/detail/tello_wifi_config__type_support.cpp.o[0m
+[3.834s] [ 44%] [32m[1mLinking CXX shared library libtello_msg__rosidl_typesupport_cpp.so[0m
+[3.919s] [ 44%] Built target tello_msg__rosidl_typesupport_cpp
+[3.940s] [ 46%] [32mBuilding CXX object CMakeFiles/tello_msg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tello_msg/msg/detail/tello_wifi_config__type_support_c.cpp.o[0m
+[4.010s] [ 48%] [32mBuilding CXX object CMakeFiles/tello_msg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tello_msg/msg/detail/dds_fastrtps/tello_wifi_config__type_support.cpp.o[0m
+[4.334s] [ 51%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[4.591s] [ 53%] [32m[1mLinking CXX shared library libtello_msg__rosidl_typesupport_introspection_cpp.so[0m
+[4.660s] [ 55%] [32m[1mLinking CXX shared library libtello_msg__rosidl_typesupport_fastrtps_c.so[0m
+[4.723s] [ 55%] Built target tello_msg__rosidl_typesupport_introspection_cpp
+[4.744s] [ 57%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[4.832s] [ 57%] Built target tello_msg__rosidl_typesupport_fastrtps_c
+[4.872s] [ 59%] [32m[1mLinking CXX shared library libtello_msg__rosidl_typesupport_fastrtps_cpp.so[0m
+[4.984s] [ 59%] Built target tello_msg__rosidl_typesupport_fastrtps_cpp
+[5.371s] [ 61%] [32mBuilding C object CMakeFiles/tello_msg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tello_msg/msg/detail/tello_status__type_support.c.o[0m
+[5.371s] [ 63%] [32mBuilding C object CMakeFiles/tello_msg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tello_msg/msg/detail/tello_id__type_support.c.o[0m
+[5.373s] [ 65%] [32mBuilding C object CMakeFiles/tello_msg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tello_msg/msg/detail/tello_wifi_config__type_support.c.o[0m
+[5.439s] [ 68%] [32m[1mLinking C shared library libtello_msg__rosidl_typesupport_introspection_c.so[0m
+[5.482s] [ 68%] Built target tello_msg__rosidl_typesupport_introspection_c
+[5.559s] [ 70%] [32mBuilding CXX object CMakeFiles/tello_msg__rosidl_typesupport_c.dir/rosidl_typesupport_c/tello_msg/msg/tello_status__type_support.cpp.o[0m
+[5.561s] [ 72%] [32mBuilding CXX object CMakeFiles/tello_msg__rosidl_typesupport_c.dir/rosidl_typesupport_c/tello_msg/msg/tello_id__type_support.cpp.o[0m
+[5.563s] [ 74%] [32mBuilding CXX object CMakeFiles/tello_msg__rosidl_typesupport_c.dir/rosidl_typesupport_c/tello_msg/msg/tello_wifi_config__type_support.cpp.o[0m
+[5.615s] [ 76%] [32m[1mLinking CXX shared library libtello_msg__rosidl_typesupport_c.so[0m
+[5.672s] [ 76%] Built target tello_msg__rosidl_typesupport_c
+[5.699s] [ 76%] Built target tello_msg
+[5.726s] [ 78%] [34m[1mGenerating Python code for ROS interfaces[0m
+[6.682s] [ 78%] Built target tello_msg__py
+[6.710s] [ 80%] [32mBuilding C object CMakeFiles/tello_msg__rosidl_generator_py.dir/rosidl_generator_py/tello_msg/msg/_tello_id_s.c.o[0m
+[6.713s] [ 85%] [32mBuilding C object CMakeFiles/tello_msg__rosidl_generator_py.dir/rosidl_generator_py/tello_msg/msg/_tello_status_s.c.o[0m
+[6.713s] [ 85%] [32mBuilding C object CMakeFiles/tello_msg__rosidl_generator_py.dir/rosidl_generator_py/tello_msg/msg/_tello_wifi_config_s.c.o[0m
+[6.934s] [ 87%] [32m[1mLinking C shared library rosidl_generator_py/tello_msg/libtello_msg__rosidl_generator_py.so[0m
+[6.994s] [ 87%] Built target tello_msg__rosidl_generator_py
+[7.024s] [ 89%] [32mBuilding C object CMakeFiles/tello_msg__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/tello_msg/_tello_msg_s.ep.rosidl_typesupport_c.c.o[0m
+[7.028s] [ 91%] [32mBuilding C object CMakeFiles/tello_msg__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/tello_msg/_tello_msg_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[7.030s] [ 93%] [32mBuilding C object CMakeFiles/tello_msg__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/tello_msg/_tello_msg_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[7.205s] [ 95%] [32m[1mLinking C shared library rosidl_generator_py/tello_msg/tello_msg_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[7.250s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/tello_msg/tello_msg_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[7.259s] [100%] [32m[1mLinking C shared library rosidl_generator_py/tello_msg/tello_msg_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[7.267s] [100%] Built target tello_msg__rosidl_typesupport_fastrtps_c__pyext
+[7.312s] [100%] Built target tello_msg__rosidl_typesupport_introspection_c__pyext
+[7.318s] [100%] Built target tello_msg__rosidl_typesupport_c__pyext

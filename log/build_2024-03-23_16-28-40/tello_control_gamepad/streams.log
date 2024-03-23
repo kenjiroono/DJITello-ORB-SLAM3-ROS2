@@ -1,0 +1,22 @@
+[1.918s] Invoking command in '/home/ken/tello_ros_ws/src/tello_control_gamepad': PYTHONPATH=/home/ken/tello_ros_ws/build/tello_control_gamepad/prefix_override:/home/ken/tello_ros_ws/install/tello_control_gamepad/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/tello_control_gamepad build --build-base /home/ken/tello_ros_ws/build/tello_control_gamepad/build install --record /home/ken/tello_ros_ws/build/tello_control_gamepad/install.log --single-version-externally-managed install_data
+[2.254s] running egg_info
+[2.255s] writing ../../build/tello_control_gamepad/tello_control_gamepad.egg-info/PKG-INFO
+[2.255s] writing dependency_links to ../../build/tello_control_gamepad/tello_control_gamepad.egg-info/dependency_links.txt
+[2.255s] writing entry points to ../../build/tello_control_gamepad/tello_control_gamepad.egg-info/entry_points.txt
+[2.256s] writing requirements to ../../build/tello_control_gamepad/tello_control_gamepad.egg-info/requires.txt
+[2.256s] writing top-level names to ../../build/tello_control_gamepad/tello_control_gamepad.egg-info/top_level.txt
+[2.259s] reading manifest file '../../build/tello_control_gamepad/tello_control_gamepad.egg-info/SOURCES.txt'
+[2.259s] adding license file 'LICENSE'
+[2.260s] writing manifest file '../../build/tello_control_gamepad/tello_control_gamepad.egg-info/SOURCES.txt'
+[2.261s] running build
+[2.261s] running build_py
+[2.261s] running install
+[2.262s] running install_lib
+[2.263s] running install_data
+[2.263s] running install_egg_info
+[2.266s] removing '/home/ken/tello_ros_ws/install/tello_control_gamepad/lib/python3.10/site-packages/tello_control_gamepad-0.0.0-py3.10.egg-info' (and everything under it)
+[2.267s] Copying ../../build/tello_control_gamepad/tello_control_gamepad.egg-info to /home/ken/tello_ros_ws/install/tello_control_gamepad/lib/python3.10/site-packages/tello_control_gamepad-0.0.0-py3.10.egg-info
+[2.267s] running install_scripts
+[2.296s] Installing tello_control_gamepad script to /home/ken/tello_ros_ws/install/tello_control_gamepad/lib/tello_control_gamepad
+[2.297s] writing list of installed files to '/home/ken/tello_ros_ws/build/tello_control_gamepad/install.log'
+[2.339s] Invoked command in '/home/ken/tello_ros_ws/src/tello_control_gamepad' returned '0': PYTHONPATH=/home/ken/tello_ros_ws/build/tello_control_gamepad/prefix_override:/home/ken/tello_ros_ws/install/tello_control_gamepad/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/tello_control_gamepad build --build-base /home/ken/tello_ros_ws/build/tello_control_gamepad/build install --record /home/ken/tello_ros_ws/build/tello_control_gamepad/install.log --single-version-externally-managed install_data

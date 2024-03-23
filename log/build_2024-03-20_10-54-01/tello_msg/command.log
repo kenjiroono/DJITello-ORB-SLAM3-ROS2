@@ -1,0 +1,3 @@
+Invoking command in '/home/ken/tello_ros_ws/build/tello_msg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ken/tello_ros_ws/build/tello_msg -- -j4 -l4
+Invoked command in '/home/ken/tello_ros_ws/build/tello_msg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ken/tello_ros_ws/build/tello_msg -- -j4 -l4
+Invoking command in '/home/ken/tello_ros_ws/build/tello_msg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ken/tello_ros_ws/build/tello_msg

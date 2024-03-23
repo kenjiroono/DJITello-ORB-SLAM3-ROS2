@@ -1,0 +1,51 @@
+[0.042s] Invoking command in '/home/ken/tello_ros_ws/build/ros2_orb_slam3': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ken/tello_ros_ws/install/tello:/home/ken/tello_ros_ws/install/tello_control_gamepad:/opt/ros/humble /usr/bin/cmake --build /home/ken/tello_ros_ws/build/ros2_orb_slam3 -- -j4 -l4
+[0.194s] [  0%] Built target ament_cmake_python_copy_ros2_orb_slam3
+[0.384s] [ 90%] Built target orb_slam3_lib
+[0.520s] [100%] Built target mono_node_cpp
+[0.818s] running egg_info
+[0.819s] writing ros2_orb_slam3.egg-info/PKG-INFO
+[0.820s] writing dependency_links to ros2_orb_slam3.egg-info/dependency_links.txt
+[0.820s] writing top-level names to ros2_orb_slam3.egg-info/top_level.txt
+[0.827s] reading manifest file 'ros2_orb_slam3.egg-info/SOURCES.txt'
+[0.829s] writing manifest file 'ros2_orb_slam3.egg-info/SOURCES.txt'
+[0.891s] [100%] Built target ament_cmake_python_build_ros2_orb_slam3_egg
+[0.908s] Invoked command in '/home/ken/tello_ros_ws/build/ros2_orb_slam3' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ken/tello_ros_ws/install/tello:/home/ken/tello_ros_ws/install/tello_control_gamepad:/opt/ros/humble /usr/bin/cmake --build /home/ken/tello_ros_ws/build/ros2_orb_slam3 -- -j4 -l4
+[1.117s] Invoking command in '/home/ken/tello_ros_ws/build/ros2_orb_slam3': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ken/tello_ros_ws/install/tello:/home/ken/tello_ros_ws/install/tello_control_gamepad:/opt/ros/humble /usr/bin/cmake --install /home/ken/tello_ros_ws/build/ros2_orb_slam3
+[1.131s] -- Install configuration: ""
+[1.131s] -- Up-to-date: /home/ken/tello_ros_ws/install/ros2_orb_slam3/lib/libDBoW2.so
+[1.131s] -- Up-to-date: /home/ken/tello_ros_ws/install/ros2_orb_slam3/lib/libg2o.so
+[1.131s] -- Up-to-date: /home/ken/tello_ros_ws/install/ros2_orb_slam3/include
+[1.132s] -- Up-to-date: /home/ken/tello_ros_ws/install/ros2_orb_slam3/include/ros2_orb_slam3
+[1.132s] -- Up-to-date: /home/ken/tello_ros_ws/install/ros2_orb_slam3/include/ros2_orb_slam3/common.hpp
+[1.132s] -- Up-to-date: /home/ken/tello_ros_ws/install/ros2_orb_slam3/lib/ros2_orb_slam3/mono_node_cpp
+[1.133s] -- Up-to-date: /home/ken/tello_ros_ws/install/ros2_orb_slam3/lib/liborb_slam3_lib.so.
+[1.135s] -- Up-to-date: /home/ken/tello_ros_ws/install/ros2_orb_slam3/lib/liborb_slam3_lib.so
+[1.135s] -- Up-to-date: /home/ken/tello_ros_ws/install/ros2_orb_slam3/share/ros2_orb_slam3/environment/pythonpath.sh
+[1.136s] -- Up-to-date: /home/ken/tello_ros_ws/install/ros2_orb_slam3/share/ros2_orb_slam3/environment/pythonpath.dsv
+[1.136s] -- Up-to-date: /home/ken/tello_ros_ws/install/ros2_orb_slam3/local/lib/python3.10/dist-packages/ros2_orb_slam3-1.0.0-py3.10.egg-info
+[1.136s] -- Installing: /home/ken/tello_ros_ws/install/ros2_orb_slam3/local/lib/python3.10/dist-packages/ros2_orb_slam3-1.0.0-py3.10.egg-info/PKG-INFO
+[1.136s] -- Installing: /home/ken/tello_ros_ws/install/ros2_orb_slam3/local/lib/python3.10/dist-packages/ros2_orb_slam3-1.0.0-py3.10.egg-info/SOURCES.txt
+[1.136s] -- Installing: /home/ken/tello_ros_ws/install/ros2_orb_slam3/local/lib/python3.10/dist-packages/ros2_orb_slam3-1.0.0-py3.10.egg-info/dependency_links.txt
+[1.136s] -- Installing: /home/ken/tello_ros_ws/install/ros2_orb_slam3/local/lib/python3.10/dist-packages/ros2_orb_slam3-1.0.0-py3.10.egg-info/top_level.txt
+[1.136s] -- Up-to-date: /home/ken/tello_ros_ws/install/ros2_orb_slam3/local/lib/python3.10/dist-packages/ros2_orb_slam3
+[1.136s] -- Up-to-date: /home/ken/tello_ros_ws/install/ros2_orb_slam3/local/lib/python3.10/dist-packages/ros2_orb_slam3/__init__.py
+[1.199s] Listing '/home/ken/tello_ros_ws/install/ros2_orb_slam3/local/lib/python3.10/dist-packages/ros2_orb_slam3'...
+[1.210s] -- Installing: /home/ken/tello_ros_ws/install/ros2_orb_slam3/lib/ros2_orb_slam3/mono_tello_driver_node.py
+[1.210s] -- Up-to-date: /home/ken/tello_ros_ws/install/ros2_orb_slam3/share/ament_index/resource_index/package_run_dependencies/ros2_orb_slam3
+[1.210s] -- Up-to-date: /home/ken/tello_ros_ws/install/ros2_orb_slam3/share/ament_index/resource_index/parent_prefix_path/ros2_orb_slam3
+[1.210s] -- Up-to-date: /home/ken/tello_ros_ws/install/ros2_orb_slam3/share/ros2_orb_slam3/environment/ament_prefix_path.sh
+[1.211s] -- Up-to-date: /home/ken/tello_ros_ws/install/ros2_orb_slam3/share/ros2_orb_slam3/environment/ament_prefix_path.dsv
+[1.211s] -- Up-to-date: /home/ken/tello_ros_ws/install/ros2_orb_slam3/share/ros2_orb_slam3/environment/path.sh
+[1.211s] -- Up-to-date: /home/ken/tello_ros_ws/install/ros2_orb_slam3/share/ros2_orb_slam3/environment/path.dsv
+[1.212s] -- Up-to-date: /home/ken/tello_ros_ws/install/ros2_orb_slam3/share/ros2_orb_slam3/local_setup.bash
+[1.212s] -- Up-to-date: /home/ken/tello_ros_ws/install/ros2_orb_slam3/share/ros2_orb_slam3/local_setup.sh
+[1.212s] -- Up-to-date: /home/ken/tello_ros_ws/install/ros2_orb_slam3/share/ros2_orb_slam3/local_setup.zsh
+[1.212s] -- Up-to-date: /home/ken/tello_ros_ws/install/ros2_orb_slam3/share/ros2_orb_slam3/local_setup.dsv
+[1.212s] -- Installing: /home/ken/tello_ros_ws/install/ros2_orb_slam3/share/ros2_orb_slam3/package.dsv
+[1.212s] -- Up-to-date: /home/ken/tello_ros_ws/install/ros2_orb_slam3/share/ament_index/resource_index/packages/ros2_orb_slam3
+[1.212s] -- Up-to-date: /home/ken/tello_ros_ws/install/ros2_orb_slam3/share/ros2_orb_slam3/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.212s] -- Up-to-date: /home/ken/tello_ros_ws/install/ros2_orb_slam3/share/ros2_orb_slam3/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.212s] -- Up-to-date: /home/ken/tello_ros_ws/install/ros2_orb_slam3/share/ros2_orb_slam3/cmake/ros2_orb_slam3Config.cmake
+[1.213s] -- Up-to-date: /home/ken/tello_ros_ws/install/ros2_orb_slam3/share/ros2_orb_slam3/cmake/ros2_orb_slam3Config-version.cmake
+[1.213s] -- Up-to-date: /home/ken/tello_ros_ws/install/ros2_orb_slam3/share/ros2_orb_slam3/package.xml
+[1.216s] Invoked command in '/home/ken/tello_ros_ws/build/ros2_orb_slam3' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ken/tello_ros_ws/install/tello:/home/ken/tello_ros_ws/install/tello_control_gamepad:/opt/ros/humble /usr/bin/cmake --install /home/ken/tello_ros_ws/build/ros2_orb_slam3

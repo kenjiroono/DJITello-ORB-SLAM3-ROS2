@@ -1,0 +1,28 @@
+running egg_info
+writing ../../build/tello_control_gamepad/tello_control_gamepad.egg-info/PKG-INFO
+writing dependency_links to ../../build/tello_control_gamepad/tello_control_gamepad.egg-info/dependency_links.txt
+writing entry points to ../../build/tello_control_gamepad/tello_control_gamepad.egg-info/entry_points.txt
+writing requirements to ../../build/tello_control_gamepad/tello_control_gamepad.egg-info/requires.txt
+writing top-level names to ../../build/tello_control_gamepad/tello_control_gamepad.egg-info/top_level.txt
+reading manifest file '../../build/tello_control_gamepad/tello_control_gamepad.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/tello_control_gamepad/tello_control_gamepad.egg-info/SOURCES.txt'
+running build
+running build_py
+copying tello_control_gamepad/node.py -> /home/ken/tello_ros_ws/build/tello_control_gamepad/build/lib/tello_control_gamepad
+running install
+running install_lib
+copying /home/ken/tello_ros_ws/build/tello_control_gamepad/build/lib/tello_control_gamepad/node.py -> /home/ken/tello_ros_ws/install/tello_control_gamepad/lib/python3.10/site-packages/tello_control_gamepad
+byte-compiling /home/ken/tello_ros_ws/install/tello_control_gamepad/lib/python3.10/site-packages/tello_control_gamepad/node.py to node.cpython-310.pyc
+  File "/home/ken/tello_ros_ws/install/tello_control_gamepad/lib/python3.10/site-packages/tello_control_gamepad/node.py", line 88
+    print(twist_msg.)
+                    ^
+SyntaxError: invalid syntax
+
+running install_data
+running install_egg_info
+removing '/home/ken/tello_ros_ws/install/tello_control_gamepad/lib/python3.10/site-packages/tello_control_gamepad-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/tello_control_gamepad/tello_control_gamepad.egg-info to /home/ken/tello_ros_ws/install/tello_control_gamepad/lib/python3.10/site-packages/tello_control_gamepad-0.0.0-py3.10.egg-info
+running install_scripts
+Installing tello_control_gamepad script to /home/ken/tello_ros_ws/install/tello_control_gamepad/lib/tello_control_gamepad
+writing list of installed files to '/home/ken/tello_ros_ws/build/tello_control_gamepad/install.log'

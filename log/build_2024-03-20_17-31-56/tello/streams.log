@@ -1,0 +1,24 @@
+[0.800s] Invoking command in '/home/ken/tello_ros_ws/src/tello': AMENT_PREFIX_PATH=/home/ken/tello_ros_ws/install/tello_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ken/tello_ros_ws/install/tello_msg LD_LIBRARY_PATH=/home/ken/tello_ros_ws/install/tello_msg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ken/tello_ros_ws/build/tello/prefix_override:/home/ken/tello_ros_ws/install/tello/lib/python3.10/site-packages:/home/ken/tello_ros_ws/install/tello_msg/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/tello build --build-base /home/ken/tello_ros_ws/build/tello/build install --record /home/ken/tello_ros_ws/build/tello/install.log --install-scripts $base/lib/tello --single-version-externally-managed install_data
+[1.084s] /usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[1.084s]   warnings.warn(
+[1.095s] running egg_info
+[1.096s] writing ../../build/tello/tello.egg-info/PKG-INFO
+[1.096s] writing dependency_links to ../../build/tello/tello.egg-info/dependency_links.txt
+[1.096s] writing entry points to ../../build/tello/tello.egg-info/entry_points.txt
+[1.096s] writing requirements to ../../build/tello/tello.egg-info/requires.txt
+[1.097s] writing top-level names to ../../build/tello/tello.egg-info/top_level.txt
+[1.099s] reading manifest file '../../build/tello/tello.egg-info/SOURCES.txt'
+[1.099s] adding license file 'LICENSE.txt'
+[1.101s] writing manifest file '../../build/tello/tello.egg-info/SOURCES.txt'
+[1.101s] running build
+[1.101s] running build_py
+[1.102s] running install
+[1.102s] running install_lib
+[1.104s] running install_data
+[1.104s] running install_egg_info
+[1.106s] removing '/home/ken/tello_ros_ws/install/tello/lib/python3.10/site-packages/tello-0.1.0-py3.10.egg-info' (and everything under it)
+[1.107s] Copying ../../build/tello/tello.egg-info to /home/ken/tello_ros_ws/install/tello/lib/python3.10/site-packages/tello-0.1.0-py3.10.egg-info
+[1.108s] running install_scripts
+[1.135s] Installing tello script to /home/ken/tello_ros_ws/install/tello/lib/tello
+[1.135s] writing list of installed files to '/home/ken/tello_ros_ws/build/tello/install.log'
+[1.167s] Invoked command in '/home/ken/tello_ros_ws/src/tello' returned '0': AMENT_PREFIX_PATH=/home/ken/tello_ros_ws/install/tello_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ken/tello_ros_ws/install/tello_msg LD_LIBRARY_PATH=/home/ken/tello_ros_ws/install/tello_msg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ken/tello_ros_ws/build/tello/prefix_override:/home/ken/tello_ros_ws/install/tello/lib/python3.10/site-packages:/home/ken/tello_ros_ws/install/tello_msg/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/tello build --build-base /home/ken/tello_ros_ws/build/tello/build install --record /home/ken/tello_ros_ws/build/tello/install.log --install-scripts $base/lib/tello --single-version-externally-managed install_data

@@ -1,0 +1,8 @@
+{
+  "package_name": "tello_msg",
+  "non_idl_tuples": [
+    "/home/ken/tello_ros_ws/src/tello_msg:msg/TelloStatus.msg",
+    "/home/ken/tello_ros_ws/src/tello_msg:msg/TelloID.msg",
+    "/home/ken/tello_ros_ws/src/tello_msg:msg/TelloWifiConfig.msg"
+  ]
+}

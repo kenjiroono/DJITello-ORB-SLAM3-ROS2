@@ -1,0 +1,23 @@
+[0.026s] Invoking command in '/home/ken/tello_ros_ws/build/tello_control': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ken/tello_ros_ws/build/tello_control -- -j4 -l4
+[0.149s] [100%] Built target tello_control
+[0.637s] Invoked command in '/home/ken/tello_ros_ws/build/tello_control' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ken/tello_ros_ws/build/tello_control -- -j4 -l4
+[0.700s] Invoking command in '/home/ken/tello_ros_ws/build/tello_control': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ken/tello_ros_ws/build/tello_control
+[0.713s] -- Install configuration: ""
+[0.713s] -- Execute custom install script
+[0.714s] -- Up-to-date symlink: /home/ken/tello_ros_ws/install/tello_control/lib/tello_control/tello_control
+[0.715s] -- Up-to-date symlink: /home/ken/tello_ros_ws/install/tello_control/share/ament_index/resource_index/package_run_dependencies/tello_control
+[0.715s] -- Up-to-date symlink: /home/ken/tello_ros_ws/install/tello_control/share/ament_index/resource_index/parent_prefix_path/tello_control
+[0.716s] -- Up-to-date symlink: /home/ken/tello_ros_ws/install/tello_control/share/tello_control/environment/ament_prefix_path.sh
+[0.717s] -- Up-to-date symlink: /home/ken/tello_ros_ws/install/tello_control/share/tello_control/environment/ament_prefix_path.dsv
+[0.717s] -- Up-to-date symlink: /home/ken/tello_ros_ws/install/tello_control/share/tello_control/environment/path.sh
+[0.717s] -- Up-to-date symlink: /home/ken/tello_ros_ws/install/tello_control/share/tello_control/environment/path.dsv
+[0.717s] -- Up-to-date symlink: /home/ken/tello_ros_ws/install/tello_control/share/tello_control/local_setup.bash
+[0.717s] -- Up-to-date symlink: /home/ken/tello_ros_ws/install/tello_control/share/tello_control/local_setup.sh
+[0.718s] -- Up-to-date symlink: /home/ken/tello_ros_ws/install/tello_control/share/tello_control/local_setup.zsh
+[0.718s] -- Up-to-date symlink: /home/ken/tello_ros_ws/install/tello_control/share/tello_control/local_setup.dsv
+[0.718s] -- Symlinking: /home/ken/tello_ros_ws/install/tello_control/share/tello_control/package.dsv
+[0.738s] -- Up-to-date symlink: /home/ken/tello_ros_ws/install/tello_control/share/ament_index/resource_index/packages/tello_control
+[0.738s] -- Up-to-date symlink: /home/ken/tello_ros_ws/install/tello_control/share/tello_control/cmake/tello_controlConfig.cmake
+[0.738s] -- Up-to-date symlink: /home/ken/tello_ros_ws/install/tello_control/share/tello_control/cmake/tello_controlConfig-version.cmake
+[0.739s] -- Up-to-date symlink: /home/ken/tello_ros_ws/install/tello_control/share/tello_control/package.xml
+[0.743s] Invoked command in '/home/ken/tello_ros_ws/build/tello_control' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ken/tello_ros_ws/build/tello_control

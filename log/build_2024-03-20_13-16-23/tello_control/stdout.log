@@ -1,0 +1,20 @@
+[35m[1mConsolidate compiler generated dependencies of target tello_control[0m
+[100%] Built target tello_control
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/ken/tello_ros_ws/install/tello_control/lib/tello_control/tello_control
+-- Up-to-date symlink: /home/ken/tello_ros_ws/install/tello_control/share/ament_index/resource_index/package_run_dependencies/tello_control
+-- Up-to-date symlink: /home/ken/tello_ros_ws/install/tello_control/share/ament_index/resource_index/parent_prefix_path/tello_control
+-- Up-to-date symlink: /home/ken/tello_ros_ws/install/tello_control/share/tello_control/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/ken/tello_ros_ws/install/tello_control/share/tello_control/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/ken/tello_ros_ws/install/tello_control/share/tello_control/environment/path.sh
+-- Up-to-date symlink: /home/ken/tello_ros_ws/install/tello_control/share/tello_control/environment/path.dsv
+-- Up-to-date symlink: /home/ken/tello_ros_ws/install/tello_control/share/tello_control/local_setup.bash
+-- Up-to-date symlink: /home/ken/tello_ros_ws/install/tello_control/share/tello_control/local_setup.sh
+-- Up-to-date symlink: /home/ken/tello_ros_ws/install/tello_control/share/tello_control/local_setup.zsh
+-- Up-to-date symlink: /home/ken/tello_ros_ws/install/tello_control/share/tello_control/local_setup.dsv
+-- Symlinking: /home/ken/tello_ros_ws/install/tello_control/share/tello_control/package.dsv
+-- Up-to-date symlink: /home/ken/tello_ros_ws/install/tello_control/share/ament_index/resource_index/packages/tello_control
+-- Up-to-date symlink: /home/ken/tello_ros_ws/install/tello_control/share/tello_control/cmake/tello_controlConfig.cmake
+-- Up-to-date symlink: /home/ken/tello_ros_ws/install/tello_control/share/tello_control/cmake/tello_controlConfig-version.cmake
+-- Up-to-date symlink: /home/ken/tello_ros_ws/install/tello_control/share/tello_control/package.xml

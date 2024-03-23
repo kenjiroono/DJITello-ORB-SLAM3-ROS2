@@ -1,0 +1,21 @@
+/usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+  warnings.warn(
+running develop
+/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running egg_info
+creating tello.egg-info
+writing tello.egg-info/PKG-INFO
+writing dependency_links to tello.egg-info/dependency_links.txt
+writing entry points to tello.egg-info/entry_points.txt
+writing requirements to tello.egg-info/requires.txt
+writing top-level names to tello.egg-info/top_level.txt
+writing manifest file 'tello.egg-info/SOURCES.txt'
+reading manifest file 'tello.egg-info/SOURCES.txt'
+writing manifest file 'tello.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/ken/tello_ros_ws/install/tello/lib/python3.10/site-packages/tello.egg-link (link to .)
+Installing tello script to /home/ken/tello_ros_ws/install/tello/lib/tello
+
+Installed /home/ken/tello_ros_ws/build/tello
+running symlink_data

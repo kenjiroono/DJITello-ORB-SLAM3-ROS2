@@ -1,0 +1,16 @@
+LICENSE.txt
+package.xml
+setup.cfg
+setup.py
+../../build/tello/tello.egg-info/PKG-INFO
+../../build/tello/tello.egg-info/SOURCES.txt
+../../build/tello/tello.egg-info/dependency_links.txt
+../../build/tello/tello.egg-info/entry_points.txt
+../../build/tello/tello.egg-info/requires.txt
+../../build/tello/tello.egg-info/top_level.txt
+../../build/tello/tello.egg-info/zip-safe
+resource/ost.txt
+resource/ost.yaml
+resource/tello
+tello/__init__.py
+tello/node.py

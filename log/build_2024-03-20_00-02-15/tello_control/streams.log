@@ -1,0 +1,10 @@
+[0.021s] Invoking command in '/home/ken/tello_ros_ws/build/tello_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ken/tello_ros_ws/install/tello:/opt/ros/humble /usr/bin/cmake --build /home/ken/tello_ros_ws/build/tello_control -- -j4 -l4
+[0.122s] [ 50%] [32mBuilding CXX object CMakeFiles/tello_control.dir/src/main.cpp.o[0m
+[0.701s] [01m[K/home/ken/tello_ros_ws/src/tello_control/src/main.cpp:9:10:[m[K [01;31m[Kfatal error: [m[Kstd_msgs/msg/.hpp: No such file or directory
+[0.702s]     9 | #include [01;31m[K"std_msgs/msg/.hpp"[m[K
+[0.702s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[0.702s] compilation terminated.
+[0.706s] gmake[2]: *** [CMakeFiles/tello_control.dir/build.make:76: CMakeFiles/tello_control.dir/src/main.cpp.o] Error 1
+[0.707s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/tello_control.dir/all] Error 2
+[0.707s] gmake: *** [Makefile:146: all] Error 2
+[0.710s] Invoked command in '/home/ken/tello_ros_ws/build/tello_control' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ken/tello_ros_ws/install/tello:/opt/ros/humble /usr/bin/cmake --build /home/ken/tello_ros_ws/build/tello_control -- -j4 -l4

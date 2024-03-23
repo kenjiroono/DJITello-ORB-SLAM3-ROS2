@@ -1,0 +1,893 @@
+[0.042s] Invoking command in '/home/ken/tello_ros_ws/build/ros2_orb_slam3': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ken/tello_ros_ws/install/tello:/home/ken/tello_ros_ws/install/tello_control_gamepad:/opt/ros/humble /usr/bin/cmake --build /home/ken/tello_ros_ws/build/ros2_orb_slam3 -- -j4 -l4
+[0.221s] [  0%] Built target ament_cmake_python_copy_ros2_orb_slam3
+[0.268s] [35m[1mConsolidate compiler generated dependencies of target orb_slam3_lib[0m
+[0.572s] [ 90%] Built target orb_slam3_lib
+[0.620s] [35m[1mConsolidate compiler generated dependencies of target mono_node_cpp[0m
+[0.712s] [ 93%] [32mBuilding CXX object CMakeFiles/mono_node_cpp.dir/src/mono_example.cpp.o[0m
+[0.737s] [ 96%] [32mBuilding CXX object CMakeFiles/mono_node_cpp.dir/src/common.cpp.o[0m
+[0.992s] running egg_info
+[0.992s] writing ros2_orb_slam3.egg-info/PKG-INFO
+[0.992s] writing dependency_links to ros2_orb_slam3.egg-info/dependency_links.txt
+[0.992s] writing top-level names to ros2_orb_slam3.egg-info/top_level.txt
+[1.008s] reading manifest file 'ros2_orb_slam3.egg-info/SOURCES.txt'
+[1.008s] writing manifest file 'ros2_orb_slam3.egg-info/SOURCES.txt'
+[1.126s] [ 96%] Built target ament_cmake_python_build_ros2_orb_slam3_egg
+[8.733s] In file included from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/include/ros2_orb_slam3/common.hpp:44[m[K,
+[8.734s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/src/common.cpp:14[m[K:
+[8.734s] [01m[K/opt/ros/humble/include/image_transport/image_transport/image_transport.h:32:89:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: Warning: This header is deprecated. Use 'image_transport.hpp' instead[m[K’
+[8.734s]    32 | #pragma message ("Warning: This header is deprecated. Use 'image_transport.hpp' instead"[01;36m[K)[m[K
+[8.734s]       |                                                                                         [01;36m[K^[m[K
+[8.851s] In file included from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/include/ros2_orb_slam3/common.hpp:44[m[K,
+[8.851s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/src/mono_example.cpp:10[m[K:
+[8.851s] [01m[K/opt/ros/humble/include/image_transport/image_transport/image_transport.h:32:89:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: Warning: This header is deprecated. Use 'image_transport.hpp' instead[m[K’
+[8.851s]    32 | #pragma message ("Warning: This header is deprecated. Use 'image_transport.hpp' instead"[01;36m[K)[m[K
+[8.852s]       |                                                                                         [01;36m[K^[m[K
+[9.064s] In file included from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/Frame.h:30[m[K,
+[9.064s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/KeyFrame.h:28[m[K,
+[9.064s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/MapPoint.h:23[m[K,
+[9.064s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/FrameDrawer.h:24[m[K,
+[9.064s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/Viewer.h:23[m[K,
+[9.064s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/Tracking.h:26[m[K,
+[9.064s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/System.h:31[m[K,
+[9.064s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/include/ros2_orb_slam3/common.hpp:47[m[K,
+[9.065s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/src/common.cpp:14[m[K:
+[9.065s] [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/ImuTypes.h:[m[K In member function ‘[01m[Kvoid ORB_SLAM3::IMU::Preintegrated::printMeasurements() const[m[K’:
+[9.065s] [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/ImuTypes.h:204:23:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<ORB_SLAM3::IMU::Preintegrated::integrable>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[9.065s]   204 |         for(int i=0; [01;35m[Ki<mvMeasurements.size()[m[K; i++){
+[9.065s]       |                      [01;35m[K~^~~~~~~~~~~~~~~~~~~~~~[m[K
+[9.259s] In file included from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/Frame.h:30[m[K,
+[9.261s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/KeyFrame.h:28[m[K,
+[9.261s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/MapPoint.h:23[m[K,
+[9.261s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/FrameDrawer.h:24[m[K,
+[9.261s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/Viewer.h:23[m[K,
+[9.261s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/Tracking.h:26[m[K,
+[9.262s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/System.h:31[m[K,
+[9.262s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/include/ros2_orb_slam3/common.hpp:47[m[K,
+[9.262s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/src/mono_example.cpp:10[m[K:
+[9.262s] [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/ImuTypes.h:[m[K In member function ‘[01m[Kvoid ORB_SLAM3::IMU::Preintegrated::printMeasurements() const[m[K’:
+[9.262s] [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/ImuTypes.h:204:23:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<ORB_SLAM3::IMU::Preintegrated::integrable>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[9.262s]   204 |         for(int i=0; [01;35m[Ki<mvMeasurements.size()[m[K; i++){
+[9.262s]       |                      [01;35m[K~^~~~~~~~~~~~~~~~~~~~~~[m[K
+[9.304s] In file included from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:37[m[K,
+[9.304s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/Converter.h:26[m[K,
+[9.304s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/Frame.h:33[m[K,
+[9.304s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/KeyFrame.h:28[m[K,
+[9.305s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/MapPoint.h:23[m[K,
+[9.305s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/FrameDrawer.h:24[m[K,
+[9.305s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/Viewer.h:23[m[K,
+[9.305s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/Tracking.h:26[m[K,
+[9.307s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/System.h:31[m[K,
+[9.307s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/include/ros2_orb_slam3/common.hpp:47[m[K,
+[9.307s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/src/common.cpp:14[m[K:
+[9.307s] [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/Thirdparty/g2o/g2o/types/../core/base_vertex.h:[m[K At global scope:
+[9.308s] [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/Thirdparty/g2o/g2o/types/../core/base_vertex.h:62:74:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[9.308s]    62 |     typedef Eigen::Map<Matrix<double, D, D>, Matrix<double,D,D>::Flags & [01;35m[KAlignedBit[m[K ? Aligned : Unaligned >  HessianBlockType;
+[9.308s]       |                                                                          [01;35m[K^~~~~~~~~~[m[K
+[9.309s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+[9.309s]                  from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+[9.309s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/include/ros2_orb_slam3/common.hpp:33[m[K,
+[9.309s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/src/common.cpp:14[m[K:
+[9.309s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[9.309s]   167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[9.309s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[9.352s] In file included from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38[m[K,
+[9.352s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/Converter.h:26[m[K,
+[9.352s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/Frame.h:33[m[K,
+[9.352s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/KeyFrame.h:28[m[K,
+[9.352s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/MapPoint.h:23[m[K,
+[9.352s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/FrameDrawer.h:24[m[K,
+[9.353s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/Viewer.h:23[m[K,
+[9.353s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/Tracking.h:26[m[K,
+[9.353s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/System.h:31[m[K,
+[9.353s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/include/ros2_orb_slam3/common.hpp:47[m[K,
+[9.353s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/src/common.cpp:14[m[K:
+[9.353s] [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:59:82:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[9.354s]    59 |       typedef Eigen::Map<Matrix<double, Di, Dj>, Matrix<double, Di, Dj>::Flags & [01;35m[KAlignedBit[m[K ? Aligned : Unaligned > HessianBlockType;
+[9.354s]       |                                                                                  [01;35m[K^~~~~~~~~~[m[K
+[9.354s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+[9.354s]                  from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+[9.360s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/include/ros2_orb_slam3/common.hpp:33[m[K,
+[9.361s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/src/common.cpp:14[m[K:
+[9.361s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[9.361s]   167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[9.361s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[9.361s] In file included from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38[m[K,
+[9.361s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/Converter.h:26[m[K,
+[9.361s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/Frame.h:33[m[K,
+[9.362s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/KeyFrame.h:28[m[K,
+[9.362s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/MapPoint.h:23[m[K,
+[9.362s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/FrameDrawer.h:24[m[K,
+[9.362s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/Viewer.h:23[m[K,
+[9.362s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/Tracking.h:26[m[K,
+[9.362s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/System.h:31[m[K,
+[9.362s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/include/ros2_orb_slam3/common.hpp:47[m[K,
+[9.362s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/src/common.cpp:14[m[K:
+[9.363s] [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:60:82:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[9.364s]    60 |       typedef Eigen::Map<Matrix<double, Dj, Di>, Matrix<double, Dj, Di>::Flags & [01;35m[KAlignedBit[m[K ? Aligned : Unaligned > HessianBlockTransposedType;
+[9.364s]       |                                                                                  [01;35m[K^~~~~~~~~~[m[K
+[9.364s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+[9.364s]                  from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+[9.364s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/include/ros2_orb_slam3/common.hpp:33[m[K,
+[9.364s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/src/common.cpp:14[m[K:
+[9.364s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[9.364s]   167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[9.365s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[9.463s] In file included from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:37[m[K,
+[9.464s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/Converter.h:26[m[K,
+[9.464s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/Frame.h:33[m[K,
+[9.464s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/KeyFrame.h:28[m[K,
+[9.464s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/MapPoint.h:23[m[K,
+[9.464s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/FrameDrawer.h:24[m[K,
+[9.464s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/Viewer.h:23[m[K,
+[9.465s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/Tracking.h:26[m[K,
+[9.465s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/System.h:31[m[K,
+[9.465s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/include/ros2_orb_slam3/common.hpp:47[m[K,
+[9.465s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/src/mono_example.cpp:10[m[K:
+[9.465s] [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/Thirdparty/g2o/g2o/types/../core/base_vertex.h:[m[K At global scope:
+[9.465s] [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/Thirdparty/g2o/g2o/types/../core/base_vertex.h:62:74:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[9.465s]    62 |     typedef Eigen::Map<Matrix<double, D, D>, Matrix<double,D,D>::Flags & [01;35m[KAlignedBit[m[K ? Aligned : Unaligned >  HessianBlockType;
+[9.466s]       |                                                                          [01;35m[K^~~~~~~~~~[m[K
+[9.466s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+[9.466s]                  from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+[9.466s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/include/ros2_orb_slam3/common.hpp:33[m[K,
+[9.466s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/src/mono_example.cpp:10[m[K:
+[9.466s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[9.466s]   167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[9.466s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[9.510s] In file included from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38[m[K,
+[9.510s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/Converter.h:26[m[K,
+[9.511s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/Frame.h:33[m[K,
+[9.512s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/KeyFrame.h:28[m[K,
+[9.512s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/MapPoint.h:23[m[K,
+[9.512s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/FrameDrawer.h:24[m[K,
+[9.513s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/Viewer.h:23[m[K,
+[9.513s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/Tracking.h:26[m[K,
+[9.513s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/System.h:31[m[K,
+[9.513s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/include/ros2_orb_slam3/common.hpp:47[m[K,
+[9.513s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/src/mono_example.cpp:10[m[K:
+[9.513s] [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:59:82:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[9.513s]    59 |       typedef Eigen::Map<Matrix<double, Di, Dj>, Matrix<double, Di, Dj>::Flags & [01;35m[KAlignedBit[m[K ? Aligned : Unaligned > HessianBlockType;
+[9.513s]       |                                                                                  [01;35m[K^~~~~~~~~~[m[K
+[9.514s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+[9.514s]                  from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+[9.514s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/include/ros2_orb_slam3/common.hpp:33[m[K,
+[9.514s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/src/mono_example.cpp:10[m[K:
+[9.514s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[9.514s]   167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[9.514s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[9.514s] In file included from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38[m[K,
+[9.514s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/Converter.h:26[m[K,
+[9.515s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/Frame.h:33[m[K,
+[9.515s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/KeyFrame.h:28[m[K,
+[9.515s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/MapPoint.h:23[m[K,
+[9.515s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/FrameDrawer.h:24[m[K,
+[9.515s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/Viewer.h:23[m[K,
+[9.515s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/Tracking.h:26[m[K,
+[9.522s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/System.h:31[m[K,
+[9.523s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/include/ros2_orb_slam3/common.hpp:47[m[K,
+[9.523s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/src/mono_example.cpp:10[m[K:
+[9.523s] [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:60:82:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[9.523s]    60 |       typedef Eigen::Map<Matrix<double, Dj, Di>, Matrix<double, Dj, Di>::Flags & [01;35m[KAlignedBit[m[K ? Aligned : Unaligned > HessianBlockTransposedType;
+[9.523s]       |                                                                                  [01;35m[K^~~~~~~~~~[m[K
+[9.523s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+[9.528s]                  from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+[9.528s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/include/ros2_orb_slam3/common.hpp:33[m[K,
+[9.528s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/src/mono_example.cpp:10[m[K:
+[9.529s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[9.529s]   167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[9.529s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[10.176s] In file included from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:37[m[K,
+[10.176s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/Converter.h:26[m[K,
+[10.176s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/Frame.h:33[m[K,
+[10.176s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/KeyFrame.h:28[m[K,
+[10.176s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/MapPoint.h:23[m[K,
+[10.176s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/FrameDrawer.h:24[m[K,
+[10.177s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/Viewer.h:23[m[K,
+[10.177s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/Tracking.h:26[m[K,
+[10.177s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/System.h:31[m[K,
+[10.177s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/include/ros2_orb_slam3/common.hpp:47[m[K,
+[10.177s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/src/common.cpp:14[m[K:
+[10.177s] /home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/Thirdparty/g2o/g2o/types/../core/base_vertex.h: In instantiation of ‘[01m[Kclass g2o::BaseVertex<3, Eigen::Matrix<double, 3, 1> >[m[K’:
+[10.177s] [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/Thirdparty/g2o/g2o/types/types_sba.h:40:35:[m[K   required from here
+[10.177s] [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/Thirdparty/g2o/g2o/types/../core/base_vertex.h:62:72:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[10.178s]    62 |     typedef Eigen::Map<Matrix<double, D, D>, Matrix<double,D,D>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned >  HessianBlockType;
+[10.178s]       |                                                                  [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+[10.178s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+[10.178s]                  from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+[10.178s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/include/ros2_orb_slam3/common.hpp:33[m[K,
+[10.178s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/src/common.cpp:14[m[K:
+[10.178s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[10.178s]   167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[10.179s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[10.238s] In file included from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:37[m[K,
+[10.238s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/Converter.h:26[m[K,
+[10.239s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/Frame.h:33[m[K,
+[10.239s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/KeyFrame.h:28[m[K,
+[10.240s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/MapPoint.h:23[m[K,
+[10.240s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/FrameDrawer.h:24[m[K,
+[10.240s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/Viewer.h:23[m[K,
+[10.241s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/Tracking.h:26[m[K,
+[10.241s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/System.h:31[m[K,
+[10.244s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/include/ros2_orb_slam3/common.hpp:47[m[K,
+[10.244s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/src/common.cpp:14[m[K:
+[10.244s] /home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/Thirdparty/g2o/g2o/types/../core/base_vertex.h: In instantiation of ‘[01m[Kclass g2o::BaseVertex<6, g2o::SE3Quat>[m[K’:
+[10.244s] [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:59:33:[m[K   required from here
+[10.244s] [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/Thirdparty/g2o/g2o/types/../core/base_vertex.h:62:72:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[10.245s]    62 |     typedef Eigen::Map<Matrix<double, D, D>, Matrix<double,D,D>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned >  HessianBlockType;
+[10.245s]       |                                                                  [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+[10.245s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+[10.245s]                  from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+[10.245s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/include/ros2_orb_slam3/common.hpp:33[m[K,
+[10.245s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/src/common.cpp:14[m[K:
+[10.245s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[10.246s]   167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[10.246s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[10.305s] In file included from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38[m[K,
+[10.305s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/Converter.h:26[m[K,
+[10.305s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/Frame.h:33[m[K,
+[10.307s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/KeyFrame.h:28[m[K,
+[10.307s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/MapPoint.h:23[m[K,
+[10.308s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/FrameDrawer.h:24[m[K,
+[10.308s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/Viewer.h:23[m[K,
+[10.308s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/Tracking.h:26[m[K,
+[10.308s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/System.h:31[m[K,
+[10.308s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/include/ros2_orb_slam3/common.hpp:47[m[K,
+[10.308s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/src/common.cpp:14[m[K:
+[10.308s] /home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h: In instantiation of ‘[01m[Kclass g2o::BaseBinaryEdge<6, g2o::SE3Quat, g2o::VertexSE3Expmap, g2o::VertexSE3Expmap>[m[K’:
+[10.309s] [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:83:24:[m[K   required from here
+[10.309s] [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:59:80:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[10.309s]    59 |       typedef Eigen::Map<Matrix<double, Di, Dj>, Matrix<double, Di, Dj>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned > HessianBlockType;
+[10.309s]       |                                                                          [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+[10.312s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+[10.312s]                  from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+[10.312s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/include/ros2_orb_slam3/common.hpp:33[m[K,
+[10.312s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/src/common.cpp:14[m[K:
+[10.312s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[10.312s]   167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[10.312s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[10.316s] In file included from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38[m[K,
+[10.316s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/Converter.h:26[m[K,
+[10.316s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/Frame.h:33[m[K,
+[10.316s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/KeyFrame.h:28[m[K,
+[10.316s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/MapPoint.h:23[m[K,
+[10.316s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/FrameDrawer.h:24[m[K,
+[10.316s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/Viewer.h:23[m[K,
+[10.317s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/Tracking.h:26[m[K,
+[10.317s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/System.h:31[m[K,
+[10.317s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/include/ros2_orb_slam3/common.hpp:47[m[K,
+[10.317s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/src/common.cpp:14[m[K:
+[10.317s] [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:60:80:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[10.317s]    60 |       typedef Eigen::Map<Matrix<double, Dj, Di>, Matrix<double, Dj, Di>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned > HessianBlockTransposedType;
+[10.317s]       |                                                                          [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+[10.317s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+[10.318s]                  from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+[10.318s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/include/ros2_orb_slam3/common.hpp:33[m[K,
+[10.318s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/src/common.cpp:14[m[K:
+[10.318s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[10.318s]   167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[10.318s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[10.402s] In file included from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:37[m[K,
+[10.403s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/Converter.h:26[m[K,
+[10.403s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/Frame.h:33[m[K,
+[10.403s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/KeyFrame.h:28[m[K,
+[10.403s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/MapPoint.h:23[m[K,
+[10.403s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/FrameDrawer.h:24[m[K,
+[10.403s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/Viewer.h:23[m[K,
+[10.403s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/Tracking.h:26[m[K,
+[10.404s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/System.h:31[m[K,
+[10.404s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/include/ros2_orb_slam3/common.hpp:47[m[K,
+[10.404s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/src/mono_example.cpp:10[m[K:
+[10.404s] /home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/Thirdparty/g2o/g2o/types/../core/base_vertex.h: In instantiation of ‘[01m[Kclass g2o::BaseVertex<3, Eigen::Matrix<double, 3, 1> >[m[K’:
+[10.404s] [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/Thirdparty/g2o/g2o/types/types_sba.h:40:35:[m[K   required from here
+[10.404s] [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/Thirdparty/g2o/g2o/types/../core/base_vertex.h:62:72:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[10.404s]    62 |     typedef Eigen::Map<Matrix<double, D, D>, Matrix<double,D,D>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned >  HessianBlockType;
+[10.404s]       |                                                                  [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+[10.405s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+[10.405s]                  from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+[10.405s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/include/ros2_orb_slam3/common.hpp:33[m[K,
+[10.405s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/src/mono_example.cpp:10[m[K:
+[10.405s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[10.405s]   167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[10.405s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[10.453s] In file included from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38[m[K,
+[10.454s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/Converter.h:26[m[K,
+[10.456s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/Frame.h:33[m[K,
+[10.456s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/KeyFrame.h:28[m[K,
+[10.456s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/MapPoint.h:23[m[K,
+[10.456s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/FrameDrawer.h:24[m[K,
+[10.457s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/Viewer.h:23[m[K,
+[10.457s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/Tracking.h:26[m[K,
+[10.457s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/System.h:31[m[K,
+[10.457s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/include/ros2_orb_slam3/common.hpp:47[m[K,
+[10.457s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/src/common.cpp:14[m[K:
+[10.457s] /home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h: In instantiation of ‘[01m[Kclass g2o::BaseBinaryEdge<2, Eigen::Matrix<double, 2, 1>, g2o::VertexSBAPointXYZ, g2o::VertexSE3Expmap>[m[K’:
+[10.457s] [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:114:35:[m[K   required from here
+[10.457s] [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:59:80:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[10.458s]    59 |       typedef Eigen::Map<Matrix<double, Di, Dj>, Matrix<double, Di, Dj>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned > HessianBlockType;
+[10.458s]       |                                                                          [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+[10.458s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+[10.458s]                  from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+[10.458s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/include/ros2_orb_slam3/common.hpp:33[m[K,
+[10.458s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/src/common.cpp:14[m[K:
+[10.458s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[10.458s]   167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[10.458s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[10.468s] In file included from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:37[m[K,
+[10.468s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/Converter.h:26[m[K,
+[10.468s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/Frame.h:33[m[K,
+[10.468s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/KeyFrame.h:28[m[K,
+[10.468s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/MapPoint.h:23[m[K,
+[10.468s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/FrameDrawer.h:24[m[K,
+[10.468s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/Viewer.h:23[m[K,
+[10.468s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/Tracking.h:26[m[K,
+[10.469s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/System.h:31[m[K,
+[10.469s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/include/ros2_orb_slam3/common.hpp:47[m[K,
+[10.469s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/src/mono_example.cpp:10[m[K:
+[10.469s] /home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/Thirdparty/g2o/g2o/types/../core/base_vertex.h: In instantiation of ‘[01m[Kclass g2o::BaseVertex<6, g2o::SE3Quat>[m[K’:
+[10.469s] [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:59:33:[m[K   required from here
+[10.469s] [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/Thirdparty/g2o/g2o/types/../core/base_vertex.h:62:72:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[10.469s]    62 |     typedef Eigen::Map<Matrix<double, D, D>, Matrix<double,D,D>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned >  HessianBlockType;
+[10.469s]       |                                                                  [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+[10.470s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+[10.470s]                  from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+[10.470s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/include/ros2_orb_slam3/common.hpp:33[m[K,
+[10.470s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/src/mono_example.cpp:10[m[K:
+[10.470s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[10.470s]   167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[10.470s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[10.488s] In file included from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38[m[K,
+[10.488s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/Converter.h:26[m[K,
+[10.489s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/Frame.h:33[m[K,
+[10.489s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/KeyFrame.h:28[m[K,
+[10.490s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/MapPoint.h:23[m[K,
+[10.493s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/FrameDrawer.h:24[m[K,
+[10.493s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/Viewer.h:23[m[K,
+[10.493s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/Tracking.h:26[m[K,
+[10.493s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/System.h:31[m[K,
+[10.493s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/include/ros2_orb_slam3/common.hpp:47[m[K,
+[10.493s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/src/common.cpp:14[m[K:
+[10.494s] [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:60:80:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[10.494s]    60 |       typedef Eigen::Map<Matrix<double, Dj, Di>, Matrix<double, Dj, Di>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned > HessianBlockTransposedType;
+[10.494s]       |                                                                          [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+[10.494s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+[10.494s]                  from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+[10.494s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/include/ros2_orb_slam3/common.hpp:33[m[K,
+[10.494s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/src/common.cpp:14[m[K:
+[10.494s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[10.494s]   167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[10.494s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[10.526s] In file included from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38[m[K,
+[10.526s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/Converter.h:26[m[K,
+[10.526s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/Frame.h:33[m[K,
+[10.527s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/KeyFrame.h:28[m[K,
+[10.527s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/MapPoint.h:23[m[K,
+[10.527s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/FrameDrawer.h:24[m[K,
+[10.527s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/Viewer.h:23[m[K,
+[10.527s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/Tracking.h:26[m[K,
+[10.527s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/System.h:31[m[K,
+[10.527s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/include/ros2_orb_slam3/common.hpp:47[m[K,
+[10.528s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/src/mono_example.cpp:10[m[K:
+[10.528s] /home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h: In instantiation of ‘[01m[Kclass g2o::BaseBinaryEdge<6, g2o::SE3Quat, g2o::VertexSE3Expmap, g2o::VertexSE3Expmap>[m[K’:
+[10.528s] [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:83:24:[m[K   required from here
+[10.528s] [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:59:80:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[10.528s]    59 |       typedef Eigen::Map<Matrix<double, Di, Dj>, Matrix<double, Di, Dj>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned > HessianBlockType;
+[10.528s]       |                                                                          [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+[10.529s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+[10.529s]                  from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+[10.529s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/include/ros2_orb_slam3/common.hpp:33[m[K,
+[10.529s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/src/mono_example.cpp:10[m[K:
+[10.529s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[10.529s]   167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[10.529s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[10.529s] In file included from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38[m[K,
+[10.530s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/Converter.h:26[m[K,
+[10.530s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/Frame.h:33[m[K,
+[10.530s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/KeyFrame.h:28[m[K,
+[10.530s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/MapPoint.h:23[m[K,
+[10.530s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/FrameDrawer.h:24[m[K,
+[10.530s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/Viewer.h:23[m[K,
+[10.530s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/Tracking.h:26[m[K,
+[10.530s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/System.h:31[m[K,
+[10.531s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/include/ros2_orb_slam3/common.hpp:47[m[K,
+[10.531s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/src/mono_example.cpp:10[m[K:
+[10.531s] [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:60:80:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[10.531s]    60 |       typedef Eigen::Map<Matrix<double, Dj, Di>, Matrix<double, Dj, Di>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned > HessianBlockTransposedType;
+[10.531s]       |                                                                          [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+[10.531s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+[10.538s]                  from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+[10.538s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/include/ros2_orb_slam3/common.hpp:33[m[K,
+[10.539s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/src/mono_example.cpp:10[m[K:
+[10.539s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[10.539s]   167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[10.539s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[10.624s] In file included from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38[m[K,
+[10.625s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/Converter.h:26[m[K,
+[10.625s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/Frame.h:33[m[K,
+[10.626s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/KeyFrame.h:28[m[K,
+[10.626s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/MapPoint.h:23[m[K,
+[10.626s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/FrameDrawer.h:24[m[K,
+[10.627s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/Viewer.h:23[m[K,
+[10.627s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/Tracking.h:26[m[K,
+[10.627s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/System.h:31[m[K,
+[10.627s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/include/ros2_orb_slam3/common.hpp:47[m[K,
+[10.627s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/src/common.cpp:14[m[K:
+[10.627s] /home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h: In instantiation of ‘[01m[Kclass g2o::BaseBinaryEdge<3, Eigen::Matrix<double, 3, 1>, g2o::VertexSBAPointXYZ, g2o::VertexSE3Expmap>[m[K’:
+[10.627s] [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:146:41:[m[K   required from here
+[10.628s] [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:59:80:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[10.628s]    59 |       typedef Eigen::Map<Matrix<double, Di, Dj>, Matrix<double, Di, Dj>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned > HessianBlockType;
+[10.628s]       |                                                                          [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+[10.632s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+[10.632s]                  from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+[10.632s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/include/ros2_orb_slam3/common.hpp:33[m[K,
+[10.632s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/src/common.cpp:14[m[K:
+[10.632s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[10.632s]   167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[10.632s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[10.633s] In file included from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38[m[K,
+[10.633s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/Converter.h:26[m[K,
+[10.633s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/Frame.h:33[m[K,
+[10.633s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/KeyFrame.h:28[m[K,
+[10.633s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/MapPoint.h:23[m[K,
+[10.633s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/FrameDrawer.h:24[m[K,
+[10.633s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/Viewer.h:23[m[K,
+[10.633s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/Tracking.h:26[m[K,
+[10.634s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/System.h:31[m[K,
+[10.634s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/include/ros2_orb_slam3/common.hpp:47[m[K,
+[10.634s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/src/common.cpp:14[m[K:
+[10.634s] [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:60:80:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[10.634s]    60 |       typedef Eigen::Map<Matrix<double, Dj, Di>, Matrix<double, Dj, Di>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned > HessianBlockTransposedType;
+[10.634s]       |                                                                          [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+[10.634s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+[10.634s]                  from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+[10.634s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/include/ros2_orb_slam3/common.hpp:33[m[K,
+[10.635s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/src/common.cpp:14[m[K:
+[10.635s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[10.635s]   167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[10.635s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[10.666s] In file included from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38[m[K,
+[10.667s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/Converter.h:26[m[K,
+[10.667s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/Frame.h:33[m[K,
+[10.667s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/KeyFrame.h:28[m[K,
+[10.667s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/MapPoint.h:23[m[K,
+[10.667s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/FrameDrawer.h:24[m[K,
+[10.667s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/Viewer.h:23[m[K,
+[10.667s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/Tracking.h:26[m[K,
+[10.668s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/System.h:31[m[K,
+[10.668s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/include/ros2_orb_slam3/common.hpp:47[m[K,
+[10.668s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/src/mono_example.cpp:10[m[K:
+[10.668s] /home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h: In instantiation of ‘[01m[Kclass g2o::BaseBinaryEdge<2, Eigen::Matrix<double, 2, 1>, g2o::VertexSBAPointXYZ, g2o::VertexSE3Expmap>[m[K’:
+[10.668s] [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:114:35:[m[K   required from here
+[10.668s] [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:59:80:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[10.668s]    59 |       typedef Eigen::Map<Matrix<double, Di, Dj>, Matrix<double, Di, Dj>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned > HessianBlockType;
+[10.668s]       |                                                                          [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+[10.669s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+[10.669s]                  from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+[10.669s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/include/ros2_orb_slam3/common.hpp:33[m[K,
+[10.669s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/src/mono_example.cpp:10[m[K:
+[10.669s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[10.669s]   167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[10.669s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[10.696s] In file included from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38[m[K,
+[10.697s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/Converter.h:26[m[K,
+[10.697s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/Frame.h:33[m[K,
+[10.697s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/KeyFrame.h:28[m[K,
+[10.697s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/MapPoint.h:23[m[K,
+[10.697s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/FrameDrawer.h:24[m[K,
+[10.697s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/Viewer.h:23[m[K,
+[10.697s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/Tracking.h:26[m[K,
+[10.697s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/System.h:31[m[K,
+[10.698s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/include/ros2_orb_slam3/common.hpp:47[m[K,
+[10.698s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/src/mono_example.cpp:10[m[K:
+[10.698s] [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:60:80:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[10.698s]    60 |       typedef Eigen::Map<Matrix<double, Dj, Di>, Matrix<double, Dj, Di>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned > HessianBlockTransposedType;
+[10.698s]       |                                                                          [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+[10.698s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+[10.698s]                  from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+[10.699s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/include/ros2_orb_slam3/common.hpp:33[m[K,
+[10.699s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/src/mono_example.cpp:10[m[K:
+[10.699s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[10.699s]   167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[10.699s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[10.847s] In file included from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38[m[K,
+[10.847s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/Converter.h:26[m[K,
+[10.848s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/Frame.h:33[m[K,
+[10.848s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/KeyFrame.h:28[m[K,
+[10.848s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/MapPoint.h:23[m[K,
+[10.848s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/FrameDrawer.h:24[m[K,
+[10.848s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/Viewer.h:23[m[K,
+[10.848s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/Tracking.h:26[m[K,
+[10.848s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/System.h:31[m[K,
+[10.849s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/include/ros2_orb_slam3/common.hpp:47[m[K,
+[10.849s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/src/mono_example.cpp:10[m[K:
+[10.849s] /home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h: In instantiation of ‘[01m[Kclass g2o::BaseBinaryEdge<3, Eigen::Matrix<double, 3, 1>, g2o::VertexSBAPointXYZ, g2o::VertexSE3Expmap>[m[K’:
+[10.849s] [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:146:41:[m[K   required from here
+[10.849s] [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:59:80:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[10.849s]    59 |       typedef Eigen::Map<Matrix<double, Di, Dj>, Matrix<double, Di, Dj>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned > HessianBlockType;
+[10.849s]       |                                                                          [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+[10.852s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+[10.852s]                  from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+[10.852s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/include/ros2_orb_slam3/common.hpp:33[m[K,
+[10.852s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/src/mono_example.cpp:10[m[K:
+[10.852s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[10.852s]   167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[10.852s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[10.853s] In file included from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38[m[K,
+[10.853s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/Converter.h:26[m[K,
+[10.853s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/Frame.h:33[m[K,
+[10.853s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/KeyFrame.h:28[m[K,
+[10.853s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/MapPoint.h:23[m[K,
+[10.853s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/FrameDrawer.h:24[m[K,
+[10.853s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/Viewer.h:23[m[K,
+[10.853s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/Tracking.h:26[m[K,
+[10.854s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/System.h:31[m[K,
+[10.854s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/include/ros2_orb_slam3/common.hpp:47[m[K,
+[10.854s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/src/mono_example.cpp:10[m[K:
+[10.854s] [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:60:80:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[10.854s]    60 |       typedef Eigen::Map<Matrix<double, Dj, Di>, Matrix<double, Dj, Di>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned > HessianBlockTransposedType;
+[10.854s]       |                                                                          [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+[10.854s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+[10.854s]                  from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+[10.855s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/include/ros2_orb_slam3/common.hpp:33[m[K,
+[10.855s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/src/mono_example.cpp:10[m[K:
+[10.855s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[10.855s]   167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[10.860s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[11.105s] In file included from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:37[m[K,
+[11.105s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/Converter.h:26[m[K,
+[11.105s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/Frame.h:33[m[K,
+[11.105s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/KeyFrame.h:28[m[K,
+[11.105s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/MapPoint.h:23[m[K,
+[11.106s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/FrameDrawer.h:24[m[K,
+[11.108s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/Viewer.h:23[m[K,
+[11.108s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/Tracking.h:26[m[K,
+[11.108s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/System.h:31[m[K,
+[11.108s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/include/ros2_orb_slam3/common.hpp:47[m[K,
+[11.108s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/src/common.cpp:14[m[K:
+[11.108s] /home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/Thirdparty/g2o/g2o/types/../core/base_vertex.h: In instantiation of ‘[01m[Kclass g2o::BaseVertex<7, g2o::Sim3>[m[K’:
+[11.109s] [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h:48:35:[m[K   required from here
+[11.109s] [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/Thirdparty/g2o/g2o/types/../core/base_vertex.h:62:72:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[11.109s]    62 |     typedef Eigen::Map<Matrix<double, D, D>, Matrix<double,D,D>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned >  HessianBlockType;
+[11.109s]       |                                                                  [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+[11.109s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+[11.109s]                  from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+[11.109s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/include/ros2_orb_slam3/common.hpp:33[m[K,
+[11.109s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/src/common.cpp:14[m[K:
+[11.110s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[11.110s]   167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[11.110s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[11.186s] In file included from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38[m[K,
+[11.186s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/Converter.h:26[m[K,
+[11.187s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/Frame.h:33[m[K,
+[11.187s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/KeyFrame.h:28[m[K,
+[11.187s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/MapPoint.h:23[m[K,
+[11.187s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/FrameDrawer.h:24[m[K,
+[11.187s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/Viewer.h:23[m[K,
+[11.187s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/Tracking.h:26[m[K,
+[11.189s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/System.h:31[m[K,
+[11.189s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/include/ros2_orb_slam3/common.hpp:47[m[K,
+[11.190s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/src/common.cpp:14[m[K:
+[11.190s] /home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h: In instantiation of ‘[01m[Kclass g2o::BaseBinaryEdge<7, g2o::Sim3, g2o::VertexSim3Expmap, g2o::VertexSim3Expmap>[m[K’:
+[11.190s] [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h:99:27:[m[K   required from here
+[11.195s] [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:59:80:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[11.195s]    59 |       typedef Eigen::Map<Matrix<double, Di, Dj>, Matrix<double, Di, Dj>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned > HessianBlockType;
+[11.195s]       |                                                                          [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+[11.195s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+[11.195s]                  from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+[11.196s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/include/ros2_orb_slam3/common.hpp:33[m[K,
+[11.196s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/src/common.cpp:14[m[K:
+[11.196s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[11.199s]   167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[11.199s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[11.199s] In file included from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38[m[K,
+[11.199s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/Converter.h:26[m[K,
+[11.199s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/Frame.h:33[m[K,
+[11.200s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/KeyFrame.h:28[m[K,
+[11.200s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/MapPoint.h:23[m[K,
+[11.200s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/FrameDrawer.h:24[m[K,
+[11.202s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/Viewer.h:23[m[K,
+[11.202s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/Tracking.h:26[m[K,
+[11.202s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/System.h:31[m[K,
+[11.202s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/include/ros2_orb_slam3/common.hpp:47[m[K,
+[11.202s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/src/common.cpp:14[m[K:
+[11.202s] [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:60:80:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[11.202s]    60 |       typedef Eigen::Map<Matrix<double, Dj, Di>, Matrix<double, Dj, Di>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned > HessianBlockTransposedType;
+[11.203s]       |                                                                          [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+[11.203s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+[11.203s]                  from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+[11.203s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/include/ros2_orb_slam3/common.hpp:33[m[K,
+[11.203s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/src/common.cpp:14[m[K:
+[11.203s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[11.203s]   167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[11.203s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[11.283s] In file included from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38[m[K,
+[11.283s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/Converter.h:26[m[K,
+[11.283s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/Frame.h:33[m[K,
+[11.283s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/KeyFrame.h:28[m[K,
+[11.284s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/MapPoint.h:23[m[K,
+[11.284s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/FrameDrawer.h:24[m[K,
+[11.284s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/Viewer.h:23[m[K,
+[11.284s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/Tracking.h:26[m[K,
+[11.284s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/System.h:31[m[K,
+[11.284s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/include/ros2_orb_slam3/common.hpp:47[m[K,
+[11.284s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/src/common.cpp:14[m[K:
+[11.284s] /home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h: In instantiation of ‘[01m[Kclass g2o::BaseBinaryEdge<2, Eigen::Matrix<double, 2, 1>, g2o::VertexSBAPointXYZ, g2o::VertexSim3Expmap>[m[K’:
+[11.285s] [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h:130:36:[m[K   required from here
+[11.285s] [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:59:80:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[11.285s]    59 |       typedef Eigen::Map<Matrix<double, Di, Dj>, Matrix<double, Di, Dj>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned > HessianBlockType;
+[11.285s]       |                                                                          [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+[11.285s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+[11.285s]                  from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+[11.285s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/include/ros2_orb_slam3/common.hpp:33[m[K,
+[11.285s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/src/common.cpp:14[m[K:
+[11.285s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[11.286s]   167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[11.286s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[11.312s] In file included from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38[m[K,
+[11.312s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/Converter.h:26[m[K,
+[11.313s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/Frame.h:33[m[K,
+[11.313s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/KeyFrame.h:28[m[K,
+[11.313s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/MapPoint.h:23[m[K,
+[11.313s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/FrameDrawer.h:24[m[K,
+[11.313s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/Viewer.h:23[m[K,
+[11.313s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/Tracking.h:26[m[K,
+[11.314s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/System.h:31[m[K,
+[11.314s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/include/ros2_orb_slam3/common.hpp:47[m[K,
+[11.314s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/src/common.cpp:14[m[K:
+[11.314s] [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:60:80:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[11.314s]    60 |       typedef Eigen::Map<Matrix<double, Dj, Di>, Matrix<double, Dj, Di>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned > HessianBlockTransposedType;
+[11.314s]       |                                                                          [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+[11.314s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+[11.314s]                  from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+[11.315s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/include/ros2_orb_slam3/common.hpp:33[m[K,
+[11.315s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/src/common.cpp:14[m[K:
+[11.315s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[11.315s]   167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[11.315s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[11.356s] In file included from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:37[m[K,
+[11.356s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/Converter.h:26[m[K,
+[11.356s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/Frame.h:33[m[K,
+[11.356s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/KeyFrame.h:28[m[K,
+[11.356s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/MapPoint.h:23[m[K,
+[11.356s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/FrameDrawer.h:24[m[K,
+[11.357s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/Viewer.h:23[m[K,
+[11.357s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/Tracking.h:26[m[K,
+[11.357s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/System.h:31[m[K,
+[11.357s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/include/ros2_orb_slam3/common.hpp:47[m[K,
+[11.357s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/src/mono_example.cpp:10[m[K:
+[11.357s] /home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/Thirdparty/g2o/g2o/types/../core/base_vertex.h: In instantiation of ‘[01m[Kclass g2o::BaseVertex<7, g2o::Sim3>[m[K’:
+[11.357s] [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h:48:35:[m[K   required from here
+[11.357s] [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/Thirdparty/g2o/g2o/types/../core/base_vertex.h:62:72:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[11.358s]    62 |     typedef Eigen::Map<Matrix<double, D, D>, Matrix<double,D,D>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned >  HessianBlockType;
+[11.358s]       |                                                                  [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+[11.358s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+[11.358s]                  from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+[11.358s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/include/ros2_orb_slam3/common.hpp:33[m[K,
+[11.358s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/src/mono_example.cpp:10[m[K:
+[11.358s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[11.358s]   167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[11.359s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[11.429s] In file included from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38[m[K,
+[11.429s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/Converter.h:26[m[K,
+[11.429s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/Frame.h:33[m[K,
+[11.429s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/KeyFrame.h:28[m[K,
+[11.432s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/MapPoint.h:23[m[K,
+[11.432s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/FrameDrawer.h:24[m[K,
+[11.432s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/Viewer.h:23[m[K,
+[11.432s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/Tracking.h:26[m[K,
+[11.432s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/System.h:31[m[K,
+[11.432s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/include/ros2_orb_slam3/common.hpp:47[m[K,
+[11.433s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/src/mono_example.cpp:10[m[K:
+[11.433s] /home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h: In instantiation of ‘[01m[Kclass g2o::BaseBinaryEdge<7, g2o::Sim3, g2o::VertexSim3Expmap, g2o::VertexSim3Expmap>[m[K’:
+[11.433s] [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h:99:27:[m[K   required from here
+[11.433s] [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:59:80:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[11.433s]    59 |       typedef Eigen::Map<Matrix<double, Di, Dj>, Matrix<double, Di, Dj>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned > HessianBlockType;
+[11.433s]       |                                                                          [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+[11.433s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+[11.433s]                  from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+[11.434s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/include/ros2_orb_slam3/common.hpp:33[m[K,
+[11.434s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/src/mono_example.cpp:10[m[K:
+[11.434s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[11.434s]   167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[11.434s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[11.434s] In file included from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38[m[K,
+[11.434s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/Converter.h:26[m[K,
+[11.434s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/Frame.h:33[m[K,
+[11.434s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/KeyFrame.h:28[m[K,
+[11.435s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/MapPoint.h:23[m[K,
+[11.435s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/FrameDrawer.h:24[m[K,
+[11.435s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/Viewer.h:23[m[K,
+[11.435s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/Tracking.h:26[m[K,
+[11.435s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/System.h:31[m[K,
+[11.435s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/include/ros2_orb_slam3/common.hpp:47[m[K,
+[11.435s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/src/mono_example.cpp:10[m[K:
+[11.442s] [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:60:80:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[11.443s]    60 |       typedef Eigen::Map<Matrix<double, Dj, Di>, Matrix<double, Dj, Di>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned > HessianBlockTransposedType;
+[11.443s]       |                                                                          [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+[11.443s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+[11.443s]                  from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+[11.443s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/include/ros2_orb_slam3/common.hpp:33[m[K,
+[11.443s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/src/mono_example.cpp:10[m[K:
+[11.443s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[11.446s]   167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[11.446s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[11.539s] In file included from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38[m[K,
+[11.539s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/Converter.h:26[m[K,
+[11.540s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/Frame.h:33[m[K,
+[11.540s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/KeyFrame.h:28[m[K,
+[11.540s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/MapPoint.h:23[m[K,
+[11.541s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/FrameDrawer.h:24[m[K,
+[11.541s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/Viewer.h:23[m[K,
+[11.541s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/Tracking.h:26[m[K,
+[11.541s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/System.h:31[m[K,
+[11.541s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/include/ros2_orb_slam3/common.hpp:47[m[K,
+[11.541s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/src/mono_example.cpp:10[m[K:
+[11.542s] /home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h: In instantiation of ‘[01m[Kclass g2o::BaseBinaryEdge<2, Eigen::Matrix<double, 2, 1>, g2o::VertexSBAPointXYZ, g2o::VertexSim3Expmap>[m[K’:
+[11.542s] [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h:130:36:[m[K   required from here
+[11.542s] [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:59:80:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[11.542s]    59 |       typedef Eigen::Map<Matrix<double, Di, Dj>, Matrix<double, Di, Dj>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned > HessianBlockType;
+[11.542s]       |                                                                          [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+[11.542s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+[11.542s]                  from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+[11.542s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/include/ros2_orb_slam3/common.hpp:33[m[K,
+[11.543s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/src/mono_example.cpp:10[m[K:
+[11.543s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[11.543s]   167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[11.543s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[11.577s] In file included from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38[m[K,
+[11.577s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/Converter.h:26[m[K,
+[11.577s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/Frame.h:33[m[K,
+[11.577s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/KeyFrame.h:28[m[K,
+[11.577s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/MapPoint.h:23[m[K,
+[11.577s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/FrameDrawer.h:24[m[K,
+[11.577s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/Viewer.h:23[m[K,
+[11.578s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/Tracking.h:26[m[K,
+[11.578s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/System.h:31[m[K,
+[11.578s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/include/ros2_orb_slam3/common.hpp:47[m[K,
+[11.578s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/src/mono_example.cpp:10[m[K:
+[11.578s] [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:60:80:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[11.578s]    60 |       typedef Eigen::Map<Matrix<double, Dj, Di>, Matrix<double, Dj, Di>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned > HessianBlockTransposedType;
+[11.578s]       |                                                                          [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+[11.578s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+[11.579s]                  from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+[11.579s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/include/ros2_orb_slam3/common.hpp:33[m[K,
+[11.579s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/src/mono_example.cpp:10[m[K:
+[11.579s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[11.579s]   167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[11.579s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[13.735s] In file included from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/Atlas.h:27[m[K,
+[13.735s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/FrameDrawer.h:25[m[K,
+[13.736s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/Viewer.h:23[m[K,
+[13.736s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/Tracking.h:26[m[K,
+[13.736s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/System.h:31[m[K,
+[13.736s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/include/ros2_orb_slam3/common.hpp:47[m[K,
+[13.736s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/src/common.cpp:14[m[K:
+[13.736s] [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/CameraModels/KannalaBrandt8.h:[m[K In constructor ‘[01m[KORB_SLAM3::KannalaBrandt8::KannalaBrandt8(std::vector<float>)[m[K’:
+[13.736s] [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/CameraModels/KannalaBrandt8.h:102:21:[m[K [01;35m[Kwarning: [m[K‘[01m[KORB_SLAM3::KannalaBrandt8::precision[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[13.736s]   102 |         const float [01;35m[Kprecision[m[K;
+[13.736s]       |                     [01;35m[K^~~~~~~~~[m[K
+[13.737s] [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/CameraModels/KannalaBrandt8.h:88:26:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kstd::vector<int> ORB_SLAM3::KannalaBrandt8::mvLappingArea[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[13.737s]    88 |         std::vector<int> [01;35m[KmvLappingArea[m[K;
+[13.737s]       |                          [01;35m[K^~~~~~~~~~~~~[m[K
+[13.737s] In file included from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/Atlas.h:27[m[K,
+[13.737s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/FrameDrawer.h:25[m[K,
+[13.737s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/Viewer.h:23[m[K,
+[13.737s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/Tracking.h:26[m[K,
+[13.737s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/System.h:31[m[K,
+[13.737s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/include/ros2_orb_slam3/common.hpp:47[m[K,
+[13.737s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/src/common.cpp:14[m[K:
+[13.738s] [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/CameraModels/KannalaBrandt8.h:47:9:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[13.738s]    47 |         [01;35m[KKannalaBrandt8[m[K(const std::vector<float> _vParameters) : GeometricCamera(_vParameters), precision(1e-6), mvLappingArea(2,0) ,tvr(nullptr) {
+[13.738s]       |         [01;35m[K^~~~~~~~~~~~~~[m[K
+[13.738s] In file included from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/Atlas.h:27[m[K,
+[13.738s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/FrameDrawer.h:25[m[K,
+[13.738s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/Viewer.h:23[m[K,
+[13.738s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/Tracking.h:26[m[K,
+[13.739s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/System.h:31[m[K,
+[13.739s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/include/ros2_orb_slam3/common.hpp:47[m[K,
+[13.739s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/src/common.cpp:14[m[K:
+[13.739s] [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/CameraModels/KannalaBrandt8.h:[m[K In constructor ‘[01m[KORB_SLAM3::KannalaBrandt8::KannalaBrandt8(std::vector<float>, float)[m[K’:
+[13.739s] [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/CameraModels/KannalaBrandt8.h:102:21:[m[K [01;35m[Kwarning: [m[K‘[01m[KORB_SLAM3::KannalaBrandt8::precision[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[13.739s]   102 |         const float [01;35m[Kprecision[m[K;
+[13.739s]       |                     [01;35m[K^~~~~~~~~[m[K
+[13.739s] [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/CameraModels/KannalaBrandt8.h:88:26:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kstd::vector<int> ORB_SLAM3::KannalaBrandt8::mvLappingArea[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[13.739s]    88 |         std::vector<int> [01;35m[KmvLappingArea[m[K;
+[13.740s]       |                          [01;35m[K^~~~~~~~~~~~~[m[K
+[13.740s] [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/CameraModels/KannalaBrandt8.h:53:9:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[13.740s]    53 |         [01;35m[KKannalaBrandt8[m[K(const std::vector<float> _vParameters, const float _precision) : GeometricCamera(_vParameters),
+[13.740s]       |         [01;35m[K^~~~~~~~~~~~~~[m[K
+[13.740s] [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/CameraModels/KannalaBrandt8.h:[m[K In constructor ‘[01m[KORB_SLAM3::KannalaBrandt8::KannalaBrandt8(ORB_SLAM3::KannalaBrandt8*)[m[K’:
+[13.740s] [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/CameraModels/KannalaBrandt8.h:102:21:[m[K [01;35m[Kwarning: [m[K‘[01m[KORB_SLAM3::KannalaBrandt8::precision[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[13.740s]   102 |         const float [01;35m[Kprecision[m[K;
+[13.740s]       |                     [01;35m[K^~~~~~~~~[m[K
+[13.740s] [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/CameraModels/KannalaBrandt8.h:88:26:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kstd::vector<int> ORB_SLAM3::KannalaBrandt8::mvLappingArea[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[13.740s]    88 |         std::vector<int> [01;35m[KmvLappingArea[m[K;
+[13.741s]       |                          [01;35m[K^~~~~~~~~~~~~[m[K
+[13.741s] [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/CameraModels/KannalaBrandt8.h:59:9:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[13.741s]    59 |         [01;35m[KKannalaBrandt8[m[K(KannalaBrandt8* pKannala) : GeometricCamera(pKannala->mvParameters), precision(pKannala->precision), mvLappingArea(2,0) ,tvr(nullptr) {
+[13.741s]       |         [01;35m[K^~~~~~~~~~~~~~[m[K
+[14.098s] In file included from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/Atlas.h:27[m[K,
+[14.098s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/FrameDrawer.h:25[m[K,
+[14.099s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/Viewer.h:23[m[K,
+[14.099s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/Tracking.h:26[m[K,
+[14.099s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/System.h:31[m[K,
+[14.099s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/include/ros2_orb_slam3/common.hpp:47[m[K,
+[14.100s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/src/mono_example.cpp:10[m[K:
+[14.100s] [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/CameraModels/KannalaBrandt8.h:[m[K In constructor ‘[01m[KORB_SLAM3::KannalaBrandt8::KannalaBrandt8(std::vector<float>)[m[K’:
+[14.100s] [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/CameraModels/KannalaBrandt8.h:102:21:[m[K [01;35m[Kwarning: [m[K‘[01m[KORB_SLAM3::KannalaBrandt8::precision[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[14.100s]   102 |         const float [01;35m[Kprecision[m[K;
+[14.100s]       |                     [01;35m[K^~~~~~~~~[m[K
+[14.100s] [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/CameraModels/KannalaBrandt8.h:88:26:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kstd::vector<int> ORB_SLAM3::KannalaBrandt8::mvLappingArea[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[14.100s]    88 |         std::vector<int> [01;35m[KmvLappingArea[m[K;
+[14.101s]       |                          [01;35m[K^~~~~~~~~~~~~[m[K
+[14.101s] In file included from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/Atlas.h:27[m[K,
+[14.101s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/FrameDrawer.h:25[m[K,
+[14.101s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/Viewer.h:23[m[K,
+[14.101s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/Tracking.h:26[m[K,
+[14.101s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/System.h:31[m[K,
+[14.101s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/include/ros2_orb_slam3/common.hpp:47[m[K,
+[14.102s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/src/mono_example.cpp:10[m[K:
+[14.102s] [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/CameraModels/KannalaBrandt8.h:47:9:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[14.102s]    47 |         [01;35m[KKannalaBrandt8[m[K(const std::vector<float> _vParameters) : GeometricCamera(_vParameters), precision(1e-6), mvLappingArea(2,0) ,tvr(nullptr) {
+[14.102s]       |         [01;35m[K^~~~~~~~~~~~~~[m[K
+[14.102s] In file included from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/Atlas.h:27[m[K,
+[14.102s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/FrameDrawer.h:25[m[K,
+[14.102s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/Viewer.h:23[m[K,
+[14.103s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/Tracking.h:26[m[K,
+[14.103s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/System.h:31[m[K,
+[14.103s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/include/ros2_orb_slam3/common.hpp:47[m[K,
+[14.103s]                  from [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/src/mono_example.cpp:10[m[K:
+[14.103s] [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/CameraModels/KannalaBrandt8.h:[m[K In constructor ‘[01m[KORB_SLAM3::KannalaBrandt8::KannalaBrandt8(std::vector<float>, float)[m[K’:
+[14.104s] [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/CameraModels/KannalaBrandt8.h:102:21:[m[K [01;35m[Kwarning: [m[K‘[01m[KORB_SLAM3::KannalaBrandt8::precision[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[14.104s]   102 |         const float [01;35m[Kprecision[m[K;
+[14.104s]       |                     [01;35m[K^~~~~~~~~[m[K
+[14.104s] [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/CameraModels/KannalaBrandt8.h:88:26:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kstd::vector<int> ORB_SLAM3::KannalaBrandt8::mvLappingArea[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[14.104s]    88 |         std::vector<int> [01;35m[KmvLappingArea[m[K;
+[14.104s]       |                          [01;35m[K^~~~~~~~~~~~~[m[K
+[14.104s] [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/CameraModels/KannalaBrandt8.h:53:9:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[14.105s]    53 |         [01;35m[KKannalaBrandt8[m[K(const std::vector<float> _vParameters, const float _precision) : GeometricCamera(_vParameters),
+[14.105s]       |         [01;35m[K^~~~~~~~~~~~~~[m[K
+[14.105s] [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/CameraModels/KannalaBrandt8.h:[m[K In constructor ‘[01m[KORB_SLAM3::KannalaBrandt8::KannalaBrandt8(ORB_SLAM3::KannalaBrandt8*)[m[K’:
+[14.105s] [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/CameraModels/KannalaBrandt8.h:102:21:[m[K [01;35m[Kwarning: [m[K‘[01m[KORB_SLAM3::KannalaBrandt8::precision[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[14.105s]   102 |         const float [01;35m[Kprecision[m[K;
+[14.105s]       |                     [01;35m[K^~~~~~~~~[m[K
+[14.105s] [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/CameraModels/KannalaBrandt8.h:88:26:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kstd::vector<int> ORB_SLAM3::KannalaBrandt8::mvLappingArea[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[14.106s]    88 |         std::vector<int> [01;35m[KmvLappingArea[m[K;
+[14.106s]       |                          [01;35m[K^~~~~~~~~~~~~[m[K
+[14.106s] [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/orb_slam3/include/CameraModels/KannalaBrandt8.h:59:9:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[14.106s]    59 |         [01;35m[KKannalaBrandt8[m[K(KannalaBrandt8* pKannala) : GeometricCamera(pKannala->mvParameters), precision(pKannala->precision), mvLappingArea(2,0) ,tvr(nullptr) {
+[14.106s]       |         [01;35m[K^~~~~~~~~~~~~~[m[K
+[14.482s] [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/src/common.cpp:[m[K In member function ‘[01m[Kvoid MonocularMode::Img_callback(const Image&)[m[K’:
+[14.484s] [01m[K/home/ken/tello_ros_ws/src/ros2_orb_slam3/src/common.cpp:184:18:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[KTcw[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+[14.484s]   184 |     Sophus::SE3f [01;35m[KTcw[m[K = pAgent->TrackMonocular(cv_ptr->image, timeStep);
+[14.484s]       |                  [01;35m[K^~~[m[K
+[40.104s] [100%] [32m[1mLinking CXX executable mono_node_cpp[0m
+[41.017s] [100%] Built target mono_node_cpp
+[41.032s] Invoked command in '/home/ken/tello_ros_ws/build/ros2_orb_slam3' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ken/tello_ros_ws/install/tello:/home/ken/tello_ros_ws/install/tello_control_gamepad:/opt/ros/humble /usr/bin/cmake --build /home/ken/tello_ros_ws/build/ros2_orb_slam3 -- -j4 -l4
+[41.180s] Invoking command in '/home/ken/tello_ros_ws/build/ros2_orb_slam3': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ken/tello_ros_ws/install/tello:/home/ken/tello_ros_ws/install/tello_control_gamepad:/opt/ros/humble /usr/bin/cmake --install /home/ken/tello_ros_ws/build/ros2_orb_slam3
+[41.191s] -- Install configuration: ""
+[41.191s] -- Up-to-date: /home/ken/tello_ros_ws/install/ros2_orb_slam3/lib/libDBoW2.so
+[41.191s] -- Up-to-date: /home/ken/tello_ros_ws/install/ros2_orb_slam3/lib/libg2o.so
+[41.191s] -- Up-to-date: /home/ken/tello_ros_ws/install/ros2_orb_slam3/include
+[41.192s] -- Up-to-date: /home/ken/tello_ros_ws/install/ros2_orb_slam3/include/ros2_orb_slam3
+[41.192s] -- Installing: /home/ken/tello_ros_ws/install/ros2_orb_slam3/include/ros2_orb_slam3/common.hpp
+[41.192s] -- Installing: /home/ken/tello_ros_ws/install/ros2_orb_slam3/lib/ros2_orb_slam3/mono_node_cpp
+[41.194s] -- Set runtime path of "/home/ken/tello_ros_ws/install/ros2_orb_slam3/lib/ros2_orb_slam3/mono_node_cpp" to ""
+[41.195s] -- Up-to-date: /home/ken/tello_ros_ws/install/ros2_orb_slam3/lib/liborb_slam3_lib.so.
+[41.195s] -- Up-to-date: /home/ken/tello_ros_ws/install/ros2_orb_slam3/lib/liborb_slam3_lib.so
+[41.196s] -- Up-to-date: /home/ken/tello_ros_ws/install/ros2_orb_slam3/share/ros2_orb_slam3/environment/pythonpath.sh
+[41.196s] -- Up-to-date: /home/ken/tello_ros_ws/install/ros2_orb_slam3/share/ros2_orb_slam3/environment/pythonpath.dsv
+[41.196s] -- Up-to-date: /home/ken/tello_ros_ws/install/ros2_orb_slam3/local/lib/python3.10/dist-packages/ros2_orb_slam3-1.0.0-py3.10.egg-info
+[41.197s] -- Installing: /home/ken/tello_ros_ws/install/ros2_orb_slam3/local/lib/python3.10/dist-packages/ros2_orb_slam3-1.0.0-py3.10.egg-info/PKG-INFO
+[41.197s] -- Installing: /home/ken/tello_ros_ws/install/ros2_orb_slam3/local/lib/python3.10/dist-packages/ros2_orb_slam3-1.0.0-py3.10.egg-info/SOURCES.txt
+[41.197s] -- Installing: /home/ken/tello_ros_ws/install/ros2_orb_slam3/local/lib/python3.10/dist-packages/ros2_orb_slam3-1.0.0-py3.10.egg-info/dependency_links.txt
+[41.197s] -- Installing: /home/ken/tello_ros_ws/install/ros2_orb_slam3/local/lib/python3.10/dist-packages/ros2_orb_slam3-1.0.0-py3.10.egg-info/top_level.txt
+[41.197s] -- Up-to-date: /home/ken/tello_ros_ws/install/ros2_orb_slam3/local/lib/python3.10/dist-packages/ros2_orb_slam3
+[41.197s] -- Up-to-date: /home/ken/tello_ros_ws/install/ros2_orb_slam3/local/lib/python3.10/dist-packages/ros2_orb_slam3/__init__.py
+[41.239s] Listing '/home/ken/tello_ros_ws/install/ros2_orb_slam3/local/lib/python3.10/dist-packages/ros2_orb_slam3'...
+[41.244s] [31mCMake Error at cmake_install.cmake:142 (file):
+[41.244s]   file INSTALL cannot find
+[41.245s]   "/home/ken/tello_ros_ws/src/ros2_orb_slam3/scripts/mono_driver_node.py": No
+[41.245s]   such file or directory.
+[41.245s] 
+[41.245s] [0m
+[41.247s] Invoked command in '/home/ken/tello_ros_ws/build/ros2_orb_slam3' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ken/tello_ros_ws/install/tello:/home/ken/tello_ros_ws/install/tello_control_gamepad:/opt/ros/humble /usr/bin/cmake --install /home/ken/tello_ros_ws/build/ros2_orb_slam3

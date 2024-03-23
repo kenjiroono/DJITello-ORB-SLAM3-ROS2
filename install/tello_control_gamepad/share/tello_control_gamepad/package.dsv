@@ -1,0 +1,6 @@
+source;share/tello_control_gamepad/hook/pythonpath.ps1
+source;share/tello_control_gamepad/hook/pythonpath.dsv
+source;share/tello_control_gamepad/hook/pythonpath.sh
+source;share/tello_control_gamepad/hook/ament_prefix_path.ps1
+source;share/tello_control_gamepad/hook/ament_prefix_path.dsv
+source;share/tello_control_gamepad/hook/ament_prefix_path.sh

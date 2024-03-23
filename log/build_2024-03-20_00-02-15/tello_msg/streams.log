@@ -1,0 +1,24 @@
+[0.025s] Invoking command in '/home/ken/tello_ros_ws/build/tello_msg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ken/tello_ros_ws/install/tello:/opt/ros/humble /usr/bin/cmake --build /home/ken/tello_ros_ws/build/tello_msg -- -j4 -l4
+[0.106s] [  2%] Built target tello_msg__cpp
+[0.122s] [ 12%] Built target tello_msg__rosidl_generator_c
+[0.124s] [ 12%] Built target ament_cmake_python_copy_tello_msg
+[0.160s] [ 23%] Built target tello_msg__rosidl_typesupport_fastrtps_cpp
+[0.167s] [ 34%] Built target tello_msg__rosidl_typesupport_cpp
+[0.175s] [ 44%] Built target tello_msg__rosidl_typesupport_introspection_cpp
+[0.185s] [ 55%] Built target tello_msg__rosidl_typesupport_fastrtps_c
+[0.213s] [ 74%] Built target tello_msg__rosidl_typesupport_c
+[0.213s] [ 76%] Built target tello_msg__rosidl_typesupport_introspection_c
+[0.254s] [ 76%] Built target tello_msg
+[0.293s] [ 78%] Built target tello_msg__py
+[0.340s] [ 87%] Built target tello_msg__rosidl_generator_py
+[0.384s] [ 91%] Built target tello_msg__rosidl_typesupport_introspection_c__pyext
+[0.402s] [ 95%] Built target tello_msg__rosidl_typesupport_fastrtps_c__pyext
+[0.404s] [100%] Built target tello_msg__rosidl_typesupport_c__pyext
+[0.575s] running egg_info
+[0.576s] writing tello_msg.egg-info/PKG-INFO
+[0.576s] writing dependency_links to tello_msg.egg-info/dependency_links.txt
+[0.576s] writing top-level names to tello_msg.egg-info/top_level.txt
+[0.579s] reading manifest file 'tello_msg.egg-info/SOURCES.txt'
+[0.580s] writing manifest file 'tello_msg.egg-info/SOURCES.txt'
+[0.616s] [100%] Built target ament_cmake_python_build_tello_msg_egg
+[0.633s] Invoked command in '/home/ken/tello_ros_ws/build/tello_msg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ken/tello_ros_ws/install/tello:/opt/ros/humble /usr/bin/cmake --build /home/ken/tello_ros_ws/build/tello_msg -- -j4 -l4

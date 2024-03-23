@@ -1,0 +1,43 @@
+[0.000000] (-) TimerEvent: {}
+[0.000217] (-) JobUnselected: {'identifier': 'tello_control'}
+[0.000282] (-) JobUnselected: {'identifier': 'tello_msg'}
+[0.000406] (tello) JobQueued: {'identifier': 'tello', 'dependencies': OrderedDict([('tello_msg', '/home/ken/tello_ros_ws/install/tello_msg')])}
+[0.000493] (tello) JobStarted: {'identifier': 'tello'}
+[0.098655] (-) TimerEvent: {}
+[0.198952] (-) TimerEvent: {}
+[0.299262] (-) TimerEvent: {}
+[0.399527] (-) TimerEvent: {}
+[0.499839] (-) TimerEvent: {}
+[0.600214] (-) TimerEvent: {}
+[0.700556] (-) TimerEvent: {}
+[0.776055] (tello) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/ken/tello_ros_ws/build/tello/build', '--no-deps', 'symlink_data'], 'cwd': '/home/ken/tello_ros_ws/build/tello', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ken', 'LC_TIME': 'en_US.UTF-8', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/ken/tello_ros_ws/install/tello_msg/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/ken', 'OLDPWD': '/home/ken', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'en_US.UTF-8', 'MANAGERPID': '898', 'SYSTEMD_EXEC_PID': '1796', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '56236', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'ken', 'JOURNAL_STREAM': '8:9858', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'ken', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/humble/bin:/home/ken/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/kenPro4:@/tmp/.ICE-unix/1175,unix/kenPro4:/tmp/.ICE-unix/1175', 'INVOCATION_ID': 'f658405b43b74bf08eefafc770224b3b', 'PAPERSIZE': 'letter', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'en_US.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'IBUS_DISABLE_SNOOPER': '1', 'LC_TELEPHONE': 'en_US.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/ken/tello_ros_ws/install/tello_msg:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'en_US.UTF-8', 'TERMINATOR_UUID': 'urn:uuid:69314da7-1860-49cd-8aff-13d12ff04511', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'en_US.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'en_US.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/ken/tello_ros_ws/build/tello', 'QT_QPA_PLATFORM': 'xcb', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ken/tello_ros_ws/build/tello/prefix_override:/home/ken/tello_ros_ws/install/tello/lib/python3.10/site-packages:/home/ken/tello_ros_ws/install/tello_msg/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'en_US.UTF-8', 'LC_PAPER': 'en_US.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/ken/tello_ros_ws/install/tello_msg'}, 'shell': False}
+[0.800718] (-) TimerEvent: {}
+[0.901025] (-) TimerEvent: {}
+[1.001329] (-) TimerEvent: {}
+[1.068511] (tello) StderrLine: {'line': b"/usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead\n"}
+[1.068748] (tello) StderrLine: {'line': b'  warnings.warn(\n'}
+[1.101471] (-) TimerEvent: {}
+[1.114759] (tello) StdoutLine: {'line': b'running develop\n'}
+[1.116801] (tello) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.\n'}
+[1.116935] (tello) StderrLine: {'line': b'  warnings.warn(\n'}
+[1.201611] (-) TimerEvent: {}
+[1.301920] (-) TimerEvent: {}
+[1.331472] (tello) StdoutLine: {'line': b'running egg_info\n'}
+[1.331639] (tello) StdoutLine: {'line': b'creating tello.egg-info\n'}
+[1.331805] (tello) StdoutLine: {'line': b'writing tello.egg-info/PKG-INFO\n'}
+[1.332074] (tello) StdoutLine: {'line': b'writing dependency_links to tello.egg-info/dependency_links.txt\n'}
+[1.332280] (tello) StdoutLine: {'line': b'writing entry points to tello.egg-info/entry_points.txt\n'}
+[1.332486] (tello) StdoutLine: {'line': b'writing requirements to tello.egg-info/requires.txt\n'}
+[1.332608] (tello) StdoutLine: {'line': b'writing top-level names to tello.egg-info/top_level.txt\n'}
+[1.332785] (tello) StdoutLine: {'line': b"writing manifest file 'tello.egg-info/SOURCES.txt'\n"}
+[1.334626] (tello) StdoutLine: {'line': b"reading manifest file 'tello.egg-info/SOURCES.txt'\n"}
+[1.335386] (tello) StdoutLine: {'line': b"writing manifest file 'tello.egg-info/SOURCES.txt'\n"}
+[1.336982] (tello) StdoutLine: {'line': b'running build_ext\n'}
+[1.337243] (tello) StdoutLine: {'line': b'Creating /home/ken/tello_ros_ws/install/tello/lib/python3.10/site-packages/tello.egg-link (link to .)\n'}
+[1.338327] (tello) StdoutLine: {'line': b'Installing tello script to /home/ken/tello_ros_ws/install/tello/lib/tello\n'}
+[1.338742] (tello) StdoutLine: {'line': b'\n'}
+[1.338912] (tello) StdoutLine: {'line': b'Installed /home/ken/tello_ros_ws/build/tello\n'}
+[1.339133] (tello) StdoutLine: {'line': b'running symlink_data\n'}
+[1.375422] (tello) CommandEnded: {'returncode': 0}
+[1.391323] (tello) JobEnded: {'identifier': 'tello', 'rc': 0}
+[1.392196] (-) EventReactorShutdown: {}

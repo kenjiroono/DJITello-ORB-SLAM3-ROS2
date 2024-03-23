@@ -1,0 +1,26 @@
+[0.016s] Invoking command in '/home/ken/tello_ros_ws/build/tello_control': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ken/tello_ros_ws/build/tello_control -- -j4 -l4
+[0.064s] -- Found OpenCV version 4.5.4
+[0.064s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.313s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.328s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[0.399s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.404s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.412s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.429s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.454s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.540s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.542s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.712s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.973s] -- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)
+[1.147s] -- Configuring done
+[1.165s] -- Generating done
+[1.167s] -- Build files have been written to: /home/ken/tello_ros_ws/build/tello_control
+[1.213s] [ 50%] [32mBuilding CXX object CMakeFiles/tello_control.dir/src/main.cpp.o[0m
+[1.699s] [01m[K/home/ken/tello_ros_ws/src/tello_control/src/main.cpp:9:10:[m[K [01;31m[Kfatal error: [m[Kstd_msgs/msg/.hpp: No such file or directory
+[1.700s]     9 | #include [01;31m[K"std_msgs/msg/.hpp"[m[K
+[1.700s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[1.700s] compilation terminated.
+[1.703s] gmake[2]: *** [CMakeFiles/tello_control.dir/build.make:76: CMakeFiles/tello_control.dir/src/main.cpp.o] Error 1
+[1.704s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/tello_control.dir/all] Error 2
+[1.704s] gmake: *** [Makefile:146: all] Error 2
+[1.707s] Invoked command in '/home/ken/tello_ros_ws/build/tello_control' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ken/tello_ros_ws/build/tello_control -- -j4 -l4

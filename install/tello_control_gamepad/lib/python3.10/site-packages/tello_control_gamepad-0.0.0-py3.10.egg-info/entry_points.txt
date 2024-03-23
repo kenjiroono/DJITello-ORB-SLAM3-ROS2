@@ -1,0 +1,3 @@
+[console_scripts]
+tello_control_gamepad = tello_control_gamepad.node:main
+

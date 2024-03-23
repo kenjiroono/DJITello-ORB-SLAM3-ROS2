@@ -1,0 +1,13 @@
+/home/ken/tello_ros_ws/build/ros2_orb_slam3/CMakeFiles/uninstall.dir
+/home/ken/tello_ros_ws/build/ros2_orb_slam3/CMakeFiles/ros2_orb_slam3_uninstall.dir
+/home/ken/tello_ros_ws/build/ros2_orb_slam3/CMakeFiles/orb_slam3_lib.dir
+/home/ken/tello_ros_ws/build/ros2_orb_slam3/CMakeFiles/mono_node_cpp.dir
+/home/ken/tello_ros_ws/build/ros2_orb_slam3/CMakeFiles/ament_cmake_python_copy_ros2_orb_slam3.dir
+/home/ken/tello_ros_ws/build/ros2_orb_slam3/CMakeFiles/ament_cmake_python_build_ros2_orb_slam3_egg.dir
+/home/ken/tello_ros_ws/build/ros2_orb_slam3/CMakeFiles/test.dir
+/home/ken/tello_ros_ws/build/ros2_orb_slam3/CMakeFiles/edit_cache.dir
+/home/ken/tello_ros_ws/build/ros2_orb_slam3/CMakeFiles/rebuild_cache.dir
+/home/ken/tello_ros_ws/build/ros2_orb_slam3/CMakeFiles/list_install_components.dir
+/home/ken/tello_ros_ws/build/ros2_orb_slam3/CMakeFiles/install.dir
+/home/ken/tello_ros_ws/build/ros2_orb_slam3/CMakeFiles/install/local.dir
+/home/ken/tello_ros_ws/build/ros2_orb_slam3/CMakeFiles/install/strip.dir

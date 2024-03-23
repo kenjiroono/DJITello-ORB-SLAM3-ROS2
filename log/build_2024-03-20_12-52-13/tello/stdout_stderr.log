@@ -1,0 +1,37 @@
+/usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+  warnings.warn(
+running develop
+/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+Removing /home/ken/tello_ros_ws/install/tello/lib/python3.10/site-packages/tello.egg-link (link to .)
+/usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+  warnings.warn(
+running egg_info
+writing ../../build/tello/tello.egg-info/PKG-INFO
+writing dependency_links to ../../build/tello/tello.egg-info/dependency_links.txt
+writing entry points to ../../build/tello/tello.egg-info/entry_points.txt
+writing requirements to ../../build/tello/tello.egg-info/requires.txt
+writing top-level names to ../../build/tello/tello.egg-info/top_level.txt
+reading manifest file '../../build/tello/tello.egg-info/SOURCES.txt'
+adding license file 'LICENSE.txt'
+writing manifest file '../../build/tello/tello.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/ken/tello_ros_ws/build/tello/build
+creating /home/ken/tello_ros_ws/build/tello/build/lib
+creating /home/ken/tello_ros_ws/build/tello/build/lib/tello
+copying tello/__init__.py -> /home/ken/tello_ros_ws/build/tello/build/lib/tello
+copying tello/node.py -> /home/ken/tello_ros_ws/build/tello/build/lib/tello
+running install
+running install_lib
+running install_data
+copying resource/tello -> /home/ken/tello_ros_ws/install/tello/share/ament_index/resource_index/packages
+copying package.xml -> /home/ken/tello_ros_ws/install/tello/share/tello
+copying resource/ost.txt -> /home/ken/tello_ros_ws/install/tello/share/tello
+copying resource/ost.yaml -> /home/ken/tello_ros_ws/install/tello/share/tello
+running install_egg_info
+removing '/home/ken/tello_ros_ws/install/tello/lib/python3.10/site-packages/tello-0.1.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/tello/tello.egg-info to /home/ken/tello_ros_ws/install/tello/lib/python3.10/site-packages/tello-0.1.0-py3.10.egg-info
+running install_scripts
+Installing tello script to /home/ken/tello_ros_ws/install/tello/lib/tello
+writing list of installed files to '/home/ken/tello_ros_ws/build/tello/install.log'

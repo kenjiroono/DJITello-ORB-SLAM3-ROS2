@@ -1,0 +1,5 @@
+  File "/home/ken/tello_ros_ws/install/tello_control_gamepad/lib/python3.10/site-packages/tello_control_gamepad/node.py", line 88
+    print(twist_msg.)
+                    ^
+SyntaxError: invalid syntax
+

@@ -1,0 +1,21 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/tello_control.dir/src/main.cpp.o[0m
+[100%] [32m[1mLinking CXX executable tello_control[0m
+[100%] Built target tello_control
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/ken/tello_ros_ws/install/tello_control/lib/tello_control/tello_control
+-- Symlinking: /home/ken/tello_ros_ws/install/tello_control/share/ament_index/resource_index/package_run_dependencies/tello_control
+-- Symlinking: /home/ken/tello_ros_ws/install/tello_control/share/ament_index/resource_index/parent_prefix_path/tello_control
+-- Symlinking: /home/ken/tello_ros_ws/install/tello_control/share/tello_control/environment/ament_prefix_path.sh
+-- Symlinking: /home/ken/tello_ros_ws/install/tello_control/share/tello_control/environment/ament_prefix_path.dsv
+-- Symlinking: /home/ken/tello_ros_ws/install/tello_control/share/tello_control/environment/path.sh
+-- Symlinking: /home/ken/tello_ros_ws/install/tello_control/share/tello_control/environment/path.dsv
+-- Symlinking: /home/ken/tello_ros_ws/install/tello_control/share/tello_control/local_setup.bash
+-- Symlinking: /home/ken/tello_ros_ws/install/tello_control/share/tello_control/local_setup.sh
+-- Symlinking: /home/ken/tello_ros_ws/install/tello_control/share/tello_control/local_setup.zsh
+-- Symlinking: /home/ken/tello_ros_ws/install/tello_control/share/tello_control/local_setup.dsv
+-- Symlinking: /home/ken/tello_ros_ws/install/tello_control/share/tello_control/package.dsv
+-- Symlinking: /home/ken/tello_ros_ws/install/tello_control/share/ament_index/resource_index/packages/tello_control
+-- Symlinking: /home/ken/tello_ros_ws/install/tello_control/share/tello_control/cmake/tello_controlConfig.cmake
+-- Symlinking: /home/ken/tello_ros_ws/install/tello_control/share/tello_control/cmake/tello_controlConfig-version.cmake
+-- Symlinking: /home/ken/tello_ros_ws/install/tello_control/share/tello_control/package.xml

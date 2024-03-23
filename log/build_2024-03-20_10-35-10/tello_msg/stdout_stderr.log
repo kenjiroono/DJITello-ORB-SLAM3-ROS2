@@ -1,0 +1,7 @@
+failed to create symbolic link '/home/ken/tello_ros_ws/build/tello_msg/ament_cmake_python/tello_msg/tello_msg' because existing path cannot be removed: Is a directory
+gmake[2]: *** [CMakeFiles/ament_cmake_python_symlink_tello_msg.dir/build.make:70: CMakeFiles/ament_cmake_python_symlink_tello_msg] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:421: CMakeFiles/ament_cmake_python_symlink_tello_msg.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+[  2%] Built target tello_msg__cpp
+[ 12%] Built target tello_msg__rosidl_generator_c
+gmake: *** [Makefile:146: all] Error 2
